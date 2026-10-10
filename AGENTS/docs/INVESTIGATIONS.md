@@ -1,6 +1,6 @@
 # Investigations
 
-This document owns how a task is grounded and what counts as evidence. [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, and common workspace policy; investigation identifies the work within that boundary. [README.md](../../README.md) supplies workspace context, available methods, and prerequisites. [COMMERCIAL-WORKFLOW.md](../../COMMERCIAL-WORKFLOW.md) supplies commercial stages and the single-record policy.
+This document owns how a task is grounded and what counts as evidence. [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, and common workspace policy; investigation identifies the work within that boundary. [README.md](../../README.md) supplies workspace context, available methods, and prerequisites. [COMMERCIAL-WORKFLOW.md](../workflows/COMMERCIAL-WORKFLOW.md) supplies commercial stages and the single-record policy.
 
 ## Sufficiency test
 
@@ -31,7 +31,7 @@ When a needed inspection or execution cannot run, use a suitable equivalent or i
 
 ## Investigation record
 
-[AGENTS.md](../../AGENTS.md#workspace-handling) owns record decisions, location, and shared maintenance. Ordinary commercial findings belong in the [commercial record](../../COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial), without requiring a separate investigation file. For system work or an explicitly requested separate investigation, use `workspace/<work-item>/investigation.md` when saving is requested or findings are worth preserving.
+[AGENTS.md](../../AGENTS.md#workspace-handling) owns record decisions, location, and shared maintenance. Ordinary commercial findings belong in the [commercial record](../workflows/COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial), without requiring a separate investigation file. For system work or an explicitly requested separate investigation, use `workspace/<work-item>/investigation.md` when saving is requested or findings are worth preserving.
 
 When asked to prepare an investigation, present findings and honor the requested stop. When saving, report its path, conclusion, and blockers. Preserve the request and boundaries, grounding and assumptions, material findings with sources and limits, decision effects, corrections, and open questions with their decision maker and dependent work. An evidence-supported recommendation does not itself authorize implementation. [PLANS.md](PLANS.md) owns a proposed or agreed approach; [IMPLEMENTATIONS.md](IMPLEMENTATIONS.md) owns execution and resumption.
 

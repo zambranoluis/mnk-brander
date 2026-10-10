@@ -1,6 +1,6 @@
 # Plans
 
-This document owns preparing, presenting, saving, and revising a proposed or agreed approach. A conversational plan is a reviewable artifact even when unsaved. Ordinary commercial planning belongs in the [commercial record](../../COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial); it does not require a separate plan. For system work or an explicitly requested separate artifact, a saved `plan.md` preserves the approach and its approval status. [IMPLEMENTATIONS.md](IMPLEMENTATIONS.md) owns execution methods; current commercial state remains in the commercial record.
+This document owns preparing, presenting, saving, and revising a proposed or agreed approach. A conversational plan is a reviewable artifact even when unsaved. Ordinary commercial planning belongs in the [commercial record](../workflows/COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial); it does not require a separate plan. For system work or an explicitly requested separate artifact, a saved `plan.md` preserves the approach and its approval status. [IMPLEMENTATIONS.md](IMPLEMENTATIONS.md) owns execution methods; current commercial state remains in the commercial record.
 
 [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, and [common record and workspace policy](../../AGENTS.md#workspace-handling). [INVESTIGATIONS.md](INVESTIGATIONS.md) owns grounding; [VERIFICATIONS.md](VERIFICATIONS.md) supplies required checks, with methods and prerequisites through [README.md](../../README.md).
 

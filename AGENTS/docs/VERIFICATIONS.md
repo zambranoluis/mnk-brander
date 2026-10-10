@@ -1,6 +1,6 @@
 # Verification standard
 
-This document owns proportionate checks for instructions, commercial assets, continuity, prompts, handoffs, and scripts when involved. [README.md](../../README.md) supplies available methods and prerequisites; [COMMERCIAL-WORKFLOW.md](../../COMMERCIAL-WORKFLOW.md) owns commercial decisions and handoff states. [AGENTS.md](../../AGENTS.md) owns authorization and preservation. Apply only checks relevant to the requested outcome.
+This document owns proportionate checks for instructions, commercial assets, continuity, prompts, handoffs, and scripts when involved. [README.md](../../README.md) supplies available methods and prerequisites; [COMMERCIAL-WORKFLOW.md](../workflows/COMMERCIAL-WORKFLOW.md) owns commercial decisions and handoff states. [AGENTS.md](../../AGENTS.md) owns authorization and preservation. Apply only checks relevant to the requested outcome.
 
 ## Common verification
 

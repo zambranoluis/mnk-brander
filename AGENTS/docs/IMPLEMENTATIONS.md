@@ -1,6 +1,6 @@
 # Implementations
 
-This document owns authorized execution, verification results, stops, completion, handoff, and resumption. [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, and [common record and workspace policy](../../AGENTS.md#workspace-handling). [INVESTIGATIONS.md](INVESTIGATIONS.md) owns grounding and evidence-dependent blockers; [PLANS.md](PLANS.md) owns proposed or agreed approaches. [VERIFICATIONS.md](VERIFICATIONS.md) supplies applicable checks; [README.md](../../README.md) supplies methods and prerequisites. [COMMERCIAL-WORKFLOW.md](../../COMMERCIAL-WORKFLOW.md) owns commercial record content and handoff states.
+This document owns authorized execution, verification results, stops, completion, handoff, and resumption. [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, and [common record and workspace policy](../../AGENTS.md#workspace-handling). [INVESTIGATIONS.md](INVESTIGATIONS.md) owns grounding and evidence-dependent blockers; [PLANS.md](PLANS.md) owns proposed or agreed approaches. [VERIFICATIONS.md](VERIFICATIONS.md) supplies applicable checks; [README.md](../../README.md) supplies methods and prerequisites. [COMMERCIAL-WORKFLOW.md](../workflows/COMMERCIAL-WORKFLOW.md) owns commercial record content and handoff states.
 
 ## Execute and correct
 
@@ -20,7 +20,7 @@ Record what actually ran, its outcome, evidence inspected, and its limits. Prese
 
 ## Implementation record
 
-For ordinary commercial work, save progress and verification in the [commercial record](../../COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial) when needed or requested. It is the primary commercial decision and resume record; no separate implementation file is required.
+For ordinary commercial work, save progress and verification in the [commercial record](../workflows/COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial) when needed or requested. It is the primary commercial decision and resume record; no separate implementation file is required.
 
 For system revisions or other work outside ordinary commercial preparation, save `workspace/<work-item>/implementation.md` when execution meets AGENTS's continuity test or the user requests it. Honor explicit requests for separate commercial artifacts, linking them from the commercial record without competing current-state copies. No investigation or plan file is required solely because an implementation record exists.
 

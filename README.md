@@ -6,14 +6,14 @@ The five preparation steps are **brief → script → storyboard → references 
 
 ## Start here
 
-Read [AGENTS.md](AGENTS.md) for boundaries and [COMMERCIAL-WORKFLOW.md](COMMERCIAL-WORKFLOW.md) for commercial preparation. Resume from the commercial's current record when one exists. Use [VERIFICATIONS.md](AGENTS/docs/VERIFICATIONS.md) for checks.
+Read [AGENTS.md](AGENTS.md) for boundaries and [COMMERCIAL-WORKFLOW.md](AGENTS/workflows/COMMERCIAL-WORKFLOW.md) for commercial preparation. Resume from the commercial's current record when one exists. Use [VERIFICATIONS.md](AGENTS/docs/VERIFICATIONS.md) for checks.
 
 Workspace purpose and operating methods live here. Each commercial owns its brand/product facts, creative decisions, and visual direction in `workspace/<commercial-name>/<commercial-name>-commercial.md`. The system does not require root PRODUCT or DESIGN documents.
 
 ## Locations and boundaries
 
 ```text
-COMMERCIAL-WORKFLOW.md
+AGENTS/workflows/COMMERCIAL-WORKFLOW.md
 AGENTS.md
 AGENTS/docs/                         # investigation, plan, execution, instruction review, verification
 scripts/check_docs.py                # dependency-free canonical document checker
@@ -80,7 +80,7 @@ For a system revision, test representative reading paths against the current can
 | Document | Responsibility |
 | --- | --- |
 | [AGENTS.md](AGENTS.md) | Working boundaries, routing, preservation, and common record policy. |
-| [COMMERCIAL-WORKFLOW.md](COMMERCIAL-WORKFLOW.md) | Five preparation steps, one commercial record, references, continuity, prompts, and handoff. |
+| [COMMERCIAL-WORKFLOW.md](AGENTS/workflows/COMMERCIAL-WORKFLOW.md) | Five preparation steps, one commercial record, references, continuity, prompts, and handoff. |
 | [VERIFICATIONS.md](AGENTS/docs/VERIFICATIONS.md) | Document, asset, continuity, prompt, handoff, and conditional script checks. |
 | [INVESTIGATIONS.md](AGENTS/docs/INVESTIGATIONS.md) | Evidence, factual premises, capability sufficiency, and blockers. |
 | [PLANS.md](AGENTS/docs/PLANS.md) | Requested proposed/agreed approaches and separate planning artifacts. |

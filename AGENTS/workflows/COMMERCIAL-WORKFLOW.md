@@ -1,6 +1,6 @@
 # Commercial preparation workflow
 
-Use this workflow for an idea, an existing commercial record, supplied assets, or a request concerning one preparation step. [AGENTS.md](AGENTS.md) owns authorization, proportional handling, preservation, and common locations. [VERIFICATIONS.md](AGENTS/docs/VERIFICATIONS.md) owns checks; the investigation, planning, and execution methods supply relevant grounding without requiring additional commercial paperwork.
+Use this workflow for an idea, an existing commercial record, supplied assets, or a request concerning one preparation step. [AGENTS.md](../../AGENTS.md) owns authorization, proportional handling, preservation, and common locations. [VERIFICATIONS.md](../docs/VERIFICATIONS.md) owns checks; the investigation, planning, and execution methods supply relevant grounding without requiring additional commercial paperwork.
 
 The normal endpoint is a verified asset and prompt package ready for the user's production work in Higgsfield. A narrow request can stop at any step, including a prompt-only handoff. Preparing material does not mean it has been generated or tested externally.
 
