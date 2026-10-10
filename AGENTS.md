@@ -29,6 +29,7 @@ Honor explicit artifacts and stops at every size. File count, record creation, o
 | --- | --- |
 | Workspace purpose, layout, available methods, prerequisites, commands, sharing, and documentation map | [README.md](README.md) |
 | Brief, script, storyboard, visual references, prompts, commercial record, and production handoff | [COMMERCIAL-WORKFLOW.md](AGENTS/workflows/COMMERCIAL-WORKFLOW.md) |
+| Discovering, comparing, recommending, and developing ideas when a consequential creative decision is open | [CREATIVE-DEVELOPMENT.md](AGENTS/workflows/CREATIVE-DEVELOPMENT.md) |
 | Document, asset, continuity, prompt, handoff, and conditional script checks | [VERIFICATIONS.md](AGENTS/docs/VERIFICATIONS.md) |
 | Investigation, evidence, capability sufficiency, and unresolved facts | [INVESTIGATIONS.md](AGENTS/docs/INVESTIGATIONS.md) |
 | Instruction-system evaluation, design, and revision | [INSTRUCTIONS_MAKER.md](AGENTS/docs/INSTRUCTIONS_MAKER.md), only when judging or changing instructions |
@@ -44,8 +45,16 @@ Resolve paths from the repository root. Create only needed records and directori
 workspace/<commercial-name>/
 ├── <commercial-name>-commercial.md  # decisions and current preparation state
 ├── assets/                         # independent retained references and assets
-├── output/                         # finished handoff packages
+├── output/                         # staged candidate production packages
 └── local/                          # disposable working files
+
+productions/commercials/<commercial-name>/
+├── README.md                       # current revision, readiness, and production instructions
+├── brief.md, script.md, storyboard.md  # curated selected direction, when available
+├── assets/, prompts/               # commercial-wide shared material
+├── scenes/SC01/                    # scene.md, shared assets/prompts, shots/S01/shot.md
+├── deliverables/                   # finished outputs, when available
+└── archives/v001/                  # independent earlier handoff
 
 workspace/<work-item>/               # system revisions or requested separate artifacts
 ├── investigation.md                # findings, when worth retaining or requested
@@ -56,12 +65,14 @@ workspace/<work-item>/               # system revisions or requested separate ar
 ├── output/
 └── local/
 
-playwright/runs/<run-id>/            # generated test evidence, when tests are involved
+tests/runs/<run-id>/                 # generated test evidence, when tests are involved
 ```
 
 ### Record decisions and maintenance
 
 Use [one commercial record](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#one-working-record-per-commercial) when requested or when commercial decisions and staged work need preservation. Ordinary commercial work does not also require separate investigation, plan, design, and implementation records. Simple brainstorming may stay conversational. Explicit requests for separate artifacts are honored.
+
+Keep development decisions and original sources in workspace. Production documents are curated exports of selected material, not competing development records. Follow the workflow's [production package](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#production-package) and [promotion and revisions](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#promotion-and-revisions) rules when copying material into production or revising a handoff. Create only populated commercial folders and sections; preserve existing shot IDs when grouping them into scenes.
 
 For system changes or other work outside commercial preparation, save findings costly to reconstruct, an approach worth preserving, or execution state needed for resumption. Each record is independently optional. [INVESTIGATIONS](AGENTS/docs/INVESTIGATIONS.md#investigation-record), [PLANS](AGENTS/docs/PLANS.md#plan-structure), and [IMPLEMENTATIONS](AGENTS/docs/IMPLEMENTATIONS.md#implementation-record) own their respective records. Without a saved record, report substantive state in conversation.
 
@@ -74,8 +85,8 @@ Inherited historical records describe earlier template work. Preserve them and t
 ### Assets, evidence, sharing, and cleanup
 
 - Retain selected generated images and supplied references in the commercial's `assets/`; copy retained output out of provider-managed locations when needed. Follow the workflow's [independent-copy rule](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#reuse-and-preservation).
-- Keep finished packages in `output/`, disposable drafts and intermediates in `local/`, and substantial system-review evidence in `records/`. Additional prompt files are useful only when their length makes the commercial record unwieldy.
-- Keep generated automated or manual test evidence under `playwright/runs/<run-id>/` with separate run IDs. Test sources and fixtures retain their established locations. This convention does not require installing Playwright. Preserve native tool-required outputs and copy retained evidence into governed roots when necessary.
+- For commercials, use workspace `output/` to stage candidate packages and `productions/commercials/<commercial-name>/` for selected production material. Keep disposable drafts and intermediates in `local/` and substantial system-review evidence in `records/`. Noncommercial work-item deliverables remain in their `output/`. Additional development prompt files are useful only when their length makes the commercial record unwieldy; production prompts follow the workflow's descriptive file and assignment rules.
+- Keep generated diagnostic output and automated or manual test evidence under `tests/runs/<run-id>/` with separate run IDs. Test sources and fixtures retain their established locations. Preserve native tool-required outputs and copy retained evidence into governed roots when necessary. These locations do not require artifact creation. Retain new detailed diagnostics when requested, useful for resumption, costly to reconstruct, or needed to explain a material unresolved failure; otherwise a concise result can suffice. Preserve existing evidence and deliverables.
 - Inspect actual tracking and access before claiming that a collaborator can use a record or package. Where sharing policy is absent, recommend sharing durable text and necessary permitted assets, with bulky evidence and machine-local output excluded; this grants no staging or committing permission. Keep secrets and private authentication state out of shared records.
 - Retain records, selected assets, finished deliverables, cited evidence, and earlier productions. Clean only task-owned disposable scratch when permitted, safe, and no longer needed. Completion does not authorize automatic deletion.
 

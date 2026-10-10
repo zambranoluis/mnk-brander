@@ -8,15 +8,15 @@ Begin only within the user's authorization and the host's actual mode and write 
 
 Make the scoped change and coupled edits needed for correctness. Preserve unrelated work and earlier material. Update affected owning documents, commercial decisions, and dependencies. Follow VERIFICATIONS and the commercial workflow when applicable rather than copying their standards into an execution record.
 
-Execute stages at meaningful outcome and verification boundaries. Report meaningful phase and stage transitions for substantial work; keep light work concise. A stage is complete only when its observable acceptance and required verification are met. Intent, a clean diff, or an unrelated passing check does not establish completion.
+Execute stages at meaningful outcome and verification boundaries. Report meaningful phase and stage transitions for substantial work; keep light work concise. A stage is complete when its requested outcome and required verification are met. Required checks follow from that outcome or an applicable rule; do not invent additional acceptance gates. Intent, a clean diff, or an unrelated passing check does not establish completion.
 
 Record material discoveries when they occur. A new factual or capability gap returns to INVESTIGATIONS; a changed approach returns to PLANS. Resolve the needed decision before executing a material departure from a reviewed approach, while continuing unaffected authorized work. Routine corrections within that approach continue without a new approval gate.
 
 ## Review and verification
 
-Review the complete scoped change against the request, applicable requirements, selected references, dependencies, and actual files. Correct findings and complete relevant checks under VERIFICATIONS. Re-run checks affected by corrections. Use documented methods and prerequisites; distinguish change-caused failures from directly verified pre-existing failures.
+Review the complete scoped change against the request, applicable requirements, selected references, dependencies, and actual files. Use [VERIFICATIONS's baseline and escalation criteria](VERIFICATIONS.md#common-verification), choosing the smallest adequate method. Correct findings and repeat only checks affected by corrections; do not broaden testing after a pass without a new reason. Use documented methods and prerequisites; distinguish change-caused failures from directly verified pre-existing failures.
 
-Record what actually ran, its outcome, evidence inspected, and its limits. Preserve relevant failed checks and corrections with the latest result clear. An unavailable required check remains unverified: state its blocker and exact remaining verification. Use INVESTIGATIONS's sufficiency test for missing observations; proceeding with sufficiently grounded implementation does not establish affected acceptance.
+Summarize what actually ran, its outcome, material evidence inspected, and its limits in conversation or the existing record as appropriate. Preserve material failed checks and corrections with the latest result clear; detailed diagnostics follow [AGENTS's evidence policy](../../AGENTS.md#assets-evidence-sharing-and-cleanup). An unavailable required check remains unverified: state its blocker and exact remaining verification. Use INVESTIGATIONS's sufficiency test for missing observations; proceeding with sufficiently grounded implementation does not establish affected acceptance.
 
 ## Implementation record
 

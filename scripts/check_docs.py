@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 CANONICAL = (
     "AGENTS.md", "README.md", "AGENTS/workflows/COMMERCIAL-WORKFLOW.md",
+    "AGENTS/workflows/CREATIVE-DEVELOPMENT.md",
     "AGENTS/docs/VERIFICATIONS.md", "AGENTS/docs/INVESTIGATIONS.md",
     "AGENTS/docs/PLANS.md", "AGENTS/docs/IMPLEMENTATIONS.md",
     "AGENTS/docs/INSTRUCTIONS_MAKER.md",
