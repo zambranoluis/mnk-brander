@@ -1,8 +1,0 @@
-{
-  "name": "openjm-portrait-text",
-  "private": true,
-  "scripts": {
-    "check": "node ../../scripts/capture.cjs text check",
-    "render": "node ../../scripts/capture.cjs text render"
-  }
-}

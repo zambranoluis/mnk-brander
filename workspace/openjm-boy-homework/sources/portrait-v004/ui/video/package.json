@@ -1,8 +1,0 @@
-{
-  "name": "openjm-portrait-video",
-  "private": true,
-  "scripts": {
-    "check": "node ../../scripts/capture.cjs video check",
-    "render": "node ../../scripts/capture.cjs video render"
-  }
-}
