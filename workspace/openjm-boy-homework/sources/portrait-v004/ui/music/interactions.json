@@ -1,0 +1,146 @@
+{
+  "origin": [
+    1630,
+    830
+  ],
+  "events": [
+    {
+      "id": "composer",
+      "selector": "textarea[aria-label=\"Question\"]",
+      "moveStart": 1.01,
+      "hover": 1.56,
+      "press": 1.68,
+      "release": 1.8,
+      "kind": "text",
+      "focus": true,
+      "anchor": [
+        0.08,
+        0.5
+      ]
+    },
+    {
+      "id": "actions",
+      "selector": "button[aria-label=\"Open actions\"]",
+      "moveStart": 4.65,
+      "hover": 5.0,
+      "press": 5.12,
+      "release": 5.24
+    },
+    {
+      "id": "music",
+      "selector": "button[role=\"menuitemcheckbox\"]",
+      "moveStart": 5.28,
+      "hover": 5.6,
+      "press": 5.72,
+      "release": 5.84,
+      "text": "Music"
+    },
+    {
+      "id": "custom",
+      "selector": "button[role=\"radio\"]",
+      "moveStart": 5.88,
+      "hover": 6.2,
+      "press": 6.32,
+      "release": 6.44,
+      "text": "My lyrics"
+    },
+    {
+      "id": "lyrics",
+      "selector": "[role=\"dialog\"] textarea",
+      "moveStart": 6.48,
+      "hover": 6.8,
+      "press": 6.92,
+      "release": 7.04,
+      "kind": "text",
+      "focus": true,
+      "anchor": [
+        0.15,
+        0.2
+      ]
+    },
+    {
+      "id": "duration",
+      "selector": "[role=\"dialog\"] input[type=\"number\"]",
+      "moveStart": 7.25,
+      "hover": 7.8,
+      "press": 7.92,
+      "release": 8.04,
+      "kind": "text",
+      "focus": true,
+      "anchor": [
+        0.14,
+        0.5
+      ]
+    },
+    {
+      "id": "confirm",
+      "selector": "[role=\"dialog\"] button",
+      "moveStart": 8.61,
+      "hover": 9.16,
+      "press": 9.28,
+      "release": 9.4,
+      "text": "Done"
+    },
+    {
+      "id": "send",
+      "selector": "button[aria-label=\"Send message\"]",
+      "moveStart": 9.44,
+      "hover": 9.76,
+      "press": 9.88,
+      "release": 10
+    },
+    {
+      "id": "scroll-region",
+      "selector": "#conversation-viewport",
+      "anchor": [
+        0.95,
+        0.72
+      ],
+      "moveStart": 10.12,
+      "hover": 10.52,
+      "press": 10.52,
+      "release": 10.52,
+      "kind": "arrow"
+    },
+    {
+      "id": "play",
+      "selector": "#music-card button[aria-label=\"Play\"]",
+      "moveStart": 19.21,
+      "hover": 19.76,
+      "press": 19.88,
+      "release": 20
+    },
+    {
+      "id": "playback-rest",
+      "point": [
+        1660,
+        730
+      ],
+      "moveStart": 20.2,
+      "hover": 20.7,
+      "press": 20.7,
+      "release": 20.7,
+      "kind": "arrow"
+    },
+    {
+      "id": "pause",
+      "selector": "#music-card button[aria-label=\"Pause\"]",
+      "moveStart": 22.21,
+      "hover": 22.76,
+      "press": 22.88,
+      "release": 23
+    },
+    {
+      "id": "ending-rest",
+      "point": [
+        1660,
+        730
+      ],
+      "moveStart": 23.15,
+      "hover": 23.7,
+      "press": 23.7,
+      "release": 23.7,
+      "kind": "arrow"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "openjm-portrait-music",
+  "private": true,
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "playwright": "1.63.0"
+  },
+  "scripts": {
+    "check": "node ../../scripts/capture.cjs music check",
+    "render": "node ../../scripts/capture.cjs music render"
+  }
+}

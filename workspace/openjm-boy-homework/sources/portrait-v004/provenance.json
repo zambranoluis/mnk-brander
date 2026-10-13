@@ -1,0 +1,3197 @@
+[
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\ambient.json",
+    "copy": "ui\\text\\ambient.json",
+    "sha256": "d685ab38bfd6dc94639500841dedc1a76f871d095aaedda8bfe8030832bccb64"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\asset-provenance.json",
+    "copy": "ui\\text\\asset-provenance.json",
+    "sha256": "51d7a3e8db383c123e39bac33a2cbc86276f1c3f01933e2c7dd7b65a6b0a9702"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\content.json",
+    "copy": "ui\\text\\content.json",
+    "sha256": "fc5f4c3b0aa38ff2a73494bba452ff6f708b7253dafd6d73f5bc01a2ed1a3d61"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\film.css",
+    "copy": "ui\\text\\film.css",
+    "sha256": "b3f8cf6108954c060588e3312d2472ec13941bbe81a4e05a49b92a287f575550"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\hyperframes.json",
+    "copy": "ui\\text\\hyperframes.json",
+    "sha256": "dbf2f4cc5995444f24b60cf999a892cda79cc83ff5e0eae694a6f4b1054ea44f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\hyperframes.lock.json",
+    "copy": "ui\\text\\hyperframes.lock.json",
+    "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\index.html",
+    "copy": "ui\\text\\index.html",
+    "sha256": "8166ccc761aca8798f1b32fd1ddae781a0a22ed6da5783415155ba4b946f7ee5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\interactions.css",
+    "copy": "ui\\text\\interactions.css",
+    "sha256": "0a50f7e2ab19124e27bb8daaee102ea5e5d10effb086e97b71103f435748295b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\interactions.js",
+    "copy": "ui\\text\\interactions.js",
+    "sha256": "f48b10a69c7e01d6f92593a524277dff425a1acbd27dccc01194d5e9cdec8026"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\interactions.json",
+    "copy": "ui\\text\\interactions.json",
+    "sha256": "ead812d6180dcef9cc36e346a269728a0e97c3d96c6be328e48741b577670003"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\morph.js",
+    "copy": "ui\\text\\morph.js",
+    "sha256": "1c1e06865bfda00062c69b4d9fe5623e4b1de93479900e6215c4bf92d1ea787d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-engine.js",
+    "copy": "ui\\text\\native-engine.js",
+    "sha256": "66a5ab3cabf70d67a0f81cd1976bacac4f86a8be2639f16ade8251c9c35147a1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-provenance.json",
+    "copy": "ui\\text\\native-provenance.json",
+    "sha256": "45956510e7da2c55f0540c538c6eb2d29ea348161d927f32481ae2af956362c9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\package.json",
+    "copy": "ui\\text\\package.json",
+    "sha256": "a11e0f727719cd1448d6bc3229f77c11fb4a13b246d07dba6a016828c9a24b87"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\README.md",
+    "copy": "ui\\text\\README.md",
+    "sha256": "ae23f73e9ae6ca594eea4f4f348a63ef547554d391cd9ba8da8889403bd9b868"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\REVISION.json",
+    "copy": "ui\\text\\REVISION.json",
+    "sha256": "3f341267d263cb79794e8afacf7c093802d550d63705d41ac8caf4bfd492ab5a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\scene.js",
+    "copy": "ui\\text\\scene.js",
+    "sha256": "c06307de8b4d4978b91e6f72981a1fc417544ce7d45e560b8f6384a6c283ff99"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\seam-state.json",
+    "copy": "ui\\text\\seam-state.json",
+    "sha256": "bed0d555e2961313c94c1530bc37ace33ca3cfc07840f6e003b3cac0377146c0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\sync-source.cjs",
+    "copy": "ui\\text\\sync-source.cjs",
+    "sha256": "ef445ff31af8f24d2a9e78ad0a163e647aac7d6a7a8cae49ae3577969072a80b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\ui.css",
+    "copy": "ui\\text\\ui.css",
+    "sha256": "5d91462c01dc49648b6180e30c6d0831da9211d999ed5ed3df40611ae0c67a57"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\gsap.min.js",
+    "copy": "ui\\text\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\segoeui.ttf",
+    "copy": "ui\\text\\assets\\segoeui.ttf",
+    "sha256": "8134dbcd09e7b123c9a7f229d49cffbcb01352cc72ea5e1076b65d0dca9f73cd"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\segoeuib.ttf",
+    "copy": "ui\\text\\assets\\segoeuib.ttf",
+    "sha256": "aeb9e4a6ec5cc59f4d72df8189032d7dbb28f45161cf1552174818b5465dac4e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-01bbf77604073452.woff",
+    "copy": "ui\\text\\assets\\ui-01bbf77604073452.woff",
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-04212a88cdedd926.ttf",
+    "copy": "ui\\text\\assets\\ui-04212a88cdedd926.ttf",
+    "sha256": "4aaf8c5b661a386998c2e70cf2b87e2440f5404e0b8fd81164f0413fb3435ec6"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-042ed20b2606a587.ttf",
+    "copy": "ui\\text\\assets\\ui-042ed20b2606a587.ttf",
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "copy": "ui\\text\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-079de16bf7c48d67.woff",
+    "copy": "ui\\text\\assets\\ui-079de16bf7c48d67.woff",
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-0c9743dfe3107946.ttf",
+    "copy": "ui\\text\\assets\\ui-0c9743dfe3107946.ttf",
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-0e1417945fc5ec0a.woff",
+    "copy": "ui\\text\\assets\\ui-0e1417945fc5ec0a.woff",
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "copy": "ui\\text\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "sha256": "fbb0139e6607ff068be157c954372498a2f29ae968ffabd1ac07aeab6e617796"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-16930d9eadd450ac.woff2",
+    "copy": "ui\\text\\assets\\ui-16930d9eadd450ac.woff2",
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-1fac1c6abc946601.woff2",
+    "copy": "ui\\text\\assets\\ui-1fac1c6abc946601.woff2",
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-2030cfefcd9449d3.svg",
+    "copy": "ui\\text\\assets\\ui-2030cfefcd9449d3.svg",
+    "sha256": "9461adc4d857b729b67920d6998a6111ece6e68021d53c70e764f24b28ab62d3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-27581076e9b62169.ttf",
+    "copy": "ui\\text\\assets\\ui-27581076e9b62169.ttf",
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-334330ec96059d79.svg",
+    "copy": "ui\\text\\assets\\ui-334330ec96059d79.svg",
+    "sha256": "f32feca8c9aa7ae9411dca42e13acecb929db31e18d94b097e163ab805661ea9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-33f68857569c94f7.ttf",
+    "copy": "ui\\text\\assets\\ui-33f68857569c94f7.ttf",
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-35fd302b1cda0de3.woff2",
+    "copy": "ui\\text\\assets\\ui-35fd302b1cda0de3.woff2",
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-3a02119ba604667a.woff",
+    "copy": "ui\\text\\assets\\ui-3a02119ba604667a.woff",
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-3fe15be7a5d21f9a.png",
+    "copy": "ui\\text\\assets\\ui-3fe15be7a5d21f9a.png",
+    "sha256": "b3adc77604235bfb5828746be45aeccf183b16449ccf82a41992d4bb3e0fcb41"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-403a963b774fed87.ttf",
+    "copy": "ui\\text\\assets\\ui-403a963b774fed87.ttf",
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-40633af310ba20d7.woff2",
+    "copy": "ui\\text\\assets\\ui-40633af310ba20d7.woff2",
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-428c9194c6883e82.woff",
+    "copy": "ui\\text\\assets\\ui-428c9194c6883e82.woff",
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-46f8feae9eeceb38.woff",
+    "copy": "ui\\text\\assets\\ui-46f8feae9eeceb38.woff",
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-474ab134a06e6ecb.svg",
+    "copy": "ui\\text\\assets\\ui-474ab134a06e6ecb.svg",
+    "sha256": "d2f8a04c958718c2a4634c1da81c03d185b4163a1219364b1b7bf8ffd518f88d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-4acb323794ec8366.svg",
+    "copy": "ui\\text\\assets\\ui-4acb323794ec8366.svg",
+    "sha256": "4fcebc7d5b729bf669f39f22bcbd30916c85afce7272115b5784d63a8c8b4697"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-4ba4184e099e3618.woff",
+    "copy": "ui\\text\\assets\\ui-4ba4184e099e3618.woff",
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "copy": "ui\\text\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "sha256": "15256405ecb0d880678833a582760efad538ab2932318b52c8105b267d159459"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-4cc0f469d714eed3.ttf",
+    "copy": "ui\\text\\assets\\ui-4cc0f469d714eed3.ttf",
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-4efd4c2ce1078282.ttf",
+    "copy": "ui\\text\\assets\\ui-4efd4c2ce1078282.ttf",
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-517447ae89b23fcb.svg",
+    "copy": "ui\\text\\assets\\ui-517447ae89b23fcb.svg",
+    "sha256": "d5781f09be6ce2e5207035201e54a1ff9d9824226d91b6895f7ec63302c622d5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-54042cae7b4b8d38.ttf",
+    "copy": "ui\\text\\assets\\ui-54042cae7b4b8d38.ttf",
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-55f5456481d46cb8.woff2",
+    "copy": "ui\\text\\assets\\ui-55f5456481d46cb8.woff2",
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-5868f33465fa8e8d.ttf",
+    "copy": "ui\\text\\assets\\ui-5868f33465fa8e8d.ttf",
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-588eea85ea0dd2ee.svg",
+    "copy": "ui\\text\\assets\\ui-588eea85ea0dd2ee.svg",
+    "sha256": "59e26d46dc5bb10753e68cd347f44604d311c3e0f373519cf01ac44c9206283a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-6072b42bd45da177.svg",
+    "copy": "ui\\text\\assets\\ui-6072b42bd45da177.svg",
+    "sha256": "032c0268b347e66229c0c4f2f8b386299adf809b891588125ab99bafad472211"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-609ecd356f0d65e8.svg",
+    "copy": "ui\\text\\assets\\ui-609ecd356f0d65e8.svg",
+    "sha256": "814f64bee40fffb19fe268fb92c765b4f46592cb6737c0ed9e6ad9e1e27a8203"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-6516249794aba90e.png",
+    "copy": "ui\\text\\assets\\ui-6516249794aba90e.png",
+    "sha256": "5fd0ef9b50119a5dba1f27c763039881a9df559546f3ff7c8c56ee6e7fd41c75"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "copy": "ui\\text\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-68657898fa4748d5.woff",
+    "copy": "ui\\text\\assets\\ui-68657898fa4748d5.woff",
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "copy": "ui\\text\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-6c92f36725cdb797.woff",
+    "copy": "ui\\text\\assets\\ui-6c92f36725cdb797.woff",
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-6e454084cf33fbc5.svg",
+    "copy": "ui\\text\\assets\\ui-6e454084cf33fbc5.svg",
+    "sha256": "a40c247d4a9535e6eece784426c712d2bcc99bcdaefabea49bc080688b814710"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-705a8e211b857886.ttf",
+    "copy": "ui\\text\\assets\\ui-705a8e211b857886.ttf",
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-75d145711d99c9a7.ttf",
+    "copy": "ui\\text\\assets\\ui-75d145711d99c9a7.ttf",
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-772c47f708bcc680.ttf",
+    "copy": "ui\\text\\assets\\ui-772c47f708bcc680.ttf",
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-7b709dfe41090aa5.woff2",
+    "copy": "ui\\text\\assets\\ui-7b709dfe41090aa5.woff2",
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-7e31250df6f94598.svg",
+    "copy": "ui\\text\\assets\\ui-7e31250df6f94598.svg",
+    "sha256": "2fb354e219c3bdf4afa587a4e20e490f63e9bdccd6418ca06c908dbcf3ec2af8"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "copy": "ui\\text\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "copy": "ui\\text\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "sha256": "cce4405e885544376ce20621001274e2ac9080a171ad4d2e097bf04d790157ea"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "copy": "ui\\text\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-830365f9a585cd84.svg",
+    "copy": "ui\\text\\assets\\ui-830365f9a585cd84.svg",
+    "sha256": "6abf65ff52f0175a1ba1b7ee4e0d668164f83759575b68fc827df853cd918b55"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "copy": "ui\\text\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-84ebe404814ce7a6.woff",
+    "copy": "ui\\text\\assets\\ui-84ebe404814ce7a6.woff",
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "copy": "ui\\text\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "copy": "ui\\text\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "sha256": "c33901cefd4e60a13347a6a934b8a0e45948e2137f66be3e2330ee529417952b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-957a32d789bfe0f3.woff",
+    "copy": "ui\\text\\assets\\ui-957a32d789bfe0f3.woff",
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-ab099da400a20ae0.ttf",
+    "copy": "ui\\text\\assets\\ui-ab099da400a20ae0.ttf",
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-ad76cba7e642e57a.svg",
+    "copy": "ui\\text\\assets\\ui-ad76cba7e642e57a.svg",
+    "sha256": "b4b65507fb30e56d7cbf49f6b123d22b02b88b3d15f983c9fbabc97a956c2547"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-ae35178a562cdc15.svg",
+    "copy": "ui\\text\\assets\\ui-ae35178a562cdc15.svg",
+    "sha256": "33c7974b672f4f784355748b4f8f93606e08c640ff1e113301205a079ae30acc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-b1054a2e4f7098c8.woff",
+    "copy": "ui\\text\\assets\\ui-b1054a2e4f7098c8.woff",
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-b1202e603398cff4.woff2",
+    "copy": "ui\\text\\assets\\ui-b1202e603398cff4.woff2",
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-b2976f9243f71b95.woff2",
+    "copy": "ui\\text\\assets\\ui-b2976f9243f71b95.woff2",
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "copy": "ui\\text\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-bb2e65646478d6d9.ttf",
+    "copy": "ui\\text\\assets\\ui-bb2e65646478d6d9.ttf",
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "copy": "ui\\text\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-c02b0bd1d5809347.woff2",
+    "copy": "ui\\text\\assets\\ui-c02b0bd1d5809347.woff2",
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-c175463995e28f9a.ttf",
+    "copy": "ui\\text\\assets\\ui-c175463995e28f9a.ttf",
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-c44d7c16e9f740d7.svg",
+    "copy": "ui\\text\\assets\\ui-c44d7c16e9f740d7.svg",
+    "sha256": "2b97074ff7a94cd4526139ad884b4a8193265d193d8a40e660eefa3318063ea0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "copy": "ui\\text\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "copy": "ui\\text\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "sha256": "79343dc641a2e8d48a703a4667b71fc8dc6565cc8ce47dfc34fc52c12aadbf38"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-cff599a0864fa1cb.ttf",
+    "copy": "ui\\text\\assets\\ui-cff599a0864fa1cb.ttf",
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "copy": "ui\\text\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "copy": "ui\\text\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "copy": "ui\\text\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-d97801fba9b65d22.woff",
+    "copy": "ui\\text\\assets\\ui-d97801fba9b65d22.woff",
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-dc785c981bf76198.woff2",
+    "copy": "ui\\text\\assets\\ui-dc785c981bf76198.woff2",
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-ded26aa3628fb0d8.woff",
+    "copy": "ui\\text\\assets\\ui-ded26aa3628fb0d8.woff",
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "copy": "ui\\text\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "sha256": "1169f6e36b2daf50c95a9a8c6375b762877f6ff0351be5d62771552a29e915bc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "copy": "ui\\text\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "sha256": "8a5680cdd25f9d5d6ee547fcf16c57c085013918c14c8e49b5066104b97b4d92"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-edb4374c491ce177.ttf",
+    "copy": "ui\\text\\assets\\ui-edb4374c491ce177.ttf",
+    "sha256": "27bccdc7ead7eb5754e950c4c4eaa9a35f2b4ae1a29164921017285bebb82a02"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-f0d95df972a38d4e.woff",
+    "copy": "ui\\text\\assets\\ui-f0d95df972a38d4e.woff",
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "copy": "ui\\text\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "copy": "ui\\text\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "copy": "ui\\text\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "sha256": "a5bce6cd4a7060aa0a76e4b45653c371bfb48c0a03b5c6721d916f6cedde5fae"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-fb987ed96e609fca.svg",
+    "copy": "ui\\text\\assets\\ui-fb987ed96e609fca.svg",
+    "sha256": "6f515d3d93edcaf4239be6434491bfd186aae3f6ebbf1111ead1cc1f90384c26"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-fbc1cd28846d677c.woff",
+    "copy": "ui\\text\\assets\\ui-fbc1cd28846d677c.woff",
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "copy": "ui\\text\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "copy": "ui\\text\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\assets\\ui-feeb5e341018c5d4.ttf",
+    "copy": "ui\\text\\assets\\ui-feeb5e341018c5d4.ttf",
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "copy": "ui\\text\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "sha256": "a17533008f0872fea6e247997b85db0bc190476e7c3e1543ed7db1f139c58001"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "copy": "ui\\text\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "sha256": "f47b9775e7f76af5b6a774d34613b7de16ba5635bbec89d004be017218e63d4a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "copy": "ui\\text\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "sha256": "0965ba93aee650394c0564f2e842c89158315f274632c11aaa9c8fc470168093"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\audioReaction.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\audioReaction.ts",
+    "sha256": "1bacf364e589d7c6477de5e3cc916c08b2a27eec9a54e251060f3cfa708f6a9a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\colors.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\colors.ts",
+    "sha256": "50e7e96930fbaedcbf9d93a911bd15df6c723a166fd7699be615d43bd1f4d257"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\defaults.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\defaults.ts",
+    "sha256": "00d4d7cbe7d85df679fa559508dddc62fca87ae4b92c4eb9697fc1cc15fdd89b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\math.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\math.ts",
+    "sha256": "39beba10551421833686735d60f8fb89ac92d3a2f3873b7468c35ee57b75d696"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\motion.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\motion.ts",
+    "sha256": "238fc956c6639572cf8dd444eab385f0856487aade96fd652ca732717f022eb3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\orchestration.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\orchestration.ts",
+    "sha256": "e6f5e290c7d3e987e387c0154c74dd978182525703eb9e220c3a5c042bfa40f6"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\preset.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\preset.ts",
+    "sha256": "416478b6d28cfbb3a393e1aab8f8017c3e494226069b47f64d4bf12f089b3a08"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "sha256": "7b11ed542f3319dd19b55a69e913fb17c0f286a5ac7e4eade61c1babcd2e5313"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\shapes.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\shapes.ts",
+    "sha256": "3261e642f8d92ad9d593f52d3c510c02796f9e1ecc8f7367d1f5468f7fc6a3b2"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\engine\\timeline.ts",
+    "copy": "ui\\text\\native-source\\morph\\engine\\timeline.ts",
+    "sha256": "259fd29555340de95aab91416599cb8656141c734cf50f96a1c005492e4670c1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "copy": "ui\\text\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "sha256": "dccb0af513d6d1b1e4b0c43d620f39bc52668a2d646e039cbc8b263e092b5941"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\morph\\types\\morph.ts",
+    "copy": "ui\\text\\native-source\\morph\\types\\morph.ts",
+    "sha256": "e353074008ef9eb2cf272b7b848d1520fa68f91eba700edef444c372211ed1ef"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "copy": "ui\\text\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "sha256": "cbe6345e409beee83c15c7945c7172caad1d927571ce99b52aa7084fa86e1db9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "copy": "ui\\text\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "sha256": "92b13bc050f29d882764f46dee8bc15457e1f65c52aeafd7d88db69549df1f29"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "copy": "ui\\text\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "sha256": "495f1c7b863d4cfe6a9eb2670049de427682ec0d7252635a4394d6422fc3e9dc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "copy": "ui\\text\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "sha256": "cc4d9ba902ce1ab805f3e512a9573dd16237dfc263fd6216ffaf743e6adb81ee"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "copy": "ui\\text\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "sha256": "6ed27133f62bcb10e30c73e0fab232aa1132064a4736247a71ce0d87f3d26a92"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "copy": "ui\\text\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "sha256": "bc1c163b744f9dceb78e8958d9f2d0fbe0e7b173c3c9fc1bc2288b7cf3cb25d5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\text\\compositions\\components\\ui-focus-zoom.html",
+    "copy": "ui\\text\\compositions\\components\\ui-focus-zoom.html",
+    "sha256": "68497eaa3d003e7f668b8c8dfba1405be4b7fa923b00f383e67e51d1f8d2e03c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\ambient.json",
+    "copy": "ui\\images\\ambient.json",
+    "sha256": "9a2b423d871ea9019f3f419579b894465d72eeb722d42bab55dc454993cc5f0a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\asset-provenance.json",
+    "copy": "ui\\images\\asset-provenance.json",
+    "sha256": "03a05fd7a56473897bc5aed3601cccf213b82b0f7acb128fe826ef49e2e94fea"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\build-board.cjs",
+    "copy": "ui\\images\\build-board.cjs",
+    "sha256": "5a84e6bc9698c26e758f78e26ca9044559029dab639e92b87c0ba8943ebd31a0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\build-native.cjs",
+    "copy": "ui\\images\\build-native.cjs",
+    "sha256": "dc2886e3422776e53807cb74eaffbe9f37725c85c98083b445ec8456248041c7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\content.json",
+    "copy": "ui\\images\\content.json",
+    "sha256": "fc5f4c3b0aa38ff2a73494bba452ff6f708b7253dafd6d73f5bc01a2ed1a3d61"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\film.css",
+    "copy": "ui\\images\\film.css",
+    "sha256": "564ace6aace35dbae870a9e96a38b80dbaa91c4617c466409f060d02c421a854"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\hyperframes.json",
+    "copy": "ui\\images\\hyperframes.json",
+    "sha256": "dbf2f4cc5995444f24b60cf999a892cda79cc83ff5e0eae694a6f4b1054ea44f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\hyperframes.lock.json",
+    "copy": "ui\\images\\hyperframes.lock.json",
+    "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\index.html",
+    "copy": "ui\\images\\index.html",
+    "sha256": "f1c308a8f191c2fc86c2b34415a2a5e4e87f171a07e5e6cb53a08fdba5844453"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\interactions.css",
+    "copy": "ui\\images\\interactions.css",
+    "sha256": "bc051c80932b2926ca945fea07e0b3e3a8ddb86d7f7043f5e292313a5749be87"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\interactions.js",
+    "copy": "ui\\images\\interactions.js",
+    "sha256": "f48b10a69c7e01d6f92593a524277dff425a1acbd27dccc01194d5e9cdec8026"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\interactions.json",
+    "copy": "ui\\images\\interactions.json",
+    "sha256": "3937f45d452de8b715b64bc8c8fc85c04c19f4c4e3893f03d4af8315bb011a5a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\morph.js",
+    "copy": "ui\\images\\morph.js",
+    "sha256": "1c1e06865bfda00062c69b4d9fe5623e4b1de93479900e6215c4bf92d1ea787d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-engine.js",
+    "copy": "ui\\images\\native-engine.js",
+    "sha256": "66a5ab3cabf70d67a0f81cd1976bacac4f86a8be2639f16ade8251c9c35147a1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-provenance.json",
+    "copy": "ui\\images\\native-provenance.json",
+    "sha256": "45956510e7da2c55f0540c538c6eb2d29ea348161d927f32481ae2af956362c9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-ui.json",
+    "copy": "ui\\images\\native-ui.json",
+    "sha256": "3b5445bd64f5058b2d96df363af06b4ce58ac9b6655aca7a64fceeccfa08163d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\package.json",
+    "copy": "ui\\images\\package.json",
+    "sha256": "cfc191e3ed28c66c937a98225ff098aa400a1558dd55df568a64d21cc3469899"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\placeholder.js",
+    "copy": "ui\\images\\placeholder.js",
+    "sha256": "c5bacc9887387e906a370828ae015b6028841ef6d4de720edabeaeddf7600ce5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\presentation-spec.json",
+    "copy": "ui\\images\\presentation-spec.json",
+    "sha256": "69220ab82aa398e7e5a9abf9dae062e3676d36561acf8c61a5c7c9fd17a2c585"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\PRESENTATION.md",
+    "copy": "ui\\images\\PRESENTATION.md",
+    "sha256": "608968252cf5582fde0b0b7959accc7adb15e34c0d9eab45a860c5f6237a5e10"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\preview-helper.cjs",
+    "copy": "ui\\images\\preview-helper.cjs",
+    "sha256": "00093d9ec8e46f6b6cc30887bab21fbd2109690526d4192549bf1f5eeb4105ec"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\README.md",
+    "copy": "ui\\images\\README.md",
+    "sha256": "81437be9bbdbb90b2100d5a446d833a5529f5370f5a9abf45b38b9e7c5aeb4d8"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\REVISION.json",
+    "copy": "ui\\images\\REVISION.json",
+    "sha256": "128be5d2983bdea5654077e4de5992412ff166506db9a9f964fa0fd0454bdf35"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\scene.js",
+    "copy": "ui\\images\\scene.js",
+    "sha256": "04c1c80db03320a0b2afc7718ea234148dc9e8b239601b875699b7a8bbdce909"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\sync-source.cjs",
+    "copy": "ui\\images\\sync-source.cjs",
+    "sha256": "13aed7eb23818d5ffc4fc55437cbbaf936b13073b2f9d29c5da11a25a4566682"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\timing.json",
+    "copy": "ui\\images\\timing.json",
+    "sha256": "1d0803a4692db41f3eb710bb9c9190f96acefa4cbe1dd7cb48098c658a97bd8a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\ui.css",
+    "copy": "ui\\images\\ui.css",
+    "sha256": "63e27ae280d8d83c787fcbe22891a0a0ea5d145d7bfbe0faf0b095f222d89ab3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\board.json",
+    "copy": "ui\\images\\artwork\\board.json",
+    "sha256": "488b74568a94ff88e734394a9378ff0c212082886f285ddee0f5d8b67db98e26"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\board.png",
+    "copy": "ui\\images\\artwork\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\board.svg",
+    "copy": "ui\\images\\artwork\\board.svg",
+    "sha256": "90c218b33242618bcfa65f987a50340d13437f15042ed5cda98576b8ed22ae2f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\collection.png",
+    "copy": "ui\\images\\artwork\\collection.png",
+    "sha256": "232ddfa85807d73cc52d64c7b1ac86a91590f71489f294423803bfa54df6957e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\condensation.png",
+    "copy": "ui\\images\\artwork\\condensation.png",
+    "sha256": "8c2b31a12d54e77bd0352af1400b211c0dd15ff4fab52e43c72d638c7fd37856"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\evaporation.png",
+    "copy": "ui\\images\\artwork\\evaporation.png",
+    "sha256": "d663a8b88cfdeab19c24e034236f102be970451485199d24c254afecef34f673"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\precipitation.png",
+    "copy": "ui\\images\\artwork\\precipitation.png",
+    "sha256": "c9f5c20b5ebe662a791272da4c4bd3b2a1ca2e820525919769f86ae54251b4ed"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\prompts.json",
+    "copy": "ui\\images\\artwork\\prompts.json",
+    "sha256": "108eb59892cdec78a6d14a7c3f1a9c9a797772f7fb1c3bd3c4b1eea6ceeb5629"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\artwork\\README.md",
+    "copy": "ui\\images\\artwork\\README.md",
+    "sha256": "220a86d44cbd326bd95ec5e3ecc496548987c563e5779bce37ab557c58a62e30"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\board.png",
+    "copy": "ui\\images\\assets\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\gsap.min.js",
+    "copy": "ui\\images\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\segoeui.ttf",
+    "copy": "ui\\images\\assets\\segoeui.ttf",
+    "sha256": "8134dbcd09e7b123c9a7f229d49cffbcb01352cc72ea5e1076b65d0dca9f73cd"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\segoeuib.ttf",
+    "copy": "ui\\images\\assets\\segoeuib.ttf",
+    "sha256": "aeb9e4a6ec5cc59f4d72df8189032d7dbb28f45161cf1552174818b5465dac4e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-01bbf77604073452.woff",
+    "copy": "ui\\images\\assets\\ui-01bbf77604073452.woff",
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-04212a88cdedd926.ttf",
+    "copy": "ui\\images\\assets\\ui-04212a88cdedd926.ttf",
+    "sha256": "4aaf8c5b661a386998c2e70cf2b87e2440f5404e0b8fd81164f0413fb3435ec6"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-042ed20b2606a587.ttf",
+    "copy": "ui\\images\\assets\\ui-042ed20b2606a587.ttf",
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "copy": "ui\\images\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-079de16bf7c48d67.woff",
+    "copy": "ui\\images\\assets\\ui-079de16bf7c48d67.woff",
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-0c9743dfe3107946.ttf",
+    "copy": "ui\\images\\assets\\ui-0c9743dfe3107946.ttf",
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-0e1417945fc5ec0a.woff",
+    "copy": "ui\\images\\assets\\ui-0e1417945fc5ec0a.woff",
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-11856af8391183cf.svg",
+    "copy": "ui\\images\\assets\\ui-11856af8391183cf.svg",
+    "sha256": "3cb262e0873a90f4269904db86171122edef39061bb426bfb49ac8616f568e3a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "copy": "ui\\images\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "sha256": "fbb0139e6607ff068be157c954372498a2f29ae968ffabd1ac07aeab6e617796"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-16930d9eadd450ac.woff2",
+    "copy": "ui\\images\\assets\\ui-16930d9eadd450ac.woff2",
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-1fac1c6abc946601.woff2",
+    "copy": "ui\\images\\assets\\ui-1fac1c6abc946601.woff2",
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-2030cfefcd9449d3.svg",
+    "copy": "ui\\images\\assets\\ui-2030cfefcd9449d3.svg",
+    "sha256": "9461adc4d857b729b67920d6998a6111ece6e68021d53c70e764f24b28ab62d3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-27581076e9b62169.ttf",
+    "copy": "ui\\images\\assets\\ui-27581076e9b62169.ttf",
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-334330ec96059d79.svg",
+    "copy": "ui\\images\\assets\\ui-334330ec96059d79.svg",
+    "sha256": "f32feca8c9aa7ae9411dca42e13acecb929db31e18d94b097e163ab805661ea9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-33f68857569c94f7.ttf",
+    "copy": "ui\\images\\assets\\ui-33f68857569c94f7.ttf",
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-35fd302b1cda0de3.woff2",
+    "copy": "ui\\images\\assets\\ui-35fd302b1cda0de3.woff2",
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-3a02119ba604667a.woff",
+    "copy": "ui\\images\\assets\\ui-3a02119ba604667a.woff",
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-3fe15be7a5d21f9a.png",
+    "copy": "ui\\images\\assets\\ui-3fe15be7a5d21f9a.png",
+    "sha256": "b3adc77604235bfb5828746be45aeccf183b16449ccf82a41992d4bb3e0fcb41"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-403a963b774fed87.ttf",
+    "copy": "ui\\images\\assets\\ui-403a963b774fed87.ttf",
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-40633af310ba20d7.woff2",
+    "copy": "ui\\images\\assets\\ui-40633af310ba20d7.woff2",
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-428c9194c6883e82.woff",
+    "copy": "ui\\images\\assets\\ui-428c9194c6883e82.woff",
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-46f8feae9eeceb38.woff",
+    "copy": "ui\\images\\assets\\ui-46f8feae9eeceb38.woff",
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-474ab134a06e6ecb.svg",
+    "copy": "ui\\images\\assets\\ui-474ab134a06e6ecb.svg",
+    "sha256": "d2f8a04c958718c2a4634c1da81c03d185b4163a1219364b1b7bf8ffd518f88d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-4acb323794ec8366.svg",
+    "copy": "ui\\images\\assets\\ui-4acb323794ec8366.svg",
+    "sha256": "4fcebc7d5b729bf669f39f22bcbd30916c85afce7272115b5784d63a8c8b4697"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-4ba4184e099e3618.woff",
+    "copy": "ui\\images\\assets\\ui-4ba4184e099e3618.woff",
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "copy": "ui\\images\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "sha256": "15256405ecb0d880678833a582760efad538ab2932318b52c8105b267d159459"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-4cc0f469d714eed3.ttf",
+    "copy": "ui\\images\\assets\\ui-4cc0f469d714eed3.ttf",
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-4efd4c2ce1078282.ttf",
+    "copy": "ui\\images\\assets\\ui-4efd4c2ce1078282.ttf",
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-506c8edeefb76f25.svg",
+    "copy": "ui\\images\\assets\\ui-506c8edeefb76f25.svg",
+    "sha256": "cdd8eef9c4fb6b16ee07321d527201325989459a16ab61a00e921401f2a46104"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-517447ae89b23fcb.svg",
+    "copy": "ui\\images\\assets\\ui-517447ae89b23fcb.svg",
+    "sha256": "d5781f09be6ce2e5207035201e54a1ff9d9824226d91b6895f7ec63302c622d5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-53feab1a07f70d58.svg",
+    "copy": "ui\\images\\assets\\ui-53feab1a07f70d58.svg",
+    "sha256": "449a4ffff6f5855212363e5ccde6bab536784e65686120b0b6eda2219e154b1d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-54042cae7b4b8d38.ttf",
+    "copy": "ui\\images\\assets\\ui-54042cae7b4b8d38.ttf",
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-55f5456481d46cb8.woff2",
+    "copy": "ui\\images\\assets\\ui-55f5456481d46cb8.woff2",
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-5868f33465fa8e8d.ttf",
+    "copy": "ui\\images\\assets\\ui-5868f33465fa8e8d.ttf",
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-588eea85ea0dd2ee.svg",
+    "copy": "ui\\images\\assets\\ui-588eea85ea0dd2ee.svg",
+    "sha256": "59e26d46dc5bb10753e68cd347f44604d311c3e0f373519cf01ac44c9206283a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-6072b42bd45da177.svg",
+    "copy": "ui\\images\\assets\\ui-6072b42bd45da177.svg",
+    "sha256": "032c0268b347e66229c0c4f2f8b386299adf809b891588125ab99bafad472211"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-609ecd356f0d65e8.svg",
+    "copy": "ui\\images\\assets\\ui-609ecd356f0d65e8.svg",
+    "sha256": "814f64bee40fffb19fe268fb92c765b4f46592cb6737c0ed9e6ad9e1e27a8203"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-6516249794aba90e.png",
+    "copy": "ui\\images\\assets\\ui-6516249794aba90e.png",
+    "sha256": "5fd0ef9b50119a5dba1f27c763039881a9df559546f3ff7c8c56ee6e7fd41c75"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "copy": "ui\\images\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-68657898fa4748d5.woff",
+    "copy": "ui\\images\\assets\\ui-68657898fa4748d5.woff",
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "copy": "ui\\images\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-6c92f36725cdb797.woff",
+    "copy": "ui\\images\\assets\\ui-6c92f36725cdb797.woff",
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-6e454084cf33fbc5.svg",
+    "copy": "ui\\images\\assets\\ui-6e454084cf33fbc5.svg",
+    "sha256": "a40c247d4a9535e6eece784426c712d2bcc99bcdaefabea49bc080688b814710"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-705a8e211b857886.ttf",
+    "copy": "ui\\images\\assets\\ui-705a8e211b857886.ttf",
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-75d145711d99c9a7.ttf",
+    "copy": "ui\\images\\assets\\ui-75d145711d99c9a7.ttf",
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-772c47f708bcc680.ttf",
+    "copy": "ui\\images\\assets\\ui-772c47f708bcc680.ttf",
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-7b709dfe41090aa5.woff2",
+    "copy": "ui\\images\\assets\\ui-7b709dfe41090aa5.woff2",
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-7e31250df6f94598.svg",
+    "copy": "ui\\images\\assets\\ui-7e31250df6f94598.svg",
+    "sha256": "2fb354e219c3bdf4afa587a4e20e490f63e9bdccd6418ca06c908dbcf3ec2af8"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "copy": "ui\\images\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "copy": "ui\\images\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "sha256": "cce4405e885544376ce20621001274e2ac9080a171ad4d2e097bf04d790157ea"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "copy": "ui\\images\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-830365f9a585cd84.svg",
+    "copy": "ui\\images\\assets\\ui-830365f9a585cd84.svg",
+    "sha256": "6abf65ff52f0175a1ba1b7ee4e0d668164f83759575b68fc827df853cd918b55"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "copy": "ui\\images\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-84ebe404814ce7a6.woff",
+    "copy": "ui\\images\\assets\\ui-84ebe404814ce7a6.woff",
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "copy": "ui\\images\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "copy": "ui\\images\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "sha256": "c33901cefd4e60a13347a6a934b8a0e45948e2137f66be3e2330ee529417952b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-957a32d789bfe0f3.woff",
+    "copy": "ui\\images\\assets\\ui-957a32d789bfe0f3.woff",
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-ab099da400a20ae0.ttf",
+    "copy": "ui\\images\\assets\\ui-ab099da400a20ae0.ttf",
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-ad76cba7e642e57a.svg",
+    "copy": "ui\\images\\assets\\ui-ad76cba7e642e57a.svg",
+    "sha256": "b4b65507fb30e56d7cbf49f6b123d22b02b88b3d15f983c9fbabc97a956c2547"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-ae35178a562cdc15.svg",
+    "copy": "ui\\images\\assets\\ui-ae35178a562cdc15.svg",
+    "sha256": "33c7974b672f4f784355748b4f8f93606e08c640ff1e113301205a079ae30acc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-b1054a2e4f7098c8.woff",
+    "copy": "ui\\images\\assets\\ui-b1054a2e4f7098c8.woff",
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-b1202e603398cff4.woff2",
+    "copy": "ui\\images\\assets\\ui-b1202e603398cff4.woff2",
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-b2976f9243f71b95.woff2",
+    "copy": "ui\\images\\assets\\ui-b2976f9243f71b95.woff2",
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "copy": "ui\\images\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-bb2e65646478d6d9.ttf",
+    "copy": "ui\\images\\assets\\ui-bb2e65646478d6d9.ttf",
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "copy": "ui\\images\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-c02b0bd1d5809347.woff2",
+    "copy": "ui\\images\\assets\\ui-c02b0bd1d5809347.woff2",
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-c175463995e28f9a.ttf",
+    "copy": "ui\\images\\assets\\ui-c175463995e28f9a.ttf",
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-c44d7c16e9f740d7.svg",
+    "copy": "ui\\images\\assets\\ui-c44d7c16e9f740d7.svg",
+    "sha256": "2b97074ff7a94cd4526139ad884b4a8193265d193d8a40e660eefa3318063ea0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "copy": "ui\\images\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "copy": "ui\\images\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "sha256": "79343dc641a2e8d48a703a4667b71fc8dc6565cc8ce47dfc34fc52c12aadbf38"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-cff599a0864fa1cb.ttf",
+    "copy": "ui\\images\\assets\\ui-cff599a0864fa1cb.ttf",
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "copy": "ui\\images\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "copy": "ui\\images\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "copy": "ui\\images\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-d97801fba9b65d22.woff",
+    "copy": "ui\\images\\assets\\ui-d97801fba9b65d22.woff",
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-dc450f8418581ae0.svg",
+    "copy": "ui\\images\\assets\\ui-dc450f8418581ae0.svg",
+    "sha256": "0bb0c02d1de981861d3d604c562b9c138aaaff792e5d4b00c84335263744ab05"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-dc785c981bf76198.woff2",
+    "copy": "ui\\images\\assets\\ui-dc785c981bf76198.woff2",
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-ded26aa3628fb0d8.woff",
+    "copy": "ui\\images\\assets\\ui-ded26aa3628fb0d8.woff",
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "copy": "ui\\images\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "sha256": "1169f6e36b2daf50c95a9a8c6375b762877f6ff0351be5d62771552a29e915bc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "copy": "ui\\images\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "sha256": "8a5680cdd25f9d5d6ee547fcf16c57c085013918c14c8e49b5066104b97b4d92"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-edb4374c491ce177.ttf",
+    "copy": "ui\\images\\assets\\ui-edb4374c491ce177.ttf",
+    "sha256": "27bccdc7ead7eb5754e950c4c4eaa9a35f2b4ae1a29164921017285bebb82a02"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-f0d95df972a38d4e.woff",
+    "copy": "ui\\images\\assets\\ui-f0d95df972a38d4e.woff",
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "copy": "ui\\images\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "copy": "ui\\images\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "copy": "ui\\images\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "sha256": "a5bce6cd4a7060aa0a76e4b45653c371bfb48c0a03b5c6721d916f6cedde5fae"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-fb987ed96e609fca.svg",
+    "copy": "ui\\images\\assets\\ui-fb987ed96e609fca.svg",
+    "sha256": "6f515d3d93edcaf4239be6434491bfd186aae3f6ebbf1111ead1cc1f90384c26"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-fbc1cd28846d677c.woff",
+    "copy": "ui\\images\\assets\\ui-fbc1cd28846d677c.woff",
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "copy": "ui\\images\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "copy": "ui\\images\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\assets\\ui-feeb5e341018c5d4.ttf",
+    "copy": "ui\\images\\assets\\ui-feeb5e341018c5d4.ttf",
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "copy": "ui\\images\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "sha256": "a17533008f0872fea6e247997b85db0bc190476e7c3e1543ed7db1f139c58001"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "copy": "ui\\images\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "sha256": "f47b9775e7f76af5b6a774d34613b7de16ba5635bbec89d004be017218e63d4a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "copy": "ui\\images\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "sha256": "0965ba93aee650394c0564f2e842c89158315f274632c11aaa9c8fc470168093"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\audioReaction.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\audioReaction.ts",
+    "sha256": "1bacf364e589d7c6477de5e3cc916c08b2a27eec9a54e251060f3cfa708f6a9a"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\colors.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\colors.ts",
+    "sha256": "50e7e96930fbaedcbf9d93a911bd15df6c723a166fd7699be615d43bd1f4d257"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\defaults.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\defaults.ts",
+    "sha256": "00d4d7cbe7d85df679fa559508dddc62fca87ae4b92c4eb9697fc1cc15fdd89b"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\math.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\math.ts",
+    "sha256": "39beba10551421833686735d60f8fb89ac92d3a2f3873b7468c35ee57b75d696"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\motion.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\motion.ts",
+    "sha256": "238fc956c6639572cf8dd444eab385f0856487aade96fd652ca732717f022eb3"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\orchestration.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\orchestration.ts",
+    "sha256": "e6f5e290c7d3e987e387c0154c74dd978182525703eb9e220c3a5c042bfa40f6"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\preset.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\preset.ts",
+    "sha256": "416478b6d28cfbb3a393e1aab8f8017c3e494226069b47f64d4bf12f089b3a08"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "sha256": "7b11ed542f3319dd19b55a69e913fb17c0f286a5ac7e4eade61c1babcd2e5313"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\shapes.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\shapes.ts",
+    "sha256": "3261e642f8d92ad9d593f52d3c510c02796f9e1ecc8f7367d1f5468f7fc6a3b2"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\engine\\timeline.ts",
+    "copy": "ui\\images\\native-source\\morph\\engine\\timeline.ts",
+    "sha256": "259fd29555340de95aab91416599cb8656141c734cf50f96a1c005492e4670c1"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "copy": "ui\\images\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "sha256": "dccb0af513d6d1b1e4b0c43d620f39bc52668a2d646e039cbc8b263e092b5941"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\morph\\types\\morph.ts",
+    "copy": "ui\\images\\native-source\\morph\\types\\morph.ts",
+    "sha256": "e353074008ef9eb2cf272b7b848d1520fa68f91eba700edef444c372211ed1ef"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "copy": "ui\\images\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "sha256": "cbe6345e409beee83c15c7945c7172caad1d927571ce99b52aa7084fa86e1db9"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "copy": "ui\\images\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "sha256": "92b13bc050f29d882764f46dee8bc15457e1f65c52aeafd7d88db69549df1f29"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "copy": "ui\\images\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "sha256": "495f1c7b863d4cfe6a9eb2670049de427682ec0d7252635a4394d6422fc3e9dc"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "copy": "ui\\images\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "sha256": "cc4d9ba902ce1ab805f3e512a9573dd16237dfc263fd6216ffaf743e6adb81ee"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "copy": "ui\\images\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "sha256": "6ed27133f62bcb10e30c73e0fab232aa1132064a4736247a71ce0d87f3d26a92"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "copy": "ui\\images\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "sha256": "bc1c163b744f9dceb78e8958d9f2d0fbe0e7b173c3c9fc1bc2288b7cf3cb25d5"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\ui\\images\\compositions\\components\\ui-focus-zoom.html",
+    "copy": "ui\\images\\compositions\\components\\ui-focus-zoom.html",
+    "sha256": "68497eaa3d003e7f668b8c8dfba1405be4b7fa923b00f383e67e51d1f8d2e03c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\asset-provenance.json",
+    "copy": "ui\\music\\asset-provenance.json",
+    "sha256": "03a05fd7a56473897bc5aed3601cccf213b82b0f7acb128fe826ef49e2e94fea"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\build-board.cjs",
+    "copy": "ui\\music\\build-board.cjs",
+    "sha256": "5a84e6bc9698c26e758f78e26ca9044559029dab639e92b87c0ba8943ebd31a0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\build-native.cjs",
+    "copy": "ui\\music\\build-native.cjs",
+    "sha256": "dc2886e3422776e53807cb74eaffbe9f37725c85c98083b445ec8456248041c7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\content.json",
+    "copy": "ui\\music\\content.json",
+    "sha256": "fc5f4c3b0aa38ff2a73494bba452ff6f708b7253dafd6d73f5bc01a2ed1a3d61"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\cursor.js",
+    "copy": "ui\\music\\cursor.js",
+    "sha256": "f86a0e144bee939759806b9a5ba56196da999fb286c5aefb03e71e91d0a6542f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\film.css",
+    "copy": "ui\\music\\film.css",
+    "sha256": "a10b91d978b4fe5a8e045bc9d5078e7973e431f775675f4507cfc10496a7e21e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\hyperframes.json",
+    "copy": "ui\\music\\hyperframes.json",
+    "sha256": "dbf2f4cc5995444f24b60cf999a892cda79cc83ff5e0eae694a6f4b1054ea44f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\hyperframes.lock.json",
+    "copy": "ui\\music\\hyperframes.lock.json",
+    "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\index.html",
+    "copy": "ui\\music\\index.html",
+    "sha256": "11273eff9121c0fca143524ac9b41026642c9e755c3a92dcf3e963064154c49f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\index.motion.json",
+    "copy": "ui\\music\\index.motion.json",
+    "sha256": "1e3c99b7e69bde7b061c9bc87676c0d2c74646812ce16a7535a211958ac55e95"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\interactions.css",
+    "copy": "ui\\music\\interactions.css",
+    "sha256": "ae37727bbb5dad03a082f0f818ae40d33d8c6de2f900da5923136c18f6ee9e15"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\interactions.js",
+    "copy": "ui\\music\\interactions.js",
+    "sha256": "f48b10a69c7e01d6f92593a524277dff425a1acbd27dccc01194d5e9cdec8026"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\interactions.json",
+    "copy": "ui\\music\\interactions.json",
+    "sha256": "f12f68972548495c60ef350263d89e18713fe7995db0f67e01b18fd0dfe91f10"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\morph.js",
+    "copy": "ui\\music\\morph.js",
+    "sha256": "11c3ae24d4c2fec7f332b09d92b7220126843ab8e30a76aa3507fac1cf147cdf"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\music-placeholder.js",
+    "copy": "ui\\music\\music-placeholder.js",
+    "sha256": "6bb18fd36827bc705c33b67ca75d3de6451a27ca58b6328c731b6a013a35f355"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\music-scene.js",
+    "copy": "ui\\music\\music-scene.js",
+    "sha256": "3d3d6e792eeaf4dc26715fd05ea1ff2d1c1749e95a4eab32bee1cd410c7cdb26"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-engine.js",
+    "copy": "ui\\music\\native-engine.js",
+    "sha256": "66a5ab3cabf70d67a0f81cd1976bacac4f86a8be2639f16ade8251c9c35147a1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-provenance.json",
+    "copy": "ui\\music\\native-provenance.json",
+    "sha256": "45956510e7da2c55f0540c538c6eb2d29ea348161d927f32481ae2af956362c9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-ui.json",
+    "copy": "ui\\music\\native-ui.json",
+    "sha256": "4959354b7e6c9c583a957ab147389149c1d7eb5352f634ce51e89f85b03c94a3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\package.json",
+    "copy": "ui\\music\\package.json",
+    "sha256": "c149915de9c4ddf7e3752b58818733b513f903e71b84f47e0e103eb28c086dee"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\placeholder.js",
+    "copy": "ui\\music\\placeholder.js",
+    "sha256": "c5bacc9887387e906a370828ae015b6028841ef6d4de720edabeaeddf7600ce5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\presentation-spec.json",
+    "copy": "ui\\music\\presentation-spec.json",
+    "sha256": "69220ab82aa398e7e5a9abf9dae062e3676d36561acf8c61a5c7c9fd17a2c585"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\PRESENTATION.md",
+    "copy": "ui\\music\\PRESENTATION.md",
+    "sha256": "608968252cf5582fde0b0b7959accc7adb15e34c0d9eab45a860c5f6237a5e10"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\preview-helper.cjs",
+    "copy": "ui\\music\\preview-helper.cjs",
+    "sha256": "00093d9ec8e46f6b6cc30887bab21fbd2109690526d4192549bf1f5eeb4105ec"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\PROVENANCE.json",
+    "copy": "ui\\music\\PROVENANCE.json",
+    "sha256": "12d1d1c76e3da02346932f4ca2057cdc4f3ef2ffe645c14abc76742dc500d6a2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\README.md",
+    "copy": "ui\\music\\README.md",
+    "sha256": "e8cd94b1db7c6121e2871d0fa28bfe4b2fa8eb38cb6a7fd735c4bed96a6c1b2c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\scene.js",
+    "copy": "ui\\music\\scene.js",
+    "sha256": "bca7276233d8eac27c2767ceb8fd368f7b724ab43603a28c146c42174cebf843"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\sync-source.cjs",
+    "copy": "ui\\music\\sync-source.cjs",
+    "sha256": "7fa05eba7056d53e445693364f4de6e6d385979324f8b5a1efee9828a858d562"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\timing.json",
+    "copy": "ui\\music\\timing.json",
+    "sha256": "5e343cf132964e41693ad93a2cffa2ccde6ec51d1f3b14d4c3a6a7e751b6b42b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\ui.css",
+    "copy": "ui\\music\\ui.css",
+    "sha256": "572fb07283cc67719509cf312d37e7bb1b1f08417cded526760a6e3b37afb768"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\board.json",
+    "copy": "ui\\music\\artwork\\board.json",
+    "sha256": "488b74568a94ff88e734394a9378ff0c212082886f285ddee0f5d8b67db98e26"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\board.png",
+    "copy": "ui\\music\\artwork\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\board.svg",
+    "copy": "ui\\music\\artwork\\board.svg",
+    "sha256": "90c218b33242618bcfa65f987a50340d13437f15042ed5cda98576b8ed22ae2f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\collection.png",
+    "copy": "ui\\music\\artwork\\collection.png",
+    "sha256": "232ddfa85807d73cc52d64c7b1ac86a91590f71489f294423803bfa54df6957e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\condensation.png",
+    "copy": "ui\\music\\artwork\\condensation.png",
+    "sha256": "8c2b31a12d54e77bd0352af1400b211c0dd15ff4fab52e43c72d638c7fd37856"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\evaporation.png",
+    "copy": "ui\\music\\artwork\\evaporation.png",
+    "sha256": "d663a8b88cfdeab19c24e034236f102be970451485199d24c254afecef34f673"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\precipitation.png",
+    "copy": "ui\\music\\artwork\\precipitation.png",
+    "sha256": "c9f5c20b5ebe662a791272da4c4bd3b2a1ca2e820525919769f86ae54251b4ed"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\prompts.json",
+    "copy": "ui\\music\\artwork\\prompts.json",
+    "sha256": "108eb59892cdec78a6d14a7c3f1a9c9a797772f7fb1c3bd3c4b1eea6ceeb5629"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\artwork\\README.md",
+    "copy": "ui\\music\\artwork\\README.md",
+    "sha256": "220a86d44cbd326bd95ec5e3ecc496548987c563e5779bce37ab557c58a62e30"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\board.png",
+    "copy": "ui\\music\\assets\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\gsap.min.js",
+    "copy": "ui\\music\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\segoeui.ttf",
+    "copy": "ui\\music\\assets\\segoeui.ttf",
+    "sha256": "8134dbcd09e7b123c9a7f229d49cffbcb01352cc72ea5e1076b65d0dca9f73cd"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\segoeuib.ttf",
+    "copy": "ui\\music\\assets\\segoeuib.ttf",
+    "sha256": "aeb9e4a6ec5cc59f4d72df8189032d7dbb28f45161cf1552174818b5465dac4e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\silent-16.flac",
+    "copy": "ui\\music\\assets\\silent-16.flac",
+    "sha256": "bed140f9e7d94837cddb879740ae441c45a05043ab1074825c81ede23eb8d45a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-01bbf77604073452.woff",
+    "copy": "ui\\music\\assets\\ui-01bbf77604073452.woff",
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-04212a88cdedd926.ttf",
+    "copy": "ui\\music\\assets\\ui-04212a88cdedd926.ttf",
+    "sha256": "4aaf8c5b661a386998c2e70cf2b87e2440f5404e0b8fd81164f0413fb3435ec6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-042ed20b2606a587.ttf",
+    "copy": "ui\\music\\assets\\ui-042ed20b2606a587.ttf",
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "copy": "ui\\music\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-079de16bf7c48d67.woff",
+    "copy": "ui\\music\\assets\\ui-079de16bf7c48d67.woff",
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-0c9743dfe3107946.ttf",
+    "copy": "ui\\music\\assets\\ui-0c9743dfe3107946.ttf",
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-0e1417945fc5ec0a.woff",
+    "copy": "ui\\music\\assets\\ui-0e1417945fc5ec0a.woff",
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-11856af8391183cf.svg",
+    "copy": "ui\\music\\assets\\ui-11856af8391183cf.svg",
+    "sha256": "3cb262e0873a90f4269904db86171122edef39061bb426bfb49ac8616f568e3a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "copy": "ui\\music\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "sha256": "fbb0139e6607ff068be157c954372498a2f29ae968ffabd1ac07aeab6e617796"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-16930d9eadd450ac.woff2",
+    "copy": "ui\\music\\assets\\ui-16930d9eadd450ac.woff2",
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-1fac1c6abc946601.woff2",
+    "copy": "ui\\music\\assets\\ui-1fac1c6abc946601.woff2",
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-2030cfefcd9449d3.svg",
+    "copy": "ui\\music\\assets\\ui-2030cfefcd9449d3.svg",
+    "sha256": "9461adc4d857b729b67920d6998a6111ece6e68021d53c70e764f24b28ab62d3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-27581076e9b62169.ttf",
+    "copy": "ui\\music\\assets\\ui-27581076e9b62169.ttf",
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-334330ec96059d79.svg",
+    "copy": "ui\\music\\assets\\ui-334330ec96059d79.svg",
+    "sha256": "f32feca8c9aa7ae9411dca42e13acecb929db31e18d94b097e163ab805661ea9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-33f68857569c94f7.ttf",
+    "copy": "ui\\music\\assets\\ui-33f68857569c94f7.ttf",
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-35fd302b1cda0de3.woff2",
+    "copy": "ui\\music\\assets\\ui-35fd302b1cda0de3.woff2",
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-3a02119ba604667a.woff",
+    "copy": "ui\\music\\assets\\ui-3a02119ba604667a.woff",
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-3fe15be7a5d21f9a.png",
+    "copy": "ui\\music\\assets\\ui-3fe15be7a5d21f9a.png",
+    "sha256": "b3adc77604235bfb5828746be45aeccf183b16449ccf82a41992d4bb3e0fcb41"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-403a963b774fed87.ttf",
+    "copy": "ui\\music\\assets\\ui-403a963b774fed87.ttf",
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-40633af310ba20d7.woff2",
+    "copy": "ui\\music\\assets\\ui-40633af310ba20d7.woff2",
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-428c9194c6883e82.woff",
+    "copy": "ui\\music\\assets\\ui-428c9194c6883e82.woff",
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-46f8feae9eeceb38.woff",
+    "copy": "ui\\music\\assets\\ui-46f8feae9eeceb38.woff",
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-474ab134a06e6ecb.svg",
+    "copy": "ui\\music\\assets\\ui-474ab134a06e6ecb.svg",
+    "sha256": "d2f8a04c958718c2a4634c1da81c03d185b4163a1219364b1b7bf8ffd518f88d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-4acb323794ec8366.svg",
+    "copy": "ui\\music\\assets\\ui-4acb323794ec8366.svg",
+    "sha256": "4fcebc7d5b729bf669f39f22bcbd30916c85afce7272115b5784d63a8c8b4697"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-4ba4184e099e3618.woff",
+    "copy": "ui\\music\\assets\\ui-4ba4184e099e3618.woff",
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "copy": "ui\\music\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "sha256": "15256405ecb0d880678833a582760efad538ab2932318b52c8105b267d159459"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-4cc0f469d714eed3.ttf",
+    "copy": "ui\\music\\assets\\ui-4cc0f469d714eed3.ttf",
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-4efd4c2ce1078282.ttf",
+    "copy": "ui\\music\\assets\\ui-4efd4c2ce1078282.ttf",
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-506c8edeefb76f25.svg",
+    "copy": "ui\\music\\assets\\ui-506c8edeefb76f25.svg",
+    "sha256": "cdd8eef9c4fb6b16ee07321d527201325989459a16ab61a00e921401f2a46104"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-517447ae89b23fcb.svg",
+    "copy": "ui\\music\\assets\\ui-517447ae89b23fcb.svg",
+    "sha256": "d5781f09be6ce2e5207035201e54a1ff9d9824226d91b6895f7ec63302c622d5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-53feab1a07f70d58.svg",
+    "copy": "ui\\music\\assets\\ui-53feab1a07f70d58.svg",
+    "sha256": "449a4ffff6f5855212363e5ccde6bab536784e65686120b0b6eda2219e154b1d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-54042cae7b4b8d38.ttf",
+    "copy": "ui\\music\\assets\\ui-54042cae7b4b8d38.ttf",
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-55f5456481d46cb8.woff2",
+    "copy": "ui\\music\\assets\\ui-55f5456481d46cb8.woff2",
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-5868f33465fa8e8d.ttf",
+    "copy": "ui\\music\\assets\\ui-5868f33465fa8e8d.ttf",
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-588eea85ea0dd2ee.svg",
+    "copy": "ui\\music\\assets\\ui-588eea85ea0dd2ee.svg",
+    "sha256": "59e26d46dc5bb10753e68cd347f44604d311c3e0f373519cf01ac44c9206283a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-6072b42bd45da177.svg",
+    "copy": "ui\\music\\assets\\ui-6072b42bd45da177.svg",
+    "sha256": "032c0268b347e66229c0c4f2f8b386299adf809b891588125ab99bafad472211"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-609ecd356f0d65e8.svg",
+    "copy": "ui\\music\\assets\\ui-609ecd356f0d65e8.svg",
+    "sha256": "814f64bee40fffb19fe268fb92c765b4f46592cb6737c0ed9e6ad9e1e27a8203"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-6516249794aba90e.png",
+    "copy": "ui\\music\\assets\\ui-6516249794aba90e.png",
+    "sha256": "5fd0ef9b50119a5dba1f27c763039881a9df559546f3ff7c8c56ee6e7fd41c75"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "copy": "ui\\music\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-68657898fa4748d5.woff",
+    "copy": "ui\\music\\assets\\ui-68657898fa4748d5.woff",
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "copy": "ui\\music\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-6c92f36725cdb797.woff",
+    "copy": "ui\\music\\assets\\ui-6c92f36725cdb797.woff",
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-6e454084cf33fbc5.svg",
+    "copy": "ui\\music\\assets\\ui-6e454084cf33fbc5.svg",
+    "sha256": "a40c247d4a9535e6eece784426c712d2bcc99bcdaefabea49bc080688b814710"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-705a8e211b857886.ttf",
+    "copy": "ui\\music\\assets\\ui-705a8e211b857886.ttf",
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-75d145711d99c9a7.ttf",
+    "copy": "ui\\music\\assets\\ui-75d145711d99c9a7.ttf",
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-772c47f708bcc680.ttf",
+    "copy": "ui\\music\\assets\\ui-772c47f708bcc680.ttf",
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-7b709dfe41090aa5.woff2",
+    "copy": "ui\\music\\assets\\ui-7b709dfe41090aa5.woff2",
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-7e31250df6f94598.svg",
+    "copy": "ui\\music\\assets\\ui-7e31250df6f94598.svg",
+    "sha256": "2fb354e219c3bdf4afa587a4e20e490f63e9bdccd6418ca06c908dbcf3ec2af8"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "copy": "ui\\music\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "copy": "ui\\music\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "sha256": "cce4405e885544376ce20621001274e2ac9080a171ad4d2e097bf04d790157ea"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "copy": "ui\\music\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-830365f9a585cd84.svg",
+    "copy": "ui\\music\\assets\\ui-830365f9a585cd84.svg",
+    "sha256": "6abf65ff52f0175a1ba1b7ee4e0d668164f83759575b68fc827df853cd918b55"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "copy": "ui\\music\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-84ebe404814ce7a6.woff",
+    "copy": "ui\\music\\assets\\ui-84ebe404814ce7a6.woff",
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "copy": "ui\\music\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "copy": "ui\\music\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "sha256": "c33901cefd4e60a13347a6a934b8a0e45948e2137f66be3e2330ee529417952b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-957a32d789bfe0f3.woff",
+    "copy": "ui\\music\\assets\\ui-957a32d789bfe0f3.woff",
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-ab099da400a20ae0.ttf",
+    "copy": "ui\\music\\assets\\ui-ab099da400a20ae0.ttf",
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-ad76cba7e642e57a.svg",
+    "copy": "ui\\music\\assets\\ui-ad76cba7e642e57a.svg",
+    "sha256": "b4b65507fb30e56d7cbf49f6b123d22b02b88b3d15f983c9fbabc97a956c2547"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-ae35178a562cdc15.svg",
+    "copy": "ui\\music\\assets\\ui-ae35178a562cdc15.svg",
+    "sha256": "33c7974b672f4f784355748b4f8f93606e08c640ff1e113301205a079ae30acc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-b1054a2e4f7098c8.woff",
+    "copy": "ui\\music\\assets\\ui-b1054a2e4f7098c8.woff",
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-b1202e603398cff4.woff2",
+    "copy": "ui\\music\\assets\\ui-b1202e603398cff4.woff2",
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-b2976f9243f71b95.woff2",
+    "copy": "ui\\music\\assets\\ui-b2976f9243f71b95.woff2",
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "copy": "ui\\music\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-bb2e65646478d6d9.ttf",
+    "copy": "ui\\music\\assets\\ui-bb2e65646478d6d9.ttf",
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "copy": "ui\\music\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-c02b0bd1d5809347.woff2",
+    "copy": "ui\\music\\assets\\ui-c02b0bd1d5809347.woff2",
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-c175463995e28f9a.ttf",
+    "copy": "ui\\music\\assets\\ui-c175463995e28f9a.ttf",
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-c44d7c16e9f740d7.svg",
+    "copy": "ui\\music\\assets\\ui-c44d7c16e9f740d7.svg",
+    "sha256": "2b97074ff7a94cd4526139ad884b4a8193265d193d8a40e660eefa3318063ea0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "copy": "ui\\music\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "copy": "ui\\music\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "sha256": "79343dc641a2e8d48a703a4667b71fc8dc6565cc8ce47dfc34fc52c12aadbf38"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-cff599a0864fa1cb.ttf",
+    "copy": "ui\\music\\assets\\ui-cff599a0864fa1cb.ttf",
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "copy": "ui\\music\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "copy": "ui\\music\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "copy": "ui\\music\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-d97801fba9b65d22.woff",
+    "copy": "ui\\music\\assets\\ui-d97801fba9b65d22.woff",
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-dc450f8418581ae0.svg",
+    "copy": "ui\\music\\assets\\ui-dc450f8418581ae0.svg",
+    "sha256": "0bb0c02d1de981861d3d604c562b9c138aaaff792e5d4b00c84335263744ab05"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-dc785c981bf76198.woff2",
+    "copy": "ui\\music\\assets\\ui-dc785c981bf76198.woff2",
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-ded26aa3628fb0d8.woff",
+    "copy": "ui\\music\\assets\\ui-ded26aa3628fb0d8.woff",
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "copy": "ui\\music\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "sha256": "1169f6e36b2daf50c95a9a8c6375b762877f6ff0351be5d62771552a29e915bc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "copy": "ui\\music\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "sha256": "8a5680cdd25f9d5d6ee547fcf16c57c085013918c14c8e49b5066104b97b4d92"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-edb4374c491ce177.ttf",
+    "copy": "ui\\music\\assets\\ui-edb4374c491ce177.ttf",
+    "sha256": "27bccdc7ead7eb5754e950c4c4eaa9a35f2b4ae1a29164921017285bebb82a02"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-f0d95df972a38d4e.woff",
+    "copy": "ui\\music\\assets\\ui-f0d95df972a38d4e.woff",
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "copy": "ui\\music\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "copy": "ui\\music\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "copy": "ui\\music\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "sha256": "a5bce6cd4a7060aa0a76e4b45653c371bfb48c0a03b5c6721d916f6cedde5fae"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-fb987ed96e609fca.svg",
+    "copy": "ui\\music\\assets\\ui-fb987ed96e609fca.svg",
+    "sha256": "6f515d3d93edcaf4239be6434491bfd186aae3f6ebbf1111ead1cc1f90384c26"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-fbc1cd28846d677c.woff",
+    "copy": "ui\\music\\assets\\ui-fbc1cd28846d677c.woff",
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "copy": "ui\\music\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "copy": "ui\\music\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\assets\\ui-feeb5e341018c5d4.ttf",
+    "copy": "ui\\music\\assets\\ui-feeb5e341018c5d4.ttf",
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "copy": "ui\\music\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "sha256": "a17533008f0872fea6e247997b85db0bc190476e7c3e1543ed7db1f139c58001"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "copy": "ui\\music\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "sha256": "f47b9775e7f76af5b6a774d34613b7de16ba5635bbec89d004be017218e63d4a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "copy": "ui\\music\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "sha256": "0965ba93aee650394c0564f2e842c89158315f274632c11aaa9c8fc470168093"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\audioReaction.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\audioReaction.ts",
+    "sha256": "1bacf364e589d7c6477de5e3cc916c08b2a27eec9a54e251060f3cfa708f6a9a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\colors.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\colors.ts",
+    "sha256": "50e7e96930fbaedcbf9d93a911bd15df6c723a166fd7699be615d43bd1f4d257"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\defaults.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\defaults.ts",
+    "sha256": "00d4d7cbe7d85df679fa559508dddc62fca87ae4b92c4eb9697fc1cc15fdd89b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\math.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\math.ts",
+    "sha256": "39beba10551421833686735d60f8fb89ac92d3a2f3873b7468c35ee57b75d696"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\motion.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\motion.ts",
+    "sha256": "238fc956c6639572cf8dd444eab385f0856487aade96fd652ca732717f022eb3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\orchestration.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\orchestration.ts",
+    "sha256": "e6f5e290c7d3e987e387c0154c74dd978182525703eb9e220c3a5c042bfa40f6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\preset.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\preset.ts",
+    "sha256": "416478b6d28cfbb3a393e1aab8f8017c3e494226069b47f64d4bf12f089b3a08"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "sha256": "7b11ed542f3319dd19b55a69e913fb17c0f286a5ac7e4eade61c1babcd2e5313"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\shapes.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\shapes.ts",
+    "sha256": "3261e642f8d92ad9d593f52d3c510c02796f9e1ecc8f7367d1f5468f7fc6a3b2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\engine\\timeline.ts",
+    "copy": "ui\\music\\native-source\\morph\\engine\\timeline.ts",
+    "sha256": "259fd29555340de95aab91416599cb8656141c734cf50f96a1c005492e4670c1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "copy": "ui\\music\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "sha256": "dccb0af513d6d1b1e4b0c43d620f39bc52668a2d646e039cbc8b263e092b5941"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\morph\\types\\morph.ts",
+    "copy": "ui\\music\\native-source\\morph\\types\\morph.ts",
+    "sha256": "e353074008ef9eb2cf272b7b848d1520fa68f91eba700edef444c372211ed1ef"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "copy": "ui\\music\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "sha256": "cbe6345e409beee83c15c7945c7172caad1d927571ce99b52aa7084fa86e1db9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\Music.module.css",
+    "copy": "ui\\music\\native-source\\chat\\music\\Music.module.css",
+    "sha256": "d9a1df6d88bf7d5ecc2105b6a9c9bfcdded5ea591e02b15d9f0de95420f06ab6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\MusicCard.tsx",
+    "copy": "ui\\music\\native-source\\chat\\music\\MusicCard.tsx",
+    "sha256": "2933b17e75b18449b6536f5feefd0ef5f97c9d78c1ffe83472730072af2da6aa"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\MusicGenerationPlaceholder.module.css",
+    "copy": "ui\\music\\native-source\\chat\\music\\MusicGenerationPlaceholder.module.css",
+    "sha256": "b601ce42c691d2c5e4fc91a8c788173f8a3bf0ab1cd35bf4bbbe8514ef38ed44"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\MusicGenerationPlaceholder.tsx",
+    "copy": "ui\\music\\native-source\\chat\\music\\MusicGenerationPlaceholder.tsx",
+    "sha256": "f04b8a1311a7e497f8dbcf63fcb0f36b864c95ae81fe887ccb42ac2954939f9d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\MusicOptionsPanel.tsx",
+    "copy": "ui\\music\\native-source\\chat\\music\\MusicOptionsPanel.tsx",
+    "sha256": "b6e1b308ec59d8f6d037cb1a676170eb030c428071de505e3013fa2c426b98f1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\music\\playback.ts",
+    "copy": "ui\\music\\native-source\\chat\\music\\playback.ts",
+    "sha256": "8f2da4470b763b1f015fcccb79a3e936b7a59d85350d3456a7783bb392a8bb61"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "copy": "ui\\music\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "sha256": "92b13bc050f29d882764f46dee8bc15457e1f65c52aeafd7d88db69549df1f29"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "copy": "ui\\music\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "sha256": "495f1c7b863d4cfe6a9eb2670049de427682ec0d7252635a4394d6422fc3e9dc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "copy": "ui\\music\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "sha256": "cc4d9ba902ce1ab805f3e512a9573dd16237dfc263fd6216ffaf743e6adb81ee"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "copy": "ui\\music\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "sha256": "6ed27133f62bcb10e30c73e0fab232aa1132064a4736247a71ce0d87f3d26a92"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "copy": "ui\\music\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "sha256": "bc1c163b744f9dceb78e8958d9f2d0fbe0e7b173c3c9fc1bc2288b7cf3cb25d5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v005\\music-project\\compositions\\components\\ui-focus-zoom.html",
+    "copy": "ui\\music\\compositions\\components\\ui-focus-zoom.html",
+    "sha256": "ac2753e96a12f0620aa4d0fdcf36d9afd32489f672d85570d9bcb2524b6fe512"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\asset-provenance.json",
+    "copy": "ui\\video\\asset-provenance.json",
+    "sha256": "03a05fd7a56473897bc5aed3601cccf213b82b0f7acb128fe826ef49e2e94fea"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\build-board.cjs",
+    "copy": "ui\\video\\build-board.cjs",
+    "sha256": "5a84e6bc9698c26e758f78e26ca9044559029dab639e92b87c0ba8943ebd31a0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\build-native.cjs",
+    "copy": "ui\\video\\build-native.cjs",
+    "sha256": "dc2886e3422776e53807cb74eaffbe9f37725c85c98083b445ec8456248041c7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\content.json",
+    "copy": "ui\\video\\content.json",
+    "sha256": "fc5f4c3b0aa38ff2a73494bba452ff6f708b7253dafd6d73f5bc01a2ed1a3d61"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\cursor.js",
+    "copy": "ui\\video\\cursor.js",
+    "sha256": "f86a0e144bee939759806b9a5ba56196da999fb286c5aefb03e71e91d0a6542f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\film.css",
+    "copy": "ui\\video\\film.css",
+    "sha256": "a10b91d978b4fe5a8e045bc9d5078e7973e431f775675f4507cfc10496a7e21e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\hyperframes.json",
+    "copy": "ui\\video\\hyperframes.json",
+    "sha256": "dbf2f4cc5995444f24b60cf999a892cda79cc83ff5e0eae694a6f4b1054ea44f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\hyperframes.lock.json",
+    "copy": "ui\\video\\hyperframes.lock.json",
+    "sha256": "1553175953f1e9c64a7dbd7b5af6ae33dfef37da26e2dffe603772eda3b9c1a7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\index.html",
+    "copy": "ui\\video\\index.html",
+    "sha256": "af163370cf48f62c3d9887529ddc13a6075404bd39b7c31fcc3da1b6de1d1eb2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\index.motion.json",
+    "copy": "ui\\video\\index.motion.json",
+    "sha256": "04965b5dd4d362bf85596456742ccb75f5e787bbf56be40384c7cb3fe44a5336"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\interactions.css",
+    "copy": "ui\\video\\interactions.css",
+    "sha256": "ae37727bbb5dad03a082f0f818ae40d33d8c6de2f900da5923136c18f6ee9e15"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\interactions.js",
+    "copy": "ui\\video\\interactions.js",
+    "sha256": "f48b10a69c7e01d6f92593a524277dff425a1acbd27dccc01194d5e9cdec8026"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\interactions.json",
+    "copy": "ui\\video\\interactions.json",
+    "sha256": "bb53ce883af5ef2a788a40b8138bab1d0dca4d4d8a19730219456ba9c0c147f5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\morph.js",
+    "copy": "ui\\video\\morph.js",
+    "sha256": "11c3ae24d4c2fec7f332b09d92b7220126843ab8e30a76aa3507fac1cf147cdf"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-engine.js",
+    "copy": "ui\\video\\native-engine.js",
+    "sha256": "66a5ab3cabf70d67a0f81cd1976bacac4f86a8be2639f16ade8251c9c35147a1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-provenance.json",
+    "copy": "ui\\video\\native-provenance.json",
+    "sha256": "45956510e7da2c55f0540c538c6eb2d29ea348161d927f32481ae2af956362c9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-ui.json",
+    "copy": "ui\\video\\native-ui.json",
+    "sha256": "dffa402c65d51c954a2c8e7372f096f82673fd71b4e7c2c5bacf1d9eee09f611"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\package.json",
+    "copy": "ui\\video\\package.json",
+    "sha256": "31030bdaeed1a68e1da7e9a51949925b6aace6801a54cf35741764fd7f5213b7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\placeholder.js",
+    "copy": "ui\\video\\placeholder.js",
+    "sha256": "c5bacc9887387e906a370828ae015b6028841ef6d4de720edabeaeddf7600ce5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\presentation-spec.json",
+    "copy": "ui\\video\\presentation-spec.json",
+    "sha256": "69220ab82aa398e7e5a9abf9dae062e3676d36561acf8c61a5c7c9fd17a2c585"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\presentation.css",
+    "copy": "ui\\video\\presentation.css",
+    "sha256": "01abfc5e8aaa71404fc68f911ceae82ea2210e5c25da2f828b8ce8df5a6f5044"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\presentation.js",
+    "copy": "ui\\video\\presentation.js",
+    "sha256": "b41ba59435fbda97806720fd8feb881d8437c773e743e0cfbe1fb8d2b5f106b3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\PRESENTATION.md",
+    "copy": "ui\\video\\PRESENTATION.md",
+    "sha256": "608968252cf5582fde0b0b7959accc7adb15e34c0d9eab45a860c5f6237a5e10"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\preview-helper.cjs",
+    "copy": "ui\\video\\preview-helper.cjs",
+    "sha256": "00093d9ec8e46f6b6cc30887bab21fbd2109690526d4192549bf1f5eeb4105ec"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\PROVENANCE.json",
+    "copy": "ui\\video\\PROVENANCE.json",
+    "sha256": "1e7bb8560a67813d89689b998f5e668a8587c421bd8fd3583c15135b3f304ea6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\README.md",
+    "copy": "ui\\video\\README.md",
+    "sha256": "8a6277182b8807526e93a79ee4bc8865c4c68bf8f75175e5e3b6e69b919326d3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\scene.js",
+    "copy": "ui\\video\\scene.js",
+    "sha256": "bca7276233d8eac27c2767ceb8fd368f7b724ab43603a28c146c42174cebf843"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\sync-source.cjs",
+    "copy": "ui\\video\\sync-source.cjs",
+    "sha256": "cdae92381ade325eb5186cdd00a3c52a9f3d91f35f20862fe19cee201078a71e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\timing.json",
+    "copy": "ui\\video\\timing.json",
+    "sha256": "88883b889a0ec2b9cabe79befb482612175cf325a5b4a0963eeec1f0e621f1f0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\ui.css",
+    "copy": "ui\\video\\ui.css",
+    "sha256": "572fb07283cc67719509cf312d37e7bb1b1f08417cded526760a6e3b37afb768"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\video-scene.js",
+    "copy": "ui\\video\\video-scene.js",
+    "sha256": "5f1cab33b72808431c585b1514f21cdb4108d951043178f894d98447652648af"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\video.css",
+    "copy": "ui\\video\\video.css",
+    "sha256": "96907bf530fdf77943f76f9e193eefa85bc40ccaf43a904dd34a33151b84cddc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\board.json",
+    "copy": "ui\\video\\artwork\\board.json",
+    "sha256": "488b74568a94ff88e734394a9378ff0c212082886f285ddee0f5d8b67db98e26"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\board.png",
+    "copy": "ui\\video\\artwork\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\board.svg",
+    "copy": "ui\\video\\artwork\\board.svg",
+    "sha256": "90c218b33242618bcfa65f987a50340d13437f15042ed5cda98576b8ed22ae2f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\collection.png",
+    "copy": "ui\\video\\artwork\\collection.png",
+    "sha256": "232ddfa85807d73cc52d64c7b1ac86a91590f71489f294423803bfa54df6957e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\condensation.png",
+    "copy": "ui\\video\\artwork\\condensation.png",
+    "sha256": "8c2b31a12d54e77bd0352af1400b211c0dd15ff4fab52e43c72d638c7fd37856"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\evaporation.png",
+    "copy": "ui\\video\\artwork\\evaporation.png",
+    "sha256": "d663a8b88cfdeab19c24e034236f102be970451485199d24c254afecef34f673"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\precipitation.png",
+    "copy": "ui\\video\\artwork\\precipitation.png",
+    "sha256": "c9f5c20b5ebe662a791272da4c4bd3b2a1ca2e820525919769f86ae54251b4ed"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\prompts.json",
+    "copy": "ui\\video\\artwork\\prompts.json",
+    "sha256": "108eb59892cdec78a6d14a7c3f1a9c9a797772f7fb1c3bd3c4b1eea6ceeb5629"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\artwork\\README.md",
+    "copy": "ui\\video\\artwork\\README.md",
+    "sha256": "220a86d44cbd326bd95ec5e3ecc496548987c563e5779bce37ab557c58a62e30"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\board.png",
+    "copy": "ui\\video\\assets\\board.png",
+    "sha256": "f730e0d45f3c5119be9287beb9203593b8cdd5771473884b9dbd8ce753153598"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\gsap.min.js",
+    "copy": "ui\\video\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\segoeui.ttf",
+    "copy": "ui\\video\\assets\\segoeui.ttf",
+    "sha256": "8134dbcd09e7b123c9a7f229d49cffbcb01352cc72ea5e1076b65d0dca9f73cd"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\segoeuib.ttf",
+    "copy": "ui\\video\\assets\\segoeuib.ttf",
+    "sha256": "aeb9e4a6ec5cc59f4d72df8189032d7dbb28f45161cf1552174818b5465dac4e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\silent-16.flac",
+    "copy": "ui\\video\\assets\\silent-16.flac",
+    "sha256": "bed140f9e7d94837cddb879740ae441c45a05043ab1074825c81ede23eb8d45a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-01bbf77604073452.woff",
+    "copy": "ui\\video\\assets\\ui-01bbf77604073452.woff",
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-04212a88cdedd926.ttf",
+    "copy": "ui\\video\\assets\\ui-04212a88cdedd926.ttf",
+    "sha256": "4aaf8c5b661a386998c2e70cf2b87e2440f5404e0b8fd81164f0413fb3435ec6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-042ed20b2606a587.ttf",
+    "copy": "ui\\video\\assets\\ui-042ed20b2606a587.ttf",
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "copy": "ui\\video\\assets\\ui-0516c49f69c3fe4b.ttf",
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-079de16bf7c48d67.woff",
+    "copy": "ui\\video\\assets\\ui-079de16bf7c48d67.woff",
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-0c9743dfe3107946.ttf",
+    "copy": "ui\\video\\assets\\ui-0c9743dfe3107946.ttf",
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-0e1417945fc5ec0a.woff",
+    "copy": "ui\\video\\assets\\ui-0e1417945fc5ec0a.woff",
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-11856af8391183cf.svg",
+    "copy": "ui\\video\\assets\\ui-11856af8391183cf.svg",
+    "sha256": "3cb262e0873a90f4269904db86171122edef39061bb426bfb49ac8616f568e3a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "copy": "ui\\video\\assets\\ui-164d0f0b67ea9aa8.svg",
+    "sha256": "fbb0139e6607ff068be157c954372498a2f29ae968ffabd1ac07aeab6e617796"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-16930d9eadd450ac.woff2",
+    "copy": "ui\\video\\assets\\ui-16930d9eadd450ac.woff2",
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-1fac1c6abc946601.woff2",
+    "copy": "ui\\video\\assets\\ui-1fac1c6abc946601.woff2",
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-2030cfefcd9449d3.svg",
+    "copy": "ui\\video\\assets\\ui-2030cfefcd9449d3.svg",
+    "sha256": "9461adc4d857b729b67920d6998a6111ece6e68021d53c70e764f24b28ab62d3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-27581076e9b62169.ttf",
+    "copy": "ui\\video\\assets\\ui-27581076e9b62169.ttf",
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-334330ec96059d79.svg",
+    "copy": "ui\\video\\assets\\ui-334330ec96059d79.svg",
+    "sha256": "f32feca8c9aa7ae9411dca42e13acecb929db31e18d94b097e163ab805661ea9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-33f68857569c94f7.ttf",
+    "copy": "ui\\video\\assets\\ui-33f68857569c94f7.ttf",
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-35fd302b1cda0de3.woff2",
+    "copy": "ui\\video\\assets\\ui-35fd302b1cda0de3.woff2",
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-3a02119ba604667a.woff",
+    "copy": "ui\\video\\assets\\ui-3a02119ba604667a.woff",
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-3fe15be7a5d21f9a.png",
+    "copy": "ui\\video\\assets\\ui-3fe15be7a5d21f9a.png",
+    "sha256": "b3adc77604235bfb5828746be45aeccf183b16449ccf82a41992d4bb3e0fcb41"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-403a963b774fed87.ttf",
+    "copy": "ui\\video\\assets\\ui-403a963b774fed87.ttf",
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-40633af310ba20d7.woff2",
+    "copy": "ui\\video\\assets\\ui-40633af310ba20d7.woff2",
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-428c9194c6883e82.woff",
+    "copy": "ui\\video\\assets\\ui-428c9194c6883e82.woff",
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-46f8feae9eeceb38.woff",
+    "copy": "ui\\video\\assets\\ui-46f8feae9eeceb38.woff",
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-474ab134a06e6ecb.svg",
+    "copy": "ui\\video\\assets\\ui-474ab134a06e6ecb.svg",
+    "sha256": "d2f8a04c958718c2a4634c1da81c03d185b4163a1219364b1b7bf8ffd518f88d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-4acb323794ec8366.svg",
+    "copy": "ui\\video\\assets\\ui-4acb323794ec8366.svg",
+    "sha256": "4fcebc7d5b729bf669f39f22bcbd30916c85afce7272115b5784d63a8c8b4697"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-4ba4184e099e3618.woff",
+    "copy": "ui\\video\\assets\\ui-4ba4184e099e3618.woff",
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "copy": "ui\\video\\assets\\ui-4bc66ca90aa111ff.ttf",
+    "sha256": "15256405ecb0d880678833a582760efad538ab2932318b52c8105b267d159459"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-4cc0f469d714eed3.ttf",
+    "copy": "ui\\video\\assets\\ui-4cc0f469d714eed3.ttf",
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-4efd4c2ce1078282.ttf",
+    "copy": "ui\\video\\assets\\ui-4efd4c2ce1078282.ttf",
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-506c8edeefb76f25.svg",
+    "copy": "ui\\video\\assets\\ui-506c8edeefb76f25.svg",
+    "sha256": "cdd8eef9c4fb6b16ee07321d527201325989459a16ab61a00e921401f2a46104"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-517447ae89b23fcb.svg",
+    "copy": "ui\\video\\assets\\ui-517447ae89b23fcb.svg",
+    "sha256": "d5781f09be6ce2e5207035201e54a1ff9d9824226d91b6895f7ec63302c622d5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-53feab1a07f70d58.svg",
+    "copy": "ui\\video\\assets\\ui-53feab1a07f70d58.svg",
+    "sha256": "449a4ffff6f5855212363e5ccde6bab536784e65686120b0b6eda2219e154b1d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-54042cae7b4b8d38.ttf",
+    "copy": "ui\\video\\assets\\ui-54042cae7b4b8d38.ttf",
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-55f5456481d46cb8.woff2",
+    "copy": "ui\\video\\assets\\ui-55f5456481d46cb8.woff2",
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-5868f33465fa8e8d.ttf",
+    "copy": "ui\\video\\assets\\ui-5868f33465fa8e8d.ttf",
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-588eea85ea0dd2ee.svg",
+    "copy": "ui\\video\\assets\\ui-588eea85ea0dd2ee.svg",
+    "sha256": "59e26d46dc5bb10753e68cd347f44604d311c3e0f373519cf01ac44c9206283a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-6072b42bd45da177.svg",
+    "copy": "ui\\video\\assets\\ui-6072b42bd45da177.svg",
+    "sha256": "032c0268b347e66229c0c4f2f8b386299adf809b891588125ab99bafad472211"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-609ecd356f0d65e8.svg",
+    "copy": "ui\\video\\assets\\ui-609ecd356f0d65e8.svg",
+    "sha256": "814f64bee40fffb19fe268fb92c765b4f46592cb6737c0ed9e6ad9e1e27a8203"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-6516249794aba90e.png",
+    "copy": "ui\\video\\assets\\ui-6516249794aba90e.png",
+    "sha256": "5fd0ef9b50119a5dba1f27c763039881a9df559546f3ff7c8c56ee6e7fd41c75"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "copy": "ui\\video\\assets\\ui-67e9e4bb9ed7c02e.woff2",
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-68657898fa4748d5.woff",
+    "copy": "ui\\video\\assets\\ui-68657898fa4748d5.woff",
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "copy": "ui\\video\\assets\\ui-6bc6bce83337f6a2.woff2",
+    "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-6c92f36725cdb797.woff",
+    "copy": "ui\\video\\assets\\ui-6c92f36725cdb797.woff",
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-6e454084cf33fbc5.svg",
+    "copy": "ui\\video\\assets\\ui-6e454084cf33fbc5.svg",
+    "sha256": "a40c247d4a9535e6eece784426c712d2bcc99bcdaefabea49bc080688b814710"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-705a8e211b857886.ttf",
+    "copy": "ui\\video\\assets\\ui-705a8e211b857886.ttf",
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-75d145711d99c9a7.ttf",
+    "copy": "ui\\video\\assets\\ui-75d145711d99c9a7.ttf",
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-772c47f708bcc680.ttf",
+    "copy": "ui\\video\\assets\\ui-772c47f708bcc680.ttf",
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-7b709dfe41090aa5.woff2",
+    "copy": "ui\\video\\assets\\ui-7b709dfe41090aa5.woff2",
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-7e31250df6f94598.svg",
+    "copy": "ui\\video\\assets\\ui-7e31250df6f94598.svg",
+    "sha256": "2fb354e219c3bdf4afa587a4e20e490f63e9bdccd6418ca06c908dbcf3ec2af8"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "copy": "ui\\video\\assets\\ui-7e481b2f1ac022d9.ttf",
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "copy": "ui\\video\\assets\\ui-7f1ba6e192587dbe.ttf",
+    "sha256": "cce4405e885544376ce20621001274e2ac9080a171ad4d2e097bf04d790157ea"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "copy": "ui\\video\\assets\\ui-8255e56ce5ffd23e.woff2",
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-830365f9a585cd84.svg",
+    "copy": "ui\\video\\assets\\ui-830365f9a585cd84.svg",
+    "sha256": "6abf65ff52f0175a1ba1b7ee4e0d668164f83759575b68fc827df853cd918b55"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "copy": "ui\\video\\assets\\ui-84bdf63ecc4cfb01.ttf",
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-84ebe404814ce7a6.woff",
+    "copy": "ui\\video\\assets\\ui-84ebe404814ce7a6.woff",
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "copy": "ui\\video\\assets\\ui-8b31bf9f8d59fef3.woff",
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "copy": "ui\\video\\assets\\ui-9131f7cf90ddbf2f.svg",
+    "sha256": "c33901cefd4e60a13347a6a934b8a0e45948e2137f66be3e2330ee529417952b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-957a32d789bfe0f3.woff",
+    "copy": "ui\\video\\assets\\ui-957a32d789bfe0f3.woff",
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-ab099da400a20ae0.ttf",
+    "copy": "ui\\video\\assets\\ui-ab099da400a20ae0.ttf",
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-ad76cba7e642e57a.svg",
+    "copy": "ui\\video\\assets\\ui-ad76cba7e642e57a.svg",
+    "sha256": "b4b65507fb30e56d7cbf49f6b123d22b02b88b3d15f983c9fbabc97a956c2547"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-ae35178a562cdc15.svg",
+    "copy": "ui\\video\\assets\\ui-ae35178a562cdc15.svg",
+    "sha256": "33c7974b672f4f784355748b4f8f93606e08c640ff1e113301205a079ae30acc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-b1054a2e4f7098c8.woff",
+    "copy": "ui\\video\\assets\\ui-b1054a2e4f7098c8.woff",
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-b1202e603398cff4.woff2",
+    "copy": "ui\\video\\assets\\ui-b1202e603398cff4.woff2",
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-b2976f9243f71b95.woff2",
+    "copy": "ui\\video\\assets\\ui-b2976f9243f71b95.woff2",
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "copy": "ui\\video\\assets\\ui-b97bbb55c5238ccc.woff2",
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-bb2e65646478d6d9.ttf",
+    "copy": "ui\\video\\assets\\ui-bb2e65646478d6d9.ttf",
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "copy": "ui\\video\\assets\\ui-bd2f4007a0edcb4a.woff",
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-c02b0bd1d5809347.woff2",
+    "copy": "ui\\video\\assets\\ui-c02b0bd1d5809347.woff2",
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-c175463995e28f9a.ttf",
+    "copy": "ui\\video\\assets\\ui-c175463995e28f9a.ttf",
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-c44d7c16e9f740d7.svg",
+    "copy": "ui\\video\\assets\\ui-c44d7c16e9f740d7.svg",
+    "sha256": "2b97074ff7a94cd4526139ad884b4a8193265d193d8a40e660eefa3318063ea0"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "copy": "ui\\video\\assets\\ui-c6e9e7362c5aaf17.woff2",
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "copy": "ui\\video\\assets\\ui-ce96e2f51e39acaf.ttf",
+    "sha256": "79343dc641a2e8d48a703a4667b71fc8dc6565cc8ce47dfc34fc52c12aadbf38"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-cff599a0864fa1cb.ttf",
+    "copy": "ui\\video\\assets\\ui-cff599a0864fa1cb.ttf",
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "copy": "ui\\video\\assets\\ui-d01d24a9bea6cea0.woff2",
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "copy": "ui\\video\\assets\\ui-d8e4d2aacc8fd5a0.woff",
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "copy": "ui\\video\\assets\\ui-d8ededb74d7c8ecc.woff2",
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-d97801fba9b65d22.woff",
+    "copy": "ui\\video\\assets\\ui-d97801fba9b65d22.woff",
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-dc450f8418581ae0.svg",
+    "copy": "ui\\video\\assets\\ui-dc450f8418581ae0.svg",
+    "sha256": "0bb0c02d1de981861d3d604c562b9c138aaaff792e5d4b00c84335263744ab05"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-dc785c981bf76198.woff2",
+    "copy": "ui\\video\\assets\\ui-dc785c981bf76198.woff2",
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-ded26aa3628fb0d8.woff",
+    "copy": "ui\\video\\assets\\ui-ded26aa3628fb0d8.woff",
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "copy": "ui\\video\\assets\\ui-dfe3f2eea0efdbc3.svg",
+    "sha256": "1169f6e36b2daf50c95a9a8c6375b762877f6ff0351be5d62771552a29e915bc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "copy": "ui\\video\\assets\\ui-e075d2fdfbb2dd0d.svg",
+    "sha256": "8a5680cdd25f9d5d6ee547fcf16c57c085013918c14c8e49b5066104b97b4d92"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-edb4374c491ce177.ttf",
+    "copy": "ui\\video\\assets\\ui-edb4374c491ce177.ttf",
+    "sha256": "27bccdc7ead7eb5754e950c4c4eaa9a35f2b4ae1a29164921017285bebb82a02"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-f0d95df972a38d4e.woff",
+    "copy": "ui\\video\\assets\\ui-f0d95df972a38d4e.woff",
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "copy": "ui\\video\\assets\\ui-f2a04b6a28bf1d5a.woff2",
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "copy": "ui\\video\\assets\\ui-f39f9c0c031d4f0d.woff",
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "copy": "ui\\video\\assets\\ui-f5b9a486c0e1daa6.svg",
+    "sha256": "a5bce6cd4a7060aa0a76e4b45653c371bfb48c0a03b5c6721d916f6cedde5fae"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-fb987ed96e609fca.svg",
+    "copy": "ui\\video\\assets\\ui-fb987ed96e609fca.svg",
+    "sha256": "6f515d3d93edcaf4239be6434491bfd186aae3f6ebbf1111ead1cc1f90384c26"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-fbc1cd28846d677c.woff",
+    "copy": "ui\\video\\assets\\ui-fbc1cd28846d677c.woff",
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "copy": "ui\\video\\assets\\ui-fc7797ebd39a9d26.woff2",
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "copy": "ui\\video\\assets\\ui-fdc47ed8d82f8e30.woff2",
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\assets\\ui-feeb5e341018c5d4.ttf",
+    "copy": "ui\\video\\assets\\ui-feeb5e341018c5d4.ttf",
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "copy": "ui\\video\\native-source\\morph\\components\\ChatMorphCanvas.tsx",
+    "sha256": "a17533008f0872fea6e247997b85db0bc190476e7c3e1543ed7db1f139c58001"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "copy": "ui\\video\\native-source\\morph\\components\\ChatMorphOrb.tsx",
+    "sha256": "f47b9775e7f76af5b6a774d34613b7de16ba5635bbec89d004be017218e63d4a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "copy": "ui\\video\\native-source\\morph\\constants\\chatMorphPreset.ts",
+    "sha256": "0965ba93aee650394c0564f2e842c89158315f274632c11aaa9c8fc470168093"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\audioReaction.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\audioReaction.ts",
+    "sha256": "1bacf364e589d7c6477de5e3cc916c08b2a27eec9a54e251060f3cfa708f6a9a"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\colors.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\colors.ts",
+    "sha256": "50e7e96930fbaedcbf9d93a911bd15df6c723a166fd7699be615d43bd1f4d257"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\defaults.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\defaults.ts",
+    "sha256": "00d4d7cbe7d85df679fa559508dddc62fca87ae4b92c4eb9697fc1cc15fdd89b"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\math.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\math.ts",
+    "sha256": "39beba10551421833686735d60f8fb89ac92d3a2f3873b7468c35ee57b75d696"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\motion.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\motion.ts",
+    "sha256": "238fc956c6639572cf8dd444eab385f0856487aade96fd652ca732717f022eb3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\orchestration.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\orchestration.ts",
+    "sha256": "e6f5e290c7d3e987e387c0154c74dd978182525703eb9e220c3a5c042bfa40f6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\preset.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\preset.ts",
+    "sha256": "416478b6d28cfbb3a393e1aab8f8017c3e494226069b47f64d4bf12f089b3a08"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\renderMorphFrame.ts",
+    "sha256": "7b11ed542f3319dd19b55a69e913fb17c0f286a5ac7e4eade61c1babcd2e5313"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\shapes.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\shapes.ts",
+    "sha256": "3261e642f8d92ad9d593f52d3c510c02796f9e1ecc8f7367d1f5468f7fc6a3b2"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\engine\\timeline.ts",
+    "copy": "ui\\video\\native-source\\morph\\engine\\timeline.ts",
+    "sha256": "259fd29555340de95aab91416599cb8656141c734cf50f96a1c005492e4670c1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "copy": "ui\\video\\native-source\\morph\\styles\\ChatMorphCanvas.module.css",
+    "sha256": "dccb0af513d6d1b1e4b0c43d620f39bc52668a2d646e039cbc8b263e092b5941"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\morph\\types\\morph.ts",
+    "copy": "ui\\video\\native-source\\morph\\types\\morph.ts",
+    "sha256": "e353074008ef9eb2cf272b7b848d1520fa68f91eba700edef444c372211ed1ef"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "copy": "ui\\video\\native-source\\chat\\components\\ChatImageGenerationPlaceholder.tsx",
+    "sha256": "cbe6345e409beee83c15c7945c7172caad1d927571ce99b52aa7084fa86e1db9"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\Music.module.css",
+    "copy": "ui\\video\\native-source\\chat\\music\\Music.module.css",
+    "sha256": "d9a1df6d88bf7d5ecc2105b6a9c9bfcdded5ea591e02b15d9f0de95420f06ab6"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\MusicCard.tsx",
+    "copy": "ui\\video\\native-source\\chat\\music\\MusicCard.tsx",
+    "sha256": "2933b17e75b18449b6536f5feefd0ef5f97c9d78c1ffe83472730072af2da6aa"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\MusicGenerationPlaceholder.module.css",
+    "copy": "ui\\video\\native-source\\chat\\music\\MusicGenerationPlaceholder.module.css",
+    "sha256": "b601ce42c691d2c5e4fc91a8c788173f8a3bf0ab1cd35bf4bbbe8514ef38ed44"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\MusicGenerationPlaceholder.tsx",
+    "copy": "ui\\video\\native-source\\chat\\music\\MusicGenerationPlaceholder.tsx",
+    "sha256": "f04b8a1311a7e497f8dbcf63fcb0f36b864c95ae81fe887ccb42ac2954939f9d"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\MusicOptionsPanel.tsx",
+    "copy": "ui\\video\\native-source\\chat\\music\\MusicOptionsPanel.tsx",
+    "sha256": "b6e1b308ec59d8f6d037cb1a676170eb030c428071de505e3013fa2c426b98f1"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\music\\playback.ts",
+    "copy": "ui\\video\\native-source\\chat\\music\\playback.ts",
+    "sha256": "8f2da4470b763b1f015fcccb79a3e936b7a59d85350d3456a7783bb392a8bb61"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "copy": "ui\\video\\native-source\\chat\\styles\\ChatImageGenerationPlaceholder.module.css",
+    "sha256": "92b13bc050f29d882764f46dee8bc15457e1f65c52aeafd7d88db69549df1f29"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "copy": "ui\\video\\native-source\\chat\\utils\\imagePlaceholderBackdrop.ts",
+    "sha256": "495f1c7b863d4cfe6a9eb2670049de427682ec0d7252635a4394d6422fc3e9dc"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "copy": "ui\\video\\native-source\\chat\\utils\\imagePlaceholderSorting.ts",
+    "sha256": "cc4d9ba902ce1ab805f3e512a9573dd16237dfc263fd6216ffaf743e6adb81ee"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "copy": "ui\\video\\native-source\\chat\\private\\components\\ComposerGenerationOptionsPanel.tsx",
+    "sha256": "6ed27133f62bcb10e30c73e0fab232aa1132064a4736247a71ce0d87f3d26a92"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "copy": "ui\\video\\native-source\\chat\\private\\utils\\chatMorphMode.ts",
+    "sha256": "bc1c163b744f9dceb78e8958d9f2d0fbe0e7b173c3c9fc1bc2288b7cf3cb25d5"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\video-project\\compositions\\components\\ui-focus-zoom.html",
+    "copy": "ui\\video\\compositions\\components\\ui-focus-zoom.html",
+    "sha256": "ac2753e96a12f0620aa4d0fdcf36d9afd32489f672d85570d9bcb2524b6fe512"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\hyperframes.json",
+    "copy": "ui\\presentation\\hyperframes.json",
+    "sha256": "dbf2f4cc5995444f24b60cf999a892cda79cc83ff5e0eae694a6f4b1054ea44f"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\index.html",
+    "copy": "ui\\presentation\\index.html",
+    "sha256": "d62fd456687ecb8f0c8979bdac7013c05650b0d52564816ac117922fc8b84730"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\package.json",
+    "copy": "ui\\presentation\\package.json",
+    "sha256": "20278b15ed49e3955a126a23baec550c92a0addb751904582bb4254183dfce34"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\presentation.css",
+    "copy": "ui\\presentation\\presentation.css",
+    "sha256": "01abfc5e8aaa71404fc68f911ceae82ea2210e5c25da2f828b8ce8df5a6f5044"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\presentation.js",
+    "copy": "ui\\presentation\\presentation.js",
+    "sha256": "b41ba59435fbda97806720fd8feb881d8437c773e743e0cfbe1fb8d2b5f106b3"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\README.md",
+    "copy": "ui\\presentation\\README.md",
+    "sha256": "303a2119c101b9d5672c677d0d74a69c1d6d80c8c8a40026fc3bbf35a5da3a80"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\artwork\\collection.png",
+    "copy": "ui\\presentation\\artwork\\collection.png",
+    "sha256": "232ddfa85807d73cc52d64c7b1ac86a91590f71489f294423803bfa54df6957e"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\artwork\\condensation.png",
+    "copy": "ui\\presentation\\artwork\\condensation.png",
+    "sha256": "8c2b31a12d54e77bd0352af1400b211c0dd15ff4fab52e43c72d638c7fd37856"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\artwork\\evaporation.png",
+    "copy": "ui\\presentation\\artwork\\evaporation.png",
+    "sha256": "d663a8b88cfdeab19c24e034236f102be970451485199d24c254afecef34f673"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\artwork\\precipitation.png",
+    "copy": "ui\\presentation\\artwork\\precipitation.png",
+    "sha256": "c9f5c20b5ebe662a791272da4c4bd3b2a1ca2e820525919769f86ae54251b4ed"
+  },
+  {
+    "source": "workspace\\openjm-homework-immersive\\stages\\v006\\presentation\\assets\\gsap.min.js",
+    "copy": "ui\\presentation\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\1-intro-boy.mp4",
+    "copy": "sources\\1-intro-boy.mp4",
+    "sha256": "721abb94ca2dacb1ac499c1aeac347b7ca65e96e6eec3feda485e8e1c025e30e"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\2-dashboard-loading.mp4",
+    "copy": "sources\\2-dashboard-loading.mp4",
+    "sha256": "5c303a58cecbff9366224c754421cbb21d6092d2a14206328c1fb3e7692cc8f7"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\stage-1-text.mp4",
+    "copy": "sources\\stage-1-text.mp4",
+    "sha256": "be302ce14543e3e1006622f49ddf9ca8107336e4945ee7d8254562bc4f1ca690"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\stage-2-images.mp4",
+    "copy": "sources\\stage-2-images.mp4",
+    "sha256": "3cd839cf347b0f653ff00f22fec7dbb2ef909db45f002b5e49714946a76aca82"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\stage-3-music.mp4",
+    "copy": "sources\\stage-3-music.mp4",
+    "sha256": "4aa90a46e1e4ee4f82c163ded1f03d82cbd7a2a9713992a4b1decef82583f974"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\stage-4-video.mp4",
+    "copy": "sources\\stage-4-video.mp4",
+    "sha256": "20cf9e9fdc4987ace30d26b67600d5602f17aaa402aae90be52184d15890d961"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\w-pause-ui.mp4",
+    "copy": "sources\\w-pause-ui.mp4",
+    "sha256": "55697fbe6022e6aafeccf5ab9e75eecfe97af030dd4ee81f4f26b62698eddd50"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\y-outro.mp4",
+    "copy": "sources\\y-outro.mp4",
+    "sha256": "e5e1691c8d6de8382aefbfa4c20b068d18b2d2bbabc44b8dbfc8acd508c44300"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\sources\\z-animation-end.mp4",
+    "copy": "sources\\z-animation-end.mp4",
+    "sha256": "24aa4bde533f4106f3b1b9b205a725db9503ec8c0c2bc686ec6dfc8482159284"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\audio-v002\\openjm-assembly-v003-audio-v002.mp4",
+    "copy": "sources\\audio-v002-master.mp4",
+    "sha256": "f8cd997466f012fc9ad4b750446a4159284de6360e8940cfbf11a5e7d10dd14d"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\vendor\\gsap.min.js",
+    "copy": "vendor\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\vendor\\label.ttf",
+    "copy": "vendor\\label.ttf",
+    "sha256": "8134dbcd09e7b123c9a7f229d49cffbcb01352cc72ea5e1076b65d0dca9f73cd"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\scripts\\render_ffmpeg.py",
+    "copy": "scripts\\render_ffmpeg.py",
+    "sha256": "7a045da655f0bf70d268c8b20804144fb1fbbbced14a433181519dd50ef7e8a0"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\package-lock.json",
+    "copy": "package-lock.json",
+    "sha256": "aae0bd2e077e4d7a0eac5d409bf0f49fbb5cc1ad98cb737382f1b98c8b132c47"
+  },
+  {
+    "source": "workspace\\openjm-boy-homework\\output\\assembly-v003\\package.json",
+    "copy": "package.json",
+    "sha256": "7b0da56a1b153bf6495f50cf39da186ceb353e44b617702ef070608f0e0f7125"
+  }
+]

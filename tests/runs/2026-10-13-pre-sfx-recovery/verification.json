@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "date": "2026-10-13",
+  "copies_sha256_verified": 473,
+  "omitted_assets": 662,
+  "videos": [
+    {
+      "file": "output/openjm-assembly-v003-audio-v002.mp4",
+      "sha256": "f8cd997466f012fc9ad4b750446a4159284de6360e8940cfbf11a5e7d10dd14d",
+      "width": 1920,
+      "height": 1080,
+      "fps": "25/1",
+      "duration_seconds": 109.92,
+      "container_duration_seconds": 109.92,
+      "declared_frames": 2748,
+      "decoded_frames": 2748,
+      "audio_codec": "aac",
+      "audio_sample_rate": "48000",
+      "audio_channels": 2,
+      "decode_exit": 0,
+      "decode_errors": "",
+      "decode_command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "C:\\Users\\MrMonka\\Documents\\GitHub\\mnk-brander\\workspace\\openjm-boy-homework\\output\\openjm-assembly-v003-audio-v002.mp4",
+        "-map",
+        "0:v:0",
+        "-map",
+        "0:a:0",
+        "-progress",
+        "pipe:1",
+        "-nostats",
+        "-f",
+        "null",
+        "-"
+      ]
+    },
+    {
+      "file": "output/openjm-assembly-v003-audio-v002-portrait-v004.mp4",
+      "sha256": "4d36c6a163d527c39a4bf2e2929a729bf8a9cb95a69121ffdbc93913d078b057",
+      "width": 1080,
+      "height": 1920,
+      "fps": "25/1",
+      "duration_seconds": 109.92,
+      "container_duration_seconds": 109.92,
+      "declared_frames": 2748,
+      "decoded_frames": 2748,
+      "audio_codec": "aac",
+      "audio_sample_rate": "48000",
+      "audio_channels": 2,
+      "decode_exit": 0,
+      "decode_errors": "",
+      "decode_command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-i",
+        "C:\\Users\\MrMonka\\Documents\\GitHub\\mnk-brander\\workspace\\openjm-boy-homework\\output\\openjm-assembly-v003-audio-v002-portrait-v004.mp4",
+        "-map",
+        "0:v:0",
+        "-map",
+        "0:a:0",
+        "-progress",
+        "pipe:1",
+        "-nostats",
+        "-f",
+        "null",
+        "-"
+      ]
+    }
+  ],
+  "audio_packets": {
+    "identical_payloads_timestamps_durations_and_side_data": true,
+    "count": 5154
+  },
+  "later_portrait_picture_comparison": {
+    "v005": {
+      "file": "M:/workspace/brander/openjm-boy-homework/output/portrait-v005/openjm-assembly-v003-audio-v002-portrait-v005.mp4",
+      "picture_packets_equal_to_v004": true,
+      "packet_count": 2748
+    },
+    "v006": {
+      "file": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/openjm-assembly-v003-audio-v002-portrait-v006.mp4",
+      "picture_packets_equal_to_v004": true,
+      "packet_count": 2748
+    }
+  },
+  "current_navigation": {
+    "documents": 4,
+    "local_links": 47,
+    "errors": []
+  },
+  "reference_classification": {
+    "runtime_literal_counts": {
+      "known-omitted-asset": 231,
+      "locally-present": 85,
+      "external-reference-not-fetched": 9
+    },
+    "historical_link_counts": {
+      "historical-preview-url": 15,
+      "locally-present": 52,
+      "external-reference-not-fetched": 10,
+      "base-video-relocated-to-shallow-output": 5,
+      "known-omitted-asset": 8,
+      "unavailable-historical-evidence": 195,
+      "unresolved-historical-or-dynamic-reference": 117,
+      "excluded-historical-package": 17
+    }
+  },
+  "preservation": {
+    "existing_local_files_hashed": 34,
+    "productions_files_hashed": 17,
+    "changed_existing_files": [],
+    "unexpected_new_files_outside_recovery": [],
+    "source_files_metadata_checked": 3016,
+    "source_metadata_changes": [],
+    "source_added_files": [],
+    "source_files_sha256_checked": 1135,
+    "all_copy_hashes_match": true,
+    "omitted_assets_remain_absent": true,
+    "only_two_media_files_recovered": true,
+    "old_agent_instructions_absent": true,
+    "scope": "All preexisting local repo files except .git/.codex and this run; M: selected three project trees, audio-v002 asset tree and old record. M: operations were read-only; no claim about unrelated M: content."
+  },
+  "limits": [
+    "No render/remix/source build/dependency installation was run.",
+    "No current preview, normal-speed human viewing or listening approval is claimed.",
+    "Static reference extraction is scoped; arbitrary JavaScript paths were not executed.",
+    "Historical reproduction and verification claims are not current readiness checks."
+  ]
+}

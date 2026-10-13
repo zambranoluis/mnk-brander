@@ -1,0 +1,17 @@
+{
+  "name": "assembly-v003",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "check": "npx --yes hyperframes@0.8.146 check --strict --timeout 15000",
+    "preview": "npx --yes hyperframes@0.8.146 preview --background",
+    "render": "python scripts/render_ffmpeg.py",
+    "render:hyperframes": "npx --yes hyperframes@0.8.146 render --fps 25 --quality delivery --video-frame-format png --output renders/openjm-assembly-v003-provisional-final.mp4",
+    "label": "node scripts/build_label.cjs",
+    "render:ui": "node scripts/render_ui.cjs all"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

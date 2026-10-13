@@ -1,0 +1,181 @@
+{
+  "version": "v003",
+  "status": "provisional-final-original-outro",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "totalFrames": 2748,
+  "silent": true,
+  "colorSpace": "bt709",
+  "slots": [
+    {
+      "id": "intro-boy",
+      "source": "sources/1-intro-boy.mp4",
+      "media": "assets/1-intro-boy.mp4",
+      "startFrame": 0,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "dashboard-loading",
+      "source": "sources/2-dashboard-loading.mp4",
+      "media": "assets/2-dashboard-loading.mp4",
+      "startFrame": 118,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 1
+    },
+    {
+      "id": "text",
+      "source": "sources/stage-1-text.mp4",
+      "media": "assets/stage-1-text.mp4",
+      "startFrame": 236,
+      "durationFrames": 570,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "images",
+      "source": "sources/stage-2-images.mp4",
+      "media": "assets/stage-2-images.mp4",
+      "startFrame": 806,
+      "durationFrames": 508,
+      "sourceInFrame": 0,
+      "track": 1
+    },
+    {
+      "id": "actor-pause",
+      "source": "sources/w-pause-ui.mp4",
+      "media": "assets/w-pause-ui.mp4",
+      "startFrame": 1306,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "music",
+      "source": "sources/stage-3-music.mp4",
+      "media": "assets/stage-3-music.mp4",
+      "startFrame": 1424,
+      "durationFrames": 600,
+      "sourceInFrame": 0,
+      "track": 1
+    },
+    {
+      "id": "video",
+      "source": "sources/stage-4-video.mp4",
+      "media": "assets/stage-4-video.mp4",
+      "startFrame": 2024,
+      "durationFrames": 466,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "outro-composite",
+      "source": "sources/y-outro.mp4",
+      "media": "assets/y-outro.mp4",
+      "startFrame": 2474,
+      "durationFrames": 151,
+      "sourceInFrame": 0,
+      "track": 1
+    },
+    {
+      "id": "brand-ending",
+      "source": "sources/z-animation-end.mp4",
+      "media": "assets/z-animation-end.mp4",
+      "startFrame": 2619,
+      "durationFrames": 129,
+      "sourceInFrame": 0,
+      "track": 0
+    }
+  ],
+  "outroContract": {
+    "slot": "outro-composite",
+    "status": "pending",
+    "durationFrames": 151,
+    "presentationOffsetSeconds": 3.0,
+    "presentationOffsetFrames": 75,
+    "presentationPlaybackBeginsAtVideoSourceSeconds": 15,
+    "videoCutSeconds": 18.0,
+    "framing": "Full 1920x1080 original y-outro plate, no crop, no retime",
+    "label": "OUTRO PLACEHOLDER \u2014 screen composite pending.",
+    "videoOutgoingEndSeconds": 18.64,
+    "overlapFrames": 16,
+    "overlapPresentationFrames": [
+      75,
+      90
+    ],
+    "showPlaceholderLabel": false
+  },
+  "editorialRevision": {
+    "reason": "Smoother assembly V002: locked result holds and coordinated transitions",
+    "textCompleteAtSeconds": 15.8,
+    "textHoldSeconds": 5,
+    "textPullbackSeconds": 2,
+    "imagesSettledAtSeconds": 17,
+    "imageHoldSeconds": 3,
+    "imageTransitionTailSeconds": 0.32,
+    "allPlaybackRates": 1
+  },
+  "transitions": [
+    {
+      "type": "linear-dissolve",
+      "startFrame": 118,
+      "durationFrames": 8,
+      "outgoingSlot": "intro-boy",
+      "incomingSlot": "dashboard-loading"
+    },
+    {
+      "type": "linear-dissolve",
+      "startFrame": 236,
+      "durationFrames": 8,
+      "outgoingSlot": "dashboard-loading",
+      "incomingSlot": "text"
+    },
+    {
+      "type": "matched-pullback",
+      "startFrame": 806,
+      "durationFrames": 0,
+      "outgoingSlot": "text",
+      "incomingSlot": "images",
+      "cameraStartSourceFrame": 520,
+      "cameraDurationFrames": 50
+    },
+    {
+      "type": "linear-dissolve",
+      "startFrame": 1306,
+      "durationFrames": 8,
+      "outgoingSlot": "images",
+      "incomingSlot": "actor-pause"
+    },
+    {
+      "type": "linear-dissolve",
+      "startFrame": 1424,
+      "durationFrames": 8,
+      "outgoingSlot": "actor-pause",
+      "incomingSlot": "music"
+    },
+    {
+      "type": "matched-cut",
+      "startFrame": 2024,
+      "durationFrames": 0,
+      "outgoingSlot": "music",
+      "incomingSlot": "video"
+    },
+    {
+      "type": "linear-dissolve",
+      "startFrame": 2474,
+      "durationFrames": 16,
+      "outgoingSlot": "video",
+      "incomingSlot": "outro-composite"
+    },
+    {
+      "type": "linear-dissolve",
+      "startFrame": 2619,
+      "durationFrames": 6,
+      "outgoingSlot": "outro-composite",
+      "incomingSlot": "brand-ending"
+    }
+  ]
+}

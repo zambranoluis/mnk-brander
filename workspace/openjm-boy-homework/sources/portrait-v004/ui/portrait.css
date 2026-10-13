@@ -1,0 +1,33 @@
+/* Native mobile breakpoints stay active at 360 CSS px. Film-only desktop
+   camera dimensions are removed; response and composer styles remain native. */
+html,body,#film,#camera,#dashboard{width:360px!important;height:640px!important}
+#camera{transform:none!important;transform-origin:0 0}
+#dashboard-mobile-aside,[class*="__desktopHistoryArea"]{display:none!important}
+[class*="__desktopContentColumn"]{display:flex;flex:1;min-width:0;--dashboard-content-layout:compact!important}
+#composer{transform:none!important}
+#composer-shell{width:100%!important;max-width:100%!important}
+#film-cursor-layer,#film-caret{display:none!important}
+#morph,#native-morph{width:360px!important;height:640px!important;left:0!important;top:0!important;transform:none!important}
+#morph-canvas{width:360px!important;height:640px!important}
+#welcome{left:16px!important;top:225px!important;width:328px!important;height:auto!important;text-align:center}
+#conversation-viewport{scroll-behavior:auto!important;clip-path:none!important}
+#question-message{transform:none!important}
+[data-film-press]{background-color:color-mix(in srgb,var(--color-brand-green) 22%,transparent)!important;filter:brightness(1.15)}
+[data-film-focus]{border-color:var(--color-brand-green)!important}
+#mobile-header{position:absolute;top:0;left:0;right:0;z-index:20;padding:.45rem .5rem .35rem;display:flex;justify-content:space-between;pointer-events:none}
+#mobile-header button{pointer-events:auto;width:2.15rem;height:2.15rem;display:grid;place-items:center;background:none;border:0;color:rgb(231 235 243 / .94)}
+#mobile-header svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6}
+#mobile-header button:last-child{width:2.5rem}
+.portrait-sheet-layer{position:fixed!important;inset:0!important;height:640px!important;z-index:160!important;isolation:isolate;pointer-events:none;--composer-surface-available-height:592px!important}
+.portrait-sheet-layer,.portrait-sheet-layer *,.portrait-sheet-layer *::before,.portrait-sheet-layer *::after{animation:none!important;transition:none!important;caret-color:transparent!important}
+.portrait-sheet-layer:has([class*="__surfaceOpen"]):before{content:'';position:absolute;inset:0;background:var(--color-bg-overlay);pointer-events:auto}
+.portrait-sheet-layer [class*="__surface"]{right:0!important;left:0!important;bottom:0!important;width:360px!important;max-width:none!important;max-height:592px!important;border-bottom:0;border-radius:var(--radius-panel) var(--radius-panel) 0 0}
+.portrait-sheet-layer [class*="__windowBody"]{padding-inline:var(--space-4)}
+.portrait-sheet-layer [class*="__windowFooter"]{padding-bottom:var(--space-3)}
+#video-card{width:100%}#video-turn{gap:24px;padding-top:24px}
+#ready-response{font-size:14px}#video-pending{height:260px;font-size:14px;gap:20px}
+#video-slot{width:100%;aspect-ratio:9/16;max-height:320px}
+#video-player{width:180px;max-width:100%;margin:auto}
+.video-controls{height:40px;gap:5px;padding:0 6px}.video-controls button{width:26px;height:30px;font-size:18px}.video-controls span{font-size:9px}.video-progress{min-width:8px}
+#presentation-shell,#presentation-surface{width:360px!important;height:640px!important}
+.video-settings-card{padding:10px;margin:8px 0;gap:10px;font-size:13px}.video-settings-card h3{margin:0}.video-settings-card input,.video-settings-card button{padding:8px}

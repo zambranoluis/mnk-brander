@@ -1,0 +1,8 @@
+{
+  "name": "openjm-portrait-presentation",
+  "private": true,
+  "scripts": {
+    "check": "node ../../scripts/capture.cjs presentation check",
+    "render": "node ../../scripts/capture.cjs presentation render"
+  }
+}

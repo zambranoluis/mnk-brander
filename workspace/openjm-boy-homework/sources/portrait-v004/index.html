@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenJM portrait V004</title>
+<script src="vendor/gsap.min.js"></script>
+<style>
+@font-face {font-family:AssemblyLabel;src:url('vendor/label.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}
+html,body {margin:0;width:100%;height:100%;overflow:hidden;background:#000;}
+#root {position:relative;width:100%;height:100%;overflow:hidden;}
+.clip {position:absolute;inset:0;width:100%;height:100%;}
+</style></head><body>
+<div data-hf-id="hf-u2qi" id="root" data-composition-id="openjm-portrait-v004" data-width="1080" data-height="1920" data-duration="109.92">
+<audio data-hf-id="hf-tf5c" id="soundtrack" src="sources/audio-v002.m4a" data-start="0" data-duration="109.92" data-track-index="2"></audio>
+<div data-hf-id="hf-9214" id="intro-boy" class="clip" data-composition-id="intro-boy" data-composition-src="compositions/intro-boy.html" data-start="0.0" data-duration="5.04" data-track-index="0" data-width="1080" data-height="1920" style="z-index:1"></div>
+<div data-hf-id="hf-qr6r" id="dashboard-loading" class="clip" data-composition-id="dashboard-loading" data-composition-src="compositions/dashboard-loading.html" data-start="4.72" data-duration="5.04" data-track-index="1" data-width="1080" data-height="1920" style="z-index:2"></div>
+<div data-hf-id="hf-zhl8" id="text" class="clip" data-composition-id="text" data-composition-src="compositions/text.html" data-start="9.44" data-duration="22.8" data-track-index="0" data-width="1080" data-height="1920" style="z-index:3"></div>
+<div data-hf-id="hf-7afa" id="images" class="clip" data-composition-id="images" data-composition-src="compositions/images.html" data-start="32.24" data-duration="20.32" data-track-index="1" data-width="1080" data-height="1920" style="z-index:4"></div>
+<div data-hf-id="hf-0k10" id="actor-pause" class="clip" data-composition-id="actor-pause" data-composition-src="compositions/actor-pause.html" data-start="52.24" data-duration="5.04" data-track-index="0" data-width="1080" data-height="1920" style="z-index:5"></div>
+<div data-hf-id="hf-go3d" id="music" class="clip" data-composition-id="music" data-composition-src="compositions/music.html" data-start="56.96" data-duration="24.0" data-track-index="1" data-width="1080" data-height="1920" style="z-index:6"></div>
+<div data-hf-id="hf-1h5x" id="video" class="clip" data-composition-id="video" data-composition-src="compositions/video.html" data-start="80.96" data-duration="18.64" data-track-index="0" data-width="1080" data-height="1920" style="z-index:7"></div>
+<div data-hf-id="hf-is4n" id="outro-composite" class="clip" data-composition-id="outro-composite" data-composition-src="compositions/outro-composite.html" data-start="98.96" data-duration="6.04" data-track-index="1" data-width="1080" data-height="1920" style="z-index:8"></div>
+<div data-hf-id="hf-1pzl" id="brand-ending" class="clip" data-composition-id="brand-ending" data-composition-src="compositions/brand-ending.html" data-start="104.76" data-duration="5.16" data-track-index="0" data-width="1080" data-height="1920" style="z-index:9"></div>
+</div><script>
+const timeline=gsap.timeline({paused:true});
+// Incoming opaque picture covers the outgoing picture and its label together.
+// Keeping the outgoing layer opaque avoids a dark midpoint in the dissolve.
+timeline.fromTo('#dashboard-loading',{opacity:0},{opacity:1,duration:0.32,ease:'none'},4.72);
+timeline.fromTo('#text',{opacity:0},{opacity:1,duration:0.32,ease:'none'},9.44);
+timeline.fromTo('#actor-pause',{opacity:0},{opacity:1,duration:0.32,ease:'none'},52.24);
+timeline.fromTo('#music',{opacity:0},{opacity:1,duration:0.32,ease:'none'},56.96);
+timeline.fromTo('#outro-composite',{opacity:0},{opacity:1,duration:0.64,ease:'none'},98.96);
+timeline.fromTo('#brand-ending',{opacity:0},{opacity:1,duration:0.24,ease:'none'},104.76);
+window.__timelines['openjm-portrait-v004']=timeline;
+</script></body></html>

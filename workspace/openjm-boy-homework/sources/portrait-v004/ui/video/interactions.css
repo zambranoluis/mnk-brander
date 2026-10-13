@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+.Aside-module__F-1UgW__collapseButton[data-film-hover], .Aside-module__F-1UgW__collapseButton[data-film-focus] { color: rgb(242, 244, 244); background: rgba(255, 255, 255, 0.07); }
+.Aside-module__F-1UgW__collapseButton[data-film-focus], .Aside-module__F-1UgW__profileHeaderButton[data-film-focus], .Aside-module__F-1UgW__navButton[data-film-focus], .Aside-module__F-1UgW__submenuLink[data-film-focus], .Aside-module__F-1UgW__logoutButton[data-film-focus], .Aside-module__F-1UgW__legalInformation[data-film-focus] { outline-offset: 2px; outline: rgba(92, 199, 148, 0.9) solid 2px; }
+.Aside-module__F-1UgW__submenuLink[data-film-hover] { color: rgba(238, 240, 241, 0.88); background: rgba(255, 255, 255, 0.035); }
+.Aside-module__F-1UgW__navButton[data-film-hover] { color: rgb(240, 242, 243); background: rgba(255, 255, 255, 0.043); }
+.Aside-module__F-1UgW__logoutButton[data-film-hover] { background: rgba(240, 91, 97, 0.043); border-color: rgba(240, 91, 97, 0.82); }
+.Aside-module__F-1UgW__legalInformation[data-film-hover] { color: rgb(155, 200, 255); }
+.ChatCard-module__coi--a__root[data-film-hover] { background: rgba(47, 52, 56, 0.94); }
+.ChatCard-module__coi--a__menuButton[data-film-hover] { background: rgba(255, 255, 255, 0.06); }
+
+
+
+
+
+
+
+
+
+
+
+
+.ChatMobileHeader-module__VHro0q__button[data-film-hover], .ChatMobileHeader-module__VHro0q__button[data-film-focus] { color: var(--color-white); opacity: 0.85; background: none; outline: none; }
+

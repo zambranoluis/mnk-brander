@@ -1,0 +1,194 @@
+.root {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+  background: rgb(34 36 43 / 0.94);
+  padding: 0.35rem 0.9rem;
+  user-select: none;
+  --chat-intro-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.button {
+  display: inline-flex;
+  width: 2.35rem;
+  height: 2.35rem;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  color: rgb(231 235 243 / 0.94);
+  cursor: pointer;
+  transition:
+    color var(--transition-base),
+    opacity var(--transition-base),
+    transform var(--transition-base);
+}
+
+.button:hover,
+.button:focus-visible {
+  background: transparent;
+  color: var(--color-white);
+  opacity: 0.85;
+  outline: none;
+}
+
+.root > .button:last-of-type {
+  width: 2.5rem;
+}
+
+.backIcon {
+  rotate: 90deg;
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  object-fit: contain;
+}
+
+.copy {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 0.7rem;
+}
+
+.title {
+  margin: 0;
+  overflow: hidden;
+  color: var(--color-white);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.05;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.description {
+  margin: 0;
+  overflow: hidden;
+  color: rgb(223 228 238 / 0.76);
+  font-size: 0.76rem;
+  line-height: 1.08;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menuIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.root[data-chat-intro-phase="idle"] {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  visibility: hidden;
+}
+
+.root[data-chat-intro-phase="surface-enter"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+  visibility: visible;
+  will-change: opacity, transform;
+  animation: chatMobileHeaderIntroEnter 300ms var(--chat-intro-ease) both;
+}
+
+.root[data-chat-intro-phase="content-enter"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+  visibility: visible;
+}
+
+.root[data-chat-intro-phase="composer-enter"],
+.root[data-chat-intro-phase="ready"] {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
+  visibility: visible;
+}
+
+@media (width >= 1024px) {
+  .root {
+    display: none;
+  }
+}
+
+@media (width < 1024px) {
+  .root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    height: auto;
+    background: transparent;
+    padding: 0.45rem 0.5rem 0.35rem;
+    pointer-events: none;
+  }
+
+  .button {
+    width: 2.15rem;
+    height: 2.15rem;
+    pointer-events: auto;
+  }
+
+  .root > .button:last-of-type {
+    width: 2.5rem;
+  }
+
+  .backIcon {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+
+  .copy {
+    display: none;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.68rem;
+  }
+
+  .menuIcon {
+    font-size: 1.58rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+
+  .root {
+    animation: none;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes chatMobileHeaderIntroEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

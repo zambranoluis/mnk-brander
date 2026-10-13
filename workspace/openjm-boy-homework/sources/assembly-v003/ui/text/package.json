@@ -1,0 +1,10 @@
+{
+  "name": "assembly-v002-text",
+  "private": true,
+  "scripts": {
+    "build": "node sync-source.cjs",
+    "check": "npx --yes hyperframes@0.8.146 check --strict --no-contrast --timeout 15000",
+    "preview": "npx --yes hyperframes@0.8.146 preview --background",
+    "render": "node ../../scripts/render_ui.cjs text"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "version": "v001",
+  "status": "awaiting-composite",
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "totalFrames": 2986,
+  "silent": true,
+  "colorSpace": "bt709",
+  "slots": [
+    {
+      "id": "intro-boy",
+      "source": "sources/1-intro-boy.mp4",
+      "media": "assets/1-intro-boy.mp4",
+      "startFrame": 0,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "dashboard-loading",
+      "source": "sources/2-dashboard-loading.mp4",
+      "media": "assets/2-dashboard-loading.mp4",
+      "startFrame": 126,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "text",
+      "source": "sources/stage-1-text.mp4",
+      "media": "assets/stage-1-text.mp4",
+      "startFrame": 252,
+      "durationFrames": 650,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "images",
+      "source": "sources/stage-2-images.mp4",
+      "media": "assets/stage-2-images.mp4",
+      "startFrame": 902,
+      "durationFrames": 675,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "actor-pause",
+      "source": "sources/w-pause-ui.mp4",
+      "media": "assets/w-pause-ui.mp4",
+      "startFrame": 1577,
+      "durationFrames": 126,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "music",
+      "source": "sources/stage-3-music.mp4",
+      "media": "assets/stage-3-music.mp4",
+      "startFrame": 1703,
+      "durationFrames": 600,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "video",
+      "source": "sources/stage-4-video.mp4",
+      "media": "assets/stage-4-video.mp4",
+      "startFrame": 2303,
+      "durationFrames": 409,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "outro-composite",
+      "source": "sources/y-outro.mp4",
+      "media": "assets/y-outro.mp4",
+      "startFrame": 2712,
+      "durationFrames": 151,
+      "sourceInFrame": 0,
+      "track": 0
+    },
+    {
+      "id": "brand-ending",
+      "source": "sources/z-animation-end.mp4",
+      "media": "assets/z-animation-end.mp4",
+      "startFrame": 2857,
+      "durationFrames": 129,
+      "sourceInFrame": 0,
+      "track": 1
+    }
+  ],
+  "transition": {
+    "type": "linear-dissolve",
+    "startFrame": 2857,
+    "durationFrames": 6,
+    "outgoingSlot": "outro-composite",
+    "incomingSlot": "brand-ending"
+  },
+  "outroContract": {
+    "slot": "outro-composite",
+    "status": "pending",
+    "durationFrames": 151,
+    "presentationOffsetSeconds": 1.36,
+    "presentationOffsetFrames": 34,
+    "presentationPlaybackBeginsAtVideoSourceSeconds": 15,
+    "videoCutSeconds": 16.36,
+    "framing": "Full 1920x1080 original y-outro plate, no crop, no retime",
+    "label": "OUTRO PLACEHOLDER \u2014 screen composite pending."
+  }
+}

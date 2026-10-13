@@ -25,7 +25,12 @@ scripts/check_docs.py                # dependency-free canonical document checke
 workspace/<commercial-name>/
   <commercial-name>-commercial.md
   assets/                           # retained copies, including reused references
-  output/                           # candidate production packages for staging
+  revisions/<task-name>/            # task-owned settings, changes and generated files
+  sources/                          # shared editable picture/UI sources, when used
+  tools/                            # reusable commercial build/capture/audio/package tools
+  archives/                         # ordinary preserved history, when used
+  output/                           # shallow, uniquely versioned rendered deliverables
+    packages/                       # standalone handoffs generated on demand
   local/                            # disposable drafts
 productions/commercials/<commercial-name>/
   README.md                         # current revision, readiness, and production instructions
@@ -48,11 +53,13 @@ workspace/<work-item>/               # optional records for system work or separ
 tests/runs/<run-id>/                 # test evidence only when applicable
 ```
 
-Choose a distinct commercial name, inspect existing contents before writing, and preserve earlier versions. There is no mandatory per-brand hierarchy. Each commercial owns independent copies of reused assets and records their origin; another commercial's mutable files cannot be its production dependencies.
+Choose a distinct commercial name, inspect existing contents before writing, and follow [selective delivery versioning](AGENTS.md#selective-delivery-versioning) for deliveries and checkpoints. The layout above supplies locations when needed; it does not require an archive for every edit or ordinary project fix. There is no mandatory per-brand hierarchy. Each commercial owns independent copies of reused assets and records their origin; another commercial's mutable files cannot be its production dependencies.
 
 `workspace/` holds exploration, drafts, rejected candidates, development records, original sources, and staged packages. `productions/commercials/` holds clean, usable selected material copied progressively after applicable checks. Create commercial folders and sections only when they contain real selected material; the empty production root is retained with `.gitkeep` until then. System records, evaluation samples, and historical evidence stay in their existing locations.
 
-Production brief, script, storyboard, scene, and shot documents are curated exports, not additional development records or preparation steps. The workspace commercial record remains the decision and resume owner. Keep current material directly under the production commercial folder, with previous handoffs in independent archives. Follow the workflow's [production package](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#production-package) and [promotion and revisions](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#promotion-and-revisions) rules. A package must work without workspace files, personal paths, or mutable dependencies on another commercial. Prompt readiness, asset completeness, and a rendered commercial are separate states.
+Production brief, script, storyboard, scene, and shot documents are curated exports, not additional development records or preparation steps. The workspace commercial record remains the decision and resume owner. Keep current material directly under the production commercial folder, preserving previous handoffs as independent ordinary folders or archives. Follow the workflow's [production package](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#production-package) and [promotion and revisions](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#promotion-and-revisions) rules. A portable package must work without workspace files, personal paths, or mutable dependencies on another commercial. Prompt readiness, asset completeness, and a rendered commercial are separate states.
+
+For rendered work, the commercial README identifies current videos and review states, the active named task, ordinary historical archives, and build/preview/package commands. Tasks reference common inputs in commercial `assets/` and shared editable sources through relative paths. Install development dependencies once per commercial; keep environments and caches out of task contents. Keep versioned videos and retained masters directly accessible in `output/`; generate standalone editable packages in `output/packages/` only when needed. The commercial workflow owns shared-input preservation and package independence. Existing projects retain their normal editing conventions for ordinary fixes.
 
 No application runtime, server, package manager, rendering pipeline, or commercial asset library has been selected. No application install/build/start command is required for ordinary preparation. Another repository may supply verified product material when accessible; reading it does not authorize edits there.
 

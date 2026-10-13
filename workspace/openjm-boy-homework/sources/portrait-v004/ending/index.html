@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080,height=1920">
+  <title>OpenJM dashboard loader</title>
+  <style>
+    .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow: hidden;
+  pointer-events: auto;
+  z-index: 4000;
+}
+
+/* The dashboard is usable from the first frame of the exit. */
+.overlay[data-loader-stage="exiting"] {
+  pointer-events: none;
+}
+
+/* The overlay unmounts on `done`; nothing of it is painted meanwhile. */
+.overlay[data-loader-stage="done"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse 38% 44% at 50% 46%,
+      color-mix(in srgb, var(--color-action-mint) 10%, transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at 50% 120%,
+      color-mix(in srgb, var(--color-brand-green) 7%, transparent),
+      transparent 55%
+    ),
+    var(--color-canvas);
+}
+
+/* A soft light that follows the bird; its position and presence are set every frame. */
+.halo {
+  position: absolute;
+  left: var(--loader-bird-x, 50%);
+  top: var(--loader-bird-y, 45%);
+  width: clamp(220px, 34vw, 520px);
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: var(--radius-pill);
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--color-white) 9%, transparent),
+    color-mix(in srgb, var(--color-action-mint) 6%, transparent) 45%,
+    transparent 68%
+  );
+  opacity: 0;
+  pointer-events: none;
+}
+
+.logoStage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  
+}
+
+/* The logo is the first paint; it gives way once the bird flies. */
+.overlay[data-loader-stage="flying"] .logoStage,
+.overlay[data-loader-stage="exiting"] .logoStage {
+  opacity: 0;
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: var(--loader-canvas-opacity, 1);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.brand {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-3);
+  translate: -50% 0;
+  pointer-events: none;
+}
+
+.wordmark {
+  width: clamp(120px, 13vw, 176px);
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.status {
+  color: var(--color-text-soft);
+  font-size: var(--font-size-control);
+  line-height: var(--line-height-control);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  opacity: 0;
+  
+}
+
+/* 3D path: the halo and wordmark follow the bird's approach to the center. */
+.overlay[data-loader-stage="flying"] .canvas,
+.overlay[data-loader-stage="exiting"] .canvas {
+  visibility: visible;
+}
+
+.overlay[data-loader-stage="flying"] .halo {
+  opacity: calc(0.55 * var(--loader-bird-presence, 0));
+}
+
+.overlay[data-loader-stage="flying"] .wordmark {
+  opacity: var(--loader-bird-presence, 0);
+  transform: translateY(calc((1 - var(--loader-bird-presence, 0)) * 6px));
+}
+
+/* Shown once the bird has settled at the center, and kept through the flight. */
+.overlay[data-loader-stage="flying"][data-loader-arrived="true"] .status,
+.overlay[data-loader-awaiting-data="true"] .status {
+  opacity: 1;
+}
+
+/* A slow breath between full and dim; the outer span owns showing and hiding. */
+.overlay[data-loader-arrived="true"] .statusText {
+  
+}
+
+@keyframes loaderStatusPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Exit: the backdrop clears between 10% and 55% of the bird's exit. */
+.overlay[data-loader-stage="exiting"] .backdrop,
+.overlay[data-loader-stage="exiting"] .halo {
+  opacity: 0;
+  
+}
+
+.overlay[data-loader-stage="exiting"] .wordmark,
+.overlay[data-loader-stage="exiting"] .status {
+  opacity: 0;
+  transform: none;
+  
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Reduced motion is always the static path: the logo stays, with no fade. */
+  .logoStage {
+    
+  }
+
+  .statusText {
+    
+  }
+}
+
+.mark {
+  display: block;
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+  
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (width < 1024px) {
+  .mark {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mark {
+    
+  }
+}
+
+    :root { --color-canvas:#080b0a; --color-white:#ffffff; --color-brand-green:#52b583; --color-action-mint:#19d18c; --radius-pill:999px; --space-3:12px; --transition-base:220ms ease; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; width:100%; height:100%; background:#080b0a; }
+    #root { position:relative; width:100%; height:100%; overflow:hidden; }
+    .logoStage { transition:none; }
+    .mark { animation:none; width:240px; height:240px; will-change:transform; }
+    .wordmark { width:420px; max-width:80vw; will-change:transform; }
+  </style>
+</head>
+<body>
+  <div data-hf-id="hf-b2tn" id="root" class="overlay" data-composition-id="dashboard-loader" data-start="0" data-duration="5.16" data-fade-start="4.066666666666666" data-width="1080" data-height="1920" data-fps="25" data-loader-stage="preparing-3d">
+    <div data-hf-id="hf-nn1e" id="backdrop" class="backdrop"></div>
+    <div data-hf-id="hf-aqn6" id="halo" class="halo"></div>
+    <div data-hf-id="hf-2i3p" id="logo-stage" class="logoStage" style="position:absolute;inset:0"><img data-hf-id="hf-6g0x" id="logo" class="mark" src="assets/hummingbird.svg" alt=""></div>
+    <canvas data-hf-id="hf-a8ky" id="bird" class="canvas"></canvas>
+    <div data-hf-id="hf-x6ic" id="brand" class="brand"><img data-hf-id="hf-bo7u" id="wordmark" class="wordmark" src="assets/N5.svg" alt=""></div>
+  </div>
+  <script src="runtime.js"></script>
+  <script>
+    window.__hf.buildReady['dashboard-loader'].then(() => {
+      if (window.loaderTimeline) {
+        window.__timelines = window.__timelines || {};
+        window.__timelines['dashboard-loader'] = window.loaderTimeline;
+      }
+    });
+  </script>
+</body>
+</html>

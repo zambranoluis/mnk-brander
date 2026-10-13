@@ -1,0 +1,57 @@
+{
+  "fps": 25,
+  "origin": [
+    1340,
+    725
+  ],
+  "visibility": {
+    "show": 1.9,
+    "fadeIn": 0.24,
+    "fadeOutStart": 8.65,
+    "fadeOut": 0.4
+  },
+  "events": [
+    {
+      "id": "composer",
+      "selector": "textarea[aria-label=\"Question\"]",
+      "moveStart": 2.04,
+      "hover": 2.72,
+      "press": 2.88,
+      "release": 3.0,
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "typing-rest",
+      "point": [
+        1320,
+        685
+      ],
+      "moveStart": 3.2,
+      "hover": 4.0,
+      "press": 4.0,
+      "release": 4.0
+    },
+    {
+      "id": "send",
+      "selector": "button[aria-label=\"Send message\"]",
+      "moveStart": 6.25,
+      "hover": 7.44,
+      "press": 7.64,
+      "release": 7.8
+    },
+    {
+      "id": "exit",
+      "point": [
+        1720,
+        760
+      ],
+      "moveStart": 8.0,
+      "hover": 8.6,
+      "press": 8.6,
+      "release": 8.6
+    }
+  ]
+}

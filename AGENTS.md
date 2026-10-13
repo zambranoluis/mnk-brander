@@ -45,7 +45,11 @@ Resolve paths from the repository root. Create only needed records and directori
 workspace/<commercial-name>/
 ├── <commercial-name>-commercial.md  # decisions and current preparation state
 ├── assets/                         # independent retained references and assets
-├── output/                         # staged candidate production packages
+├── revisions/<task-name>/          # task settings, changes and generated material, when used
+├── sources/                        # shared editable picture/UI sources, when used
+├── tools/                          # reusable commercial tools, when used
+├── archives/                       # ordinary preserved history, when used
+├── output/                         # shallow versioned deliverables; packages/ for on-demand handoffs
 └── local/                          # disposable working files
 
 productions/commercials/<commercial-name>/
@@ -74,6 +78,8 @@ Use [one commercial record](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#one-working-
 
 Keep development decisions and original sources in workspace. Production documents are curated exports of selected material, not competing development records. Follow the workflow's [production package](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#production-package) and [promotion and revisions](AGENTS/workflows/COMMERCIAL-WORKFLOW.md#promotion-and-revisions) rules when copying material into production or revising a handoff. Create only populated commercial folders and sections; preserve existing shot IDs when grouping them into scenes.
 
+For work with multiple rendered revisions, identify the active named task as the editing entry point. The commercial README links current candidates first with their actual review status, then historical archives and on-demand package instructions. Apply [selective delivery versioning](#selective-delivery-versioning); commercial snapshot and handoff requirements belong to the workflow.
+
 For system changes or other work outside commercial preparation, save findings costly to reconstruct, an approach worth preserving, or execution state needed for resumption. Each record is independently optional. [INVESTIGATIONS](AGENTS/docs/INVESTIGATIONS.md#investigation-record), [PLANS](AGENTS/docs/PLANS.md#plan-structure), and [IMPLEMENTATIONS](AGENTS/docs/IMPLEMENTATIONS.md#implementation-record) own their respective records. Without a saved record, report substantive state in conversation.
 
 Keep the primary record concise and current. After a material change, reconcile affected decisions, dependencies, prompts, selected assets, verification limits, unresolved choices, authorization, and next action. Preserve actual failures and corrections; remove superseded choices unless they explain the current result. Before handoff, read the existing record and its linked prerequisites together and correct contradictions.
@@ -81,6 +87,14 @@ Keep the primary record concise and current. After a material change, reconcile 
 Lasting workspace rules belong in their canonical owners, not task history. Commercial-specific decisions remain with their commercial. The canonical chain must state each adopted rule's operative criteria, scope, and material exceptions without depending on work records, memory, personal files, previous conversations, or external references. Internal routing and supporting citations are allowed. Live evidence may still be needed for current facts.
 
 Inherited historical records describe earlier template work. Preserve them and their evidence; do not treat their old requirements, external paths, or checks as current project policy.
+
+### Selective delivery versioning
+
+Preserve separately delivered artifact revisions and explicitly requested checkpoints so later changes cannot overwrite earlier deliveries or checkpoints. Preserve an additional checkpoint when an alternative or substantial experiment would otherwise destroy useful recoverable work. Intermediate edits may stay in the working copy; a message, correction, or file edit alone does not require another snapshot.
+
+Work belonging to an established project follows that project's normal editing and version-control conventions. Routine maintenance does not require a parallel workspace version archive. This does not grant permission to stage, commit, or publish.
+
+Choose the smallest sufficient preservation mechanism: versioned filenames for simple artifacts, or ordinary named task folders and archives for commercial revisions. A commercial task contains only its settings, changed sources, scripts and generated material; common inputs and editable sources are shared within that commercial. Keep delivered outputs directly accessible and shallow; create independent editable packages with only the selected task and required dependencies on demand. Keep commands and project-specific storage details with the commercial. Versioning does not require a custom framework, object store, manifest registry or separate record.
 
 ### Assets, evidence, sharing, and cleanup
 

@@ -1,0 +1,366 @@
+[
+  {
+    "source": "/_next/static/media/Roboto_Light-s.p.096v07iwa89x4.ttf",
+    "local": "assets/ui-7f1ba6e192587dbe.ttf"
+  },
+  {
+    "source": "/_next/static/media/Roboto_Regular-s.p.3mhp52rg_bf79.ttf",
+    "local": "assets/ui-4bc66ca90aa111ff.ttf"
+  },
+  {
+    "source": "/_next/static/media/Roboto_Medium-s.p.2zyxz4kvxc88e.ttf",
+    "local": "assets/ui-ce96e2f51e39acaf.ttf"
+  },
+  {
+    "source": "/_next/static/media/Roboto_Bold-s.p.2asvukbmjibr3.ttf",
+    "local": "assets/ui-04212a88cdedd926.ttf"
+  },
+  {
+    "source": "/_next/static/media/Roboto_Black-s.p.2zf32yeb2xsrh.ttf",
+    "local": "assets/ui-edb4374c491ce177.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_AMS-Regular.25ieegmnh38ts.woff2",
+    "local": "assets/ui-fc7797ebd39a9d26.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_AMS-Regular.10y3kupq4t663.woff",
+    "local": "assets/ui-8b31bf9f8d59fef3.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_AMS-Regular.418dr7cz3fo2x.ttf",
+    "local": "assets/ui-4cc0f469d714eed3.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Bold.06b-ya9t43ioz.woff2",
+    "local": "assets/ui-8255e56ce5ffd23e.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Bold.2vmk2hva4ctha.woff",
+    "local": "assets/ui-d97801fba9b65d22.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Bold.40ltxhe834pns.ttf",
+    "local": "assets/ui-33f68857569c94f7.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Regular.2eph4dlhid_m9.woff2",
+    "local": "assets/ui-b97bbb55c5238ccc.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Regular.3gxeetazf831f.woff",
+    "local": "assets/ui-3a02119ba604667a.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Caligraphic-Regular.07-7u27-nhn_r.ttf",
+    "local": "assets/ui-772c47f708bcc680.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Bold.2sasz-d-jtw8y.woff2",
+    "local": "assets/ui-c02b0bd1d5809347.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Bold.1alcy76__wdj2.woff",
+    "local": "assets/ui-428c9194c6883e82.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Bold.19yqa_tc9d_gx.ttf",
+    "local": "assets/ui-54042cae7b4b8d38.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Regular.2d10y4xmjvzlf.woff2",
+    "local": "assets/ui-b1202e603398cff4.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Regular.110oo81prr9n5.woff",
+    "local": "assets/ui-84ebe404814ce7a6.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Fraktur-Regular.2qhy34r6a05dn.ttf",
+    "local": "assets/ui-705a8e211b857886.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Bold.3-rowy8o6_4ky.woff2",
+    "local": "assets/ui-40633af310ba20d7.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Bold.0v1esh257kqpe.woff",
+    "local": "assets/ui-d8e4d2aacc8fd5a0.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Bold.0us_n0tnxlxu7.ttf",
+    "local": "assets/ui-5868f33465fa8e8d.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-BoldItalic.14r2naom8mrec.woff2",
+    "local": "assets/ui-c6e9e7362c5aaf17.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-BoldItalic.13355ck5zr48q.woff",
+    "local": "assets/ui-46f8feae9eeceb38.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-BoldItalic.3x_u9cepaced0.ttf",
+    "local": "assets/ui-403a963b774fed87.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Italic.0lig0v9j0700p.woff2",
+    "local": "assets/ui-55f5456481d46cb8.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Italic.0afv392dj4w59.woff",
+    "local": "assets/ui-4ba4184e099e3618.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Italic.2hkw3230mfwcv.ttf",
+    "local": "assets/ui-bb2e65646478d6d9.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Regular.1ryvsdzh2w1_e.woff2",
+    "local": "assets/ui-35fd302b1cda0de3.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Regular.15u8r3b2y7fv4.woff",
+    "local": "assets/ui-f39f9c0c031d4f0d.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Main-Regular.0symfa7dqj6jd.ttf",
+    "local": "assets/ui-ab099da400a20ae0.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-BoldItalic.1oopuu636h4il.woff2",
+    "local": "assets/ui-fdc47ed8d82f8e30.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-BoldItalic.12pl58orkw9rg.woff",
+    "local": "assets/ui-b1054a2e4f7098c8.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-BoldItalic.0y5w36a5aq__2.ttf",
+    "local": "assets/ui-042ed20b2606a587.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-Italic.32405s1aq8vas.woff2",
+    "local": "assets/ui-16930d9eadd450ac.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-Italic.0w0b1ugh62cfr.woff",
+    "local": "assets/ui-68657898fa4748d5.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Math-Italic.2vkekfblmz5nb.ttf",
+    "local": "assets/ui-0c9743dfe3107946.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Bold.0h3wi2z_eouyg.woff2",
+    "local": "assets/ui-d8ededb74d7c8ecc.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Bold.1ovw5p-yjp56g.woff",
+    "local": "assets/ui-ded26aa3628fb0d8.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Bold.2d03q85pwxpti.ttf",
+    "local": "assets/ui-7e481b2f1ac022d9.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Italic.0wkjc4dm2kcit.woff2",
+    "local": "assets/ui-dc785c981bf76198.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Italic.1qavw__2zz8gk.woff",
+    "local": "assets/ui-0e1417945fc5ec0a.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Italic.3i-q087b23-m8.ttf",
+    "local": "assets/ui-feeb5e341018c5d4.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Regular.2peiewu59z3d-.woff2",
+    "local": "assets/ui-d01d24a9bea6cea0.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Regular.1i4afx8nk8n4r.woff",
+    "local": "assets/ui-01bbf77604073452.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_SansSerif-Regular.31pbu25feko_c.ttf",
+    "local": "assets/ui-27581076e9b62169.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Script-Regular.11h14300o9pd0.woff2",
+    "local": "assets/ui-1fac1c6abc946601.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Script-Regular.3110jb9c-bxna.woff",
+    "local": "assets/ui-bd2f4007a0edcb4a.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Script-Regular.28p_x7iz71ofe.ttf",
+    "local": "assets/ui-c175463995e28f9a.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size1-Regular.03lhvx36ekcou.woff2",
+    "local": "assets/ui-f2a04b6a28bf1d5a.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size1-Regular.1slf4bh0hc6vm.woff",
+    "local": "assets/ui-6c92f36725cdb797.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size1-Regular.1y57-ck23ey8c.ttf",
+    "local": "assets/ui-0516c49f69c3fe4b.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size2-Regular.14s5gg-puz6h-.woff2",
+    "local": "assets/ui-b2976f9243f71b95.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size2-Regular.0-kwyvx03omo8.woff",
+    "local": "assets/ui-957a32d789bfe0f3.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size2-Regular.2u0s-b07k2o9m.ttf",
+    "local": "assets/ui-84bdf63ecc4cfb01.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size3-Regular.1n1rgzz84z8r9.woff2",
+    "local": "assets/ui-6bc6bce83337f6a2.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size3-Regular.04o9a_02gu_e8.woff",
+    "local": "assets/ui-f0d95df972a38d4e.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size3-Regular.1pkn-dge4q0fv.ttf",
+    "local": "assets/ui-cff599a0864fa1cb.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size4-Regular.2sgotkdv3dcyv.woff2",
+    "local": "assets/ui-67e9e4bb9ed7c02e.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size4-Regular.3p2r1l7xmebxv.woff",
+    "local": "assets/ui-fbc1cd28846d677c.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Size4-Regular.2uelkfk2yna5e.ttf",
+    "local": "assets/ui-75d145711d99c9a7.ttf"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Typewriter-Regular.11gr2d2wuwz77.woff2",
+    "local": "assets/ui-7b709dfe41090aa5.woff2"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Typewriter-Regular.12f8myjij3617.woff",
+    "local": "assets/ui-079de16bf7c48d67.woff"
+  },
+  {
+    "source": "/_next/static/media/KaTeX_Typewriter-Regular.3nee9kjfy6nm8.ttf",
+    "local": "assets/ui-4efd4c2ce1078282.ttf"
+  },
+  {
+    "source": "/images/logos/SVG/hummingbird.svg",
+    "local": "assets/ui-2030cfefcd9449d3.svg"
+  },
+  {
+    "source": "/images/logos/SVG/negative/N5.svg",
+    "local": "assets/ui-7e31250df6f94598.svg"
+  },
+  {
+    "source": "/icons/history-chat.svg",
+    "local": "assets/ui-c44d7c16e9f740d7.svg"
+  },
+  {
+    "source": "/icons/chevron-line-down.svg",
+    "local": "assets/ui-474ab134a06e6ecb.svg"
+  },
+  {
+    "source": "/icons/log-out.svg",
+    "local": "assets/ui-9131f7cf90ddbf2f.svg"
+  },
+  {
+    "source": "/icons/actions.svg",
+    "local": "assets/ui-4acb323794ec8366.svg"
+  },
+  {
+    "source": "/icons/apps-aside.svg",
+    "local": "assets/ui-830365f9a585cd84.svg"
+  },
+  {
+    "source": "/icons/delete-solid.svg",
+    "local": "assets/ui-e075d2fdfbb2dd0d.svg"
+  },
+  {
+    "source": "/icons/send.svg",
+    "local": "assets/ui-fb987ed96e609fca.svg"
+  },
+  {
+    "source": "/icons/account-export.svg",
+    "local": "assets/ui-609ecd356f0d65e8.svg"
+  },
+  {
+    "source": "/images/backgrounds/desktop/desktop-private-chat.png",
+    "local": "assets/ui-6516249794aba90e.png"
+  },
+  {
+    "source": "/icons/balance.svg",
+    "local": "assets/ui-6072b42bd45da177.svg"
+  },
+  {
+    "source": "/icons/gear.svg",
+    "local": "assets/ui-ae35178a562cdc15.svg"
+  },
+  {
+    "source": "/icons/camera.svg",
+    "local": "assets/ui-588eea85ea0dd2ee.svg"
+  },
+  {
+    "source": "/icons/check.svg",
+    "local": "assets/ui-164d0f0b67ea9aa8.svg"
+  },
+  {
+    "source": "/images/backgrounds/mobile/mobile-private-chat.png",
+    "local": "assets/ui-3fe15be7a5d21f9a.png"
+  },
+  {
+    "source": "/icons/menu.svg",
+    "local": "assets/ui-517447ae89b23fcb.svg"
+  },
+  {
+    "source": "/icons/person.svg",
+    "local": "assets/ui-ad76cba7e642e57a.svg"
+  },
+  {
+    "source": "/icons/new-chat.svg",
+    "local": "assets/ui-6e454084cf33fbc5.svg"
+  },
+  {
+    "source": "/icons/layout.svg",
+    "local": "assets/ui-dfe3f2eea0efdbc3.svg"
+  },
+  {
+    "source": "/icons/copy.svg",
+    "local": "assets/ui-334330ec96059d79.svg"
+  },
+  {
+    "source": "/icons/quote.svg",
+    "local": "assets/ui-f5b9a486c0e1daa6.svg"
+  },
+  {
+    "source": "/icons/exit.svg",
+    "local": "assets/ui-dc450f8418581ae0.svg"
+  },
+  {
+    "source": "/icons/delete-line.svg",
+    "local": "assets/ui-11856af8391183cf.svg"
+  },
+  {
+    "source": "/icons/thought.svg",
+    "local": "assets/ui-506c8edeefb76f25.svg"
+  },
+  {
+    "source": "/icons/download.svg",
+    "local": "assets/ui-53feab1a07f70d58.svg"
+  }
+]

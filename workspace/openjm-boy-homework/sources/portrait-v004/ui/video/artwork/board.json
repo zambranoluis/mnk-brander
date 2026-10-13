@@ -1,0 +1,11 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "labelSize": 76,
+  "panels": [
+    {"id":"evaporation","label":"Evaporation","image":"evaporation.png","cue":"up"},
+    {"id":"condensation","label":"Condensation","image":"condensation.png","cue":"gather"},
+    {"id":"precipitation","label":"Precipitation","image":"precipitation.png","cue":"down"},
+    {"id":"collection","label":"Collection","image":"collection.png","cue":"return"}
+  ]
+}

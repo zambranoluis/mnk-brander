@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080,height=1920">
+  <title>OpenJM dashboard loader</title>
+  <style>
+    __PRODUCTION_CSS__
+    :root { --color-canvas:#080b0a; --color-white:#ffffff; --color-brand-green:#52b583; --color-action-mint:#19d18c; --radius-pill:999px; --space-3:12px; --transition-base:220ms ease; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; width:100%; height:100%; background:#080b0a; }
+    #root { position:relative; width:100%; height:100%; overflow:hidden; }
+    .logoStage { transition:none; }
+    .mark { animation:none; width:240px; height:240px; will-change:transform; }
+    .wordmark { width:420px; max-width:80vw; will-change:transform; }
+  </style>
+</head>
+<body>
+  <div id="root" class="overlay" data-composition-id="dashboard-loader" data-start="0" data-duration="__DURATION__" data-fade-start="__FADE_START__" data-width="1080" data-height="1920" data-fps="25" data-loader-stage="preparing-3d">
+    <div id="backdrop" class="backdrop"></div>
+    <div id="halo" class="halo"></div>
+    <div id="logo-stage" class="logoStage" style="position:absolute;inset:0"><img id="logo" class="mark" src="assets/hummingbird.svg" alt=""></div>
+    <canvas id="bird" class="canvas"></canvas>
+    <div id="brand" class="brand"><img id="wordmark" class="wordmark" src="assets/N5.svg" alt=""></div>
+  </div>
+  <script src="runtime.js"></script>
+  <script>
+    window.__hf.buildReady['dashboard-loader'].then(() => {
+      if (window.loaderTimeline) {
+        window.__timelines = window.__timelines || {};
+        window.__timelines['dashboard-loader'] = window.loaderTimeline;
+      }
+    });
+  </script>
+</body>
+</html>

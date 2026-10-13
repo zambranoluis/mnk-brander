@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "at": 7.8,
+      "mode": "working"
+    },
+    {
+      "at": 9.8,
+      "mode": "standby"
+    },
+    {
+      "at": 29.8,
+      "mode": "image"
+    },
+    {
+      "at": 33.8,
+      "mode": "working"
+    },
+    {
+      "at": 37.8,
+      "mode": "standby"
+    }
+  ],
+  "offset": 22.8
+}

@@ -1,0 +1,2267 @@
+{
+  "scope": "Static HTML src/href/poster, CSS url(), assembly source/media/audio paths only; JS computed references and runtime execution are not certified.",
+  "counts": {
+    "known-omitted-asset": 231,
+    "locally-present": 85,
+    "external-reference-not-fetched": 9
+  },
+  "references": [
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/y-outro.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/y-outro.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "sources/z-animation-end.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/sources/z-animation-end.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/sources/z-animation-end.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/assembly.json",
+      "reference": "assets/z-animation-end.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/z-animation-end.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/z-animation-end.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/actor-pause.html",
+      "reference": "../assets/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/actor-pause.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/brand-ending.html",
+      "reference": "../assets/z-animation-end.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/z-animation-end.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/z-animation-end.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/brand-ending.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/dashboard-loading.html",
+      "reference": "../assets/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/dashboard-loading.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/images.html",
+      "reference": "../assets/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/images.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/intro-boy.html",
+      "reference": "../assets/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/intro-boy.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/music.html",
+      "reference": "../assets/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/music.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/outro-composite.html",
+      "reference": "../assets/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/y-outro.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/outro-composite.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/text.html",
+      "reference": "../assets/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/text.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/video.html",
+      "reference": "../assets/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/assets/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/assets/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/assembly-v003/compositions/video.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/actor-pause.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/actor-pause.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/actor-pause.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/brand-ending.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/brand-ending.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/brand-ending.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/dashboard-loading.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/dashboard-loading.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/dashboard-loading.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/images.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/images.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/images.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/intro-boy.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/intro-boy.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/intro-boy.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/music.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/music.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/music.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/outro-composite.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/outro-composite.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/outro-composite.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/text.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/text.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/text.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "compositions/video.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/compositions/video.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/compositions/video.html"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "vendor/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/gsap.min.js"
+    },
+    {
+      "file": "sources/assembly-v003/index.html",
+      "reference": "vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/vendor/label.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/references/transitions-dissolve.html",
+      "reference": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/compositions/components/ui-focus-zoom.html",
+      "reference": "../../assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-11856af8391183cf.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-11856af8391183cf.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-11856af8391183cf.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-164d0f0b67ea9aa8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-164d0f0b67ea9aa8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-164d0f0b67ea9aa8.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-506c8edeefb76f25.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-506c8edeefb76f25.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-506c8edeefb76f25.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-53feab1a07f70d58.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-53feab1a07f70d58.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-53feab1a07f70d58.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-588eea85ea0dd2ee.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-588eea85ea0dd2ee.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-588eea85ea0dd2ee.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-609ecd356f0d65e8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-609ecd356f0d65e8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-609ecd356f0d65e8.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-dc450f8418581ae0.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-dc450f8418581ae0.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-dc450f8418581ae0.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "artwork/board.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/artwork/board.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/artwork/board.png"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "assets/ui-7e31250df6f94598.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/ui-7e31250df6f94598.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/ui-7e31250df6f94598.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/film.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/interactions.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "interactions.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/interactions.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/interactions.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/morph.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/native-engine.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "placeholder.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/placeholder.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/placeholder.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/ui.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/ui/images/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/images/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/images/assets/segoeuib.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/compositions/components/ui-focus-zoom.html",
+      "reference": "../../assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "assets/ui-7e31250df6f94598.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/ui-7e31250df6f94598.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/ui-7e31250df6f94598.svg"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/film.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/interactions.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "interactions.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/interactions.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/interactions.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/morph.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/native-engine.js"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/ui.css"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/assembly-v003/ui/text/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/assembly-v003/ui/text/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/assembly-v003/ui/text/assets/segoeuib.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/y-outro.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/y-outro.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "ending/source/index.html.in",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ending/source/index.html.in",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ending/source/index.html.in"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "assets/z-animation-end.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/z-animation-end.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/z-animation-end.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/assembly.json",
+      "reference": "sources/audio-v002-master.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/audio-v002-master.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/audio-v002-master.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/actor-pause.html",
+      "reference": "../assets/w-pause-ui.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/w-pause-ui.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/w-pause-ui.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/actor-pause.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/brand-ending.html",
+      "reference": "../assets/z-animation-end.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/z-animation-end.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/z-animation-end.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/brand-ending.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/dashboard-loading.html",
+      "reference": "../assets/2-dashboard-loading.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/2-dashboard-loading.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/2-dashboard-loading.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/dashboard-loading.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/images.html",
+      "reference": "../assets/stage-2-images.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-2-images.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-2-images.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/images.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/intro-boy.html",
+      "reference": "../assets/1-intro-boy.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/1-intro-boy.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/1-intro-boy.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/intro-boy.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/music.html",
+      "reference": "../assets/stage-3-music.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-3-music.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-3-music.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/music.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/outro-composite.html",
+      "reference": "../assets/y-outro.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/y-outro.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/y-outro.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/outro-composite.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/text.html",
+      "reference": "../assets/stage-1-text.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-1-text.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-1-text.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/text.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/video.html",
+      "reference": "../assets/stage-4-video.mp4",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/assets/stage-4-video.mp4",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/assets/stage-4-video.mp4"
+    },
+    {
+      "file": "sources/portrait-v004/compositions/video.html",
+      "reference": "../vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ending/index.html",
+      "reference": "assets/N5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ending/assets/N5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ending/assets/N5.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ending/index.html",
+      "reference": "assets/hummingbird.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ending/assets/hummingbird.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ending/assets/hummingbird.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ending/index.html",
+      "reference": "runtime.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ending/runtime.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ending/runtime.js"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/actor-pause.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/actor-pause.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/actor-pause.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/brand-ending.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/brand-ending.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/brand-ending.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/dashboard-loading.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/dashboard-loading.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/dashboard-loading.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/images.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/images.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/images.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/intro-boy.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/intro-boy.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/intro-boy.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/music.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/music.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/music.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/outro-composite.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/outro-composite.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/outro-composite.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/text.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/text.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/text.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "compositions/video.html",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/compositions/video.html",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/compositions/video.html"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "sources/audio-v002.m4a",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/sources/audio-v002.m4a",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/sources/audio-v002.m4a"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "vendor/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/index.html",
+      "reference": "vendor/label.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/vendor/label.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/vendor/label.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/compositions/components/ui-focus-zoom.html",
+      "reference": "../../assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-11856af8391183cf.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-11856af8391183cf.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-11856af8391183cf.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-164d0f0b67ea9aa8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-164d0f0b67ea9aa8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-164d0f0b67ea9aa8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-506c8edeefb76f25.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-506c8edeefb76f25.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-506c8edeefb76f25.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-53feab1a07f70d58.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-53feab1a07f70d58.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-53feab1a07f70d58.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-588eea85ea0dd2ee.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-588eea85ea0dd2ee.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-588eea85ea0dd2ee.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-609ecd356f0d65e8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-609ecd356f0d65e8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-609ecd356f0d65e8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-dc450f8418581ae0.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-dc450f8418581ae0.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-dc450f8418581ae0.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "../portrait.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "../portrait.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "../touch.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/touch.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/touch.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "artwork/board.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/artwork/board.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/artwork/board.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "assets/ui-7e31250df6f94598.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/ui-7e31250df6f94598.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/ui-7e31250df6f94598.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/film.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/interactions.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/morph.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/native-engine.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "placeholder.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/placeholder.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/placeholder.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/ui.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/images/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/images/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/images/assets/segoeuib.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/compositions/components/ui-focus-zoom.html",
+      "reference": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-164d0f0b67ea9aa8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-164d0f0b67ea9aa8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-164d0f0b67ea9aa8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-506c8edeefb76f25.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-506c8edeefb76f25.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-506c8edeefb76f25.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-53feab1a07f70d58.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-53feab1a07f70d58.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-53feab1a07f70d58.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-588eea85ea0dd2ee.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-588eea85ea0dd2ee.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-588eea85ea0dd2ee.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-609ecd356f0d65e8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-609ecd356f0d65e8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-609ecd356f0d65e8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-dc450f8418581ae0.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-dc450f8418581ae0.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-dc450f8418581ae0.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "../portrait.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "../portrait.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "artwork/board.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/artwork/board.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/artwork/board.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "cursor.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/cursor.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/cursor.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/film.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/interactions.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/morph.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "music-placeholder.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/music-placeholder.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/music-placeholder.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/native-engine.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/ui.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/music/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/music/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/music/assets/segoeuib.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/presentation/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/presentation/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/presentation/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/presentation/index.html",
+      "reference": "presentation.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/presentation/presentation.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/presentation/presentation.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/presentation/index.html",
+      "reference": "presentation.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/presentation/presentation.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/presentation/presentation.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/compositions/components/ui-focus-zoom.html",
+      "reference": "../../assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "../portrait.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "../portrait.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "../touch.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/touch.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/touch.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "assets/ui-7e31250df6f94598.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/ui-7e31250df6f94598.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/ui-7e31250df6f94598.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/film.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/interactions.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/morph.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/native-engine.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/ui.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/text/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/text/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/text/assets/segoeuib.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/compositions/components/ui-focus-zoom.html",
+      "reference": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-164d0f0b67ea9aa8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-164d0f0b67ea9aa8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-164d0f0b67ea9aa8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-334330ec96059d79.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-334330ec96059d79.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-334330ec96059d79.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-3fe15be7a5d21f9a.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-3fe15be7a5d21f9a.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-3fe15be7a5d21f9a.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-474ab134a06e6ecb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-474ab134a06e6ecb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-474ab134a06e6ecb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-4acb323794ec8366.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-4acb323794ec8366.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-4acb323794ec8366.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-506c8edeefb76f25.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-506c8edeefb76f25.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-506c8edeefb76f25.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-517447ae89b23fcb.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-517447ae89b23fcb.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-517447ae89b23fcb.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-53feab1a07f70d58.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-53feab1a07f70d58.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-53feab1a07f70d58.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-588eea85ea0dd2ee.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-588eea85ea0dd2ee.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-588eea85ea0dd2ee.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-6072b42bd45da177.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-6072b42bd45da177.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-6072b42bd45da177.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-609ecd356f0d65e8.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-609ecd356f0d65e8.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-609ecd356f0d65e8.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-6516249794aba90e.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-6516249794aba90e.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-6516249794aba90e.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-6e454084cf33fbc5.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-6e454084cf33fbc5.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-6e454084cf33fbc5.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-830365f9a585cd84.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-830365f9a585cd84.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-830365f9a585cd84.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-9131f7cf90ddbf2f.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-9131f7cf90ddbf2f.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-9131f7cf90ddbf2f.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-ad76cba7e642e57a.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-ad76cba7e642e57a.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-ad76cba7e642e57a.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-ae35178a562cdc15.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-ae35178a562cdc15.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-ae35178a562cdc15.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-c44d7c16e9f740d7.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-c44d7c16e9f740d7.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-c44d7c16e9f740d7.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-dc450f8418581ae0.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-dc450f8418581ae0.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-dc450f8418581ae0.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-dfe3f2eea0efdbc3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-dfe3f2eea0efdbc3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-dfe3f2eea0efdbc3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-e075d2fdfbb2dd0d.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-e075d2fdfbb2dd0d.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-e075d2fdfbb2dd0d.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-f5b9a486c0e1daa6.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-f5b9a486c0e1daa6.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-f5b9a486c0e1daa6.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-fb987ed96e609fca.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-fb987ed96e609fca.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-fb987ed96e609fca.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "../portrait.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "../portrait.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/portrait.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/portrait.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "artwork/board.png",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/artwork/board.png",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/artwork/board.png"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/gsap.min.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/gsap.min.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/gsap.min.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "assets/ui-2030cfefcd9449d3.svg",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/ui-2030cfefcd9449d3.svg",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/ui-2030cfefcd9449d3.svg"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "cursor.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/cursor.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/cursor.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "film.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/film.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/film.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "https://water.usgs.gov/edu/watercycle-kids-beg.html",
+      "classification": "external-reference-not-fetched"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "interactions.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/interactions.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/interactions.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "morph.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/morph.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/morph.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "native-engine.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/native-engine.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/native-engine.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "presentation.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/presentation.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/presentation.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "presentation.js",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/presentation.js",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/presentation.js"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "ui.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/ui.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/ui.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/index.html",
+      "reference": "video.css",
+      "classification": "locally-present",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/video.css",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/video.css"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/ui.css",
+      "reference": "assets/segoeui.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/segoeui.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/segoeui.ttf"
+    },
+    {
+      "file": "sources/portrait-v004/ui/video/ui.css",
+      "reference": "assets/segoeuib.ttf",
+      "classification": "known-omitted-asset",
+      "resolved_destination": "C:/Users/MrMonka/Documents/GitHub/mnk-brander/workspace/openjm-boy-homework/sources/portrait-v004/ui/video/assets/segoeuib.ttf",
+      "original_resolved_reference": "M:/workspace/brander/openjm-boy-homework/output/portrait-v004/ui/video/assets/segoeuib.ttf"
+    }
+  ]
+}

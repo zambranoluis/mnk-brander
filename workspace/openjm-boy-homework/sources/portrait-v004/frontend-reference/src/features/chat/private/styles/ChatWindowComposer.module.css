@@ -1,0 +1,1167 @@
+/* DESIGN.md motion scale: 180ms controls, 220ms surfaces, up to 300ms
+   structural, one ease. */
+.root {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  --composer-control-duration: 180ms;
+  --composer-surface-duration: 220ms;
+  --composer-layout-duration: 240ms;
+  --composer-layout-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.composerDock {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
+  width: min(100%, 800px);
+  min-width: 0;
+  --composer-entry-max-width: 800px;
+  --composer-radius-rest: calc(var(--composer-initial-height) / 2);
+  --composer-radius-focus: 18px;
+  --composer-radius-expanded: 32px;
+  --composer-border-rest: color-mix(
+    in srgb,
+    var(--color-text-muted) 78%,
+    var(--color-bg-composer)
+  );
+  --composer-border-focus: var(--color-brand-green);
+  --composer-surface-padding: 6px;
+  --composer-initial-text-height: 30px;
+  --composer-initial-height: calc(
+    var(--composer-initial-text-height) + var(--composer-surface-padding) +
+      var(--composer-surface-padding) + 2px
+  );
+  --composer-control-height: 24px;
+  --composer-control-gap: 12px;
+  --composer-text-line-height: 1.4rem;
+  --composer-collapsed-text-row-height: calc(
+    2 * var(--composer-initial-text-height) - var(--composer-text-line-height)
+  );
+  --composer-entry-inset: clamp(1rem, 2.4vw, 1.9rem);
+  --composer-entry-width: min(
+    calc(100% - var(--composer-entry-inset)),
+    var(--composer-entry-max-width)
+  );
+  --composer-tray-width: min(calc(var(--composer-entry-width) * 0.9), 720px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: visible;
+  /* Keeps the raised layer until a closing surface has faded out. */
+  transition: z-index 0s linear var(--composer-surface-duration);
+}
+
+.composerDockWithDocuments {
+  gap: 0;
+}
+
+.composerDockWithFloatingSurface {
+  z-index: 140;
+  transition-delay: 0s;
+}
+
+.composerDockWithFloatingSurface .composerRow {
+  z-index: 141;
+}
+
+.composerDockWithFloatingSurface .attachButtonWrap {
+  z-index: 142;
+}
+
+.composerStatus {
+  display: flex;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  min-width: 0;
+  min-height: 2rem;
+  flex: 0 0 2rem;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.documentsTray {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  width: var(--composer-tray-width);
+  min-width: 0;
+  align-items: stretch;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 2px solid rgb(255 255 255 / 0.08);
+  background: rgb(0, 0, 0, 0.3);
+  border-bottom: 0;
+  border-radius: 20px 20px 0 0;
+  transform-origin: top center;
+  will-change: max-height, transform, opacity;
+  pointer-events: none;
+  max-height: 0;
+  visibility: hidden;
+  transition:
+    max-height var(--composer-surface-duration) var(--composer-layout-ease),
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    border-color var(--composer-control-duration) var(--composer-layout-ease),
+    visibility 0s linear var(--composer-surface-duration);
+  scrollbar-width: thin;
+  overscroll-behavior-x: contain;
+}
+
+.documentsTrayHidden {
+  opacity: 0;
+  transform: translateY(0.42rem) scaleY(0.98);
+}
+
+.documentsTrayClosing {
+  opacity: 0;
+  transform: translateY(0.3rem) scaleY(0.98);
+  max-height: 0;
+  visibility: visible;
+}
+
+.documentsTrayVisible {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+  max-height: 8.5rem;
+  pointer-events: auto;
+  visibility: visible;
+  transition:
+    max-height var(--composer-surface-duration) var(--composer-layout-ease),
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    border-color var(--composer-control-duration) var(--composer-layout-ease),
+    visibility 0s linear 0s;
+}
+
+.composerRow {
+  display: flex;
+  position: relative;
+  z-index: 4;
+  width: 100%;
+  min-height: var(--composer-row-min-height, 0px);
+  flex: 0 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: visible;
+}
+
+.composerRowProcessing {
+  justify-content: center;
+}
+
+.entryDisclaimer {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 1rem;
+  color: #4d4d4d;
+  font-size: clamp(0.7rem, 1.4vw, 0.8rem);
+  line-height: 1.2;
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0;
+  transform: translateY(0.35rem);
+  visibility: hidden;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    visibility 0s linear var(--composer-surface-duration);
+  will-change: opacity, transform;
+}
+
+.entryDisclaimerVisible {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    visibility 0s linear 0s;
+}
+
+.entryDisclaimerHidden {
+  opacity: 0;
+  transform: translateY(0.35rem);
+  visibility: hidden;
+}
+
+.scrollToBottomButton {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(255 255 255 / 0.2);
+  border-radius: 50%;
+  background: rgb(0 0 0 / 0.22);
+  cursor: pointer;
+  padding-top: 0.1rem;
+  transform: translate(-50%, -40%) scale(0.82);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    visibility 0s linear var(--composer-surface-duration),
+    background-color var(--composer-control-duration) var(--composer-layout-ease);
+}
+
+.scrollToBottomButtonVisible {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-surface-duration) var(--composer-layout-ease),
+    visibility 0s linear 0s,
+    background-color var(--composer-control-duration) var(--composer-layout-ease);
+}
+
+.scrollToBottomButtonHidden {
+  transform: translate(-50%, -40%) scale(0.82);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.scrollToBottomButton:hover {
+  background: #3f3f3f;
+}
+
+.scrollToBottomButton:focus-visible {
+  outline: 2px solid rgb(255 255 255 / 0.85);
+  outline-offset: 2px;
+}
+
+.scrollToBottomIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.fileInput {
+  display: none;
+}
+
+.attachButtonWrap {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  width: var(--composer-control-height);
+  height: var(--composer-control-height);
+  flex: 0 0 auto;
+  grid-column: 1;
+  grid-row: 1 / -1;
+  align-self: end;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(var(--composer-control-row-offset));
+  transition: transform var(--composer-layout-duration)
+    var(--composer-layout-ease);
+}
+
+.attachButton {
+  display: inline-flex;
+  position: relative;
+  width: var(--composer-control-height);
+  height: var(--composer-control-height);
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  border: 0;
+  border-radius: 0.55rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 0;
+  line-height: 0;
+  transition:
+    transform var(--composer-control-duration) var(--composer-layout-ease),
+    border-color var(--composer-control-duration) var(--composer-layout-ease),
+    background-color var(--composer-control-duration) var(--composer-layout-ease),
+    color var(--composer-control-duration) var(--composer-layout-ease);
+}
+
+.attachButton:hover,
+.attachButton[aria-expanded="true"] {
+  transform: translateY(-1px);
+  color: var(--color-brand-green);
+}
+
+.attachButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.attachButton:focus-visible {
+  outline-offset: 2px;
+}
+
+.attachIcon {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+}
+
+.inputShell {
+  --composer-border-angle: 0deg;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  width: var(--composer-entry-width);
+  min-width: 0;
+  flex: 0 1 var(--composer-entry-max-width);
+  max-width: var(--composer-entry-max-width);
+  min-height: var(--composer-initial-height);
+  align-items: center;
+  gap: 0.4rem;
+  overflow: visible;
+  border-radius: var(--composer-radius-rest);
+  border: 2px solid var(--composer-border-rest);
+  background: #131415;
+  padding-block: calc(0.6 * var(--composer-surface-padding));
+  padding-inline: calc(3 * var(--composer-surface-padding));
+  will-change: width, max-width, border-radius, transform;
+  transition:
+    width var(--composer-layout-duration) var(--composer-layout-ease),
+    max-width var(--composer-layout-duration) var(--composer-layout-ease),
+    min-height var(--composer-layout-duration) var(--composer-layout-ease),
+    padding var(--composer-layout-duration) var(--composer-layout-ease),
+    border-radius var(--composer-layout-duration) var(--composer-layout-ease),
+    border-color var(--composer-surface-duration) var(--composer-layout-ease),
+    background-color var(--composer-layout-duration) var(--composer-layout-ease),
+    transform var(--composer-layout-duration) var(--composer-layout-ease);
+}
+
+.inputShell::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: 5;
+  box-sizing: border-box;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--composer-border-angle),
+    transparent 0deg,
+    transparent 226deg,
+    rgb(68 136 224 / 0.2) 252deg,
+    rgb(82 189 137 / 0.78) 282deg,
+    rgb(169 178 254 / 0.96) 312deg,
+    rgb(141 103 255 / 0.98) 334deg,
+    rgb(111 75 147 / 0.5) 350deg,
+    transparent 360deg
+  );
+  opacity: 0;
+  pointer-events: none;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  transition: opacity var(--composer-surface-duration) var(--composer-layout-ease);
+}
+
+.root[data-composer-phase="generating"] .inputShell::before,
+.root[data-composer-phase="end"] .inputShell::before {
+  animation: composerBorderOrbit 1.8s linear infinite;
+}
+
+.root[data-composer-phase="generating"] .inputShell::before {
+  opacity: 1;
+}
+
+.root[data-composer-phase="end"] .inputShell::before {
+  opacity: 0;
+}
+
+@property --composer-border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes composerBorderOrbit {
+  to {
+    --composer-border-angle: 360deg;
+  }
+}
+
+.inputShell:not(.inputShellHasContent):not(.inputShellProcessing):focus-within,
+.inputShell:not(.inputShellHasContent):not(.inputShellProcessing):has(
+    [aria-expanded="true"]
+  ) {
+  border-radius: var(--composer-radius-focus);
+}
+
+/* DESIGN.md: focus supplements the field boundary. The radius alone cannot
+   carry it, and a filled composer changes no radius at all. */
+.inputShell:not(.inputShellProcessing):focus-within,
+.inputShell:not(.inputShellProcessing):has([aria-expanded="true"]) {
+  border-color: var(--composer-border-focus);
+}
+
+.inputShell.inputShellHasContent {
+  padding-top: calc(1.5 * var(--composer-surface-padding));
+  padding-bottom: calc(3 * var(--composer-surface-padding));
+  border-radius: var(--composer-radius-expanded);
+}
+
+.composerDockWithDocuments {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+
+.inputShellProcessing {
+  flex: 0 0 auto;
+  width: min(100%, 320px);
+  max-width: 320px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--composer-radius-rest);
+  padding: 0 1rem;
+  background: #131415;
+}
+
+.root[data-composer-phase="generating"] .inputShell,
+.root[data-composer-phase="end"] .inputShell {
+  height: var(--composer-initial-height);
+  max-height: var(--composer-initial-height);
+  min-height: var(--composer-initial-height);
+}
+
+.root[data-composer-phase="end"] .inputShell {
+  flex: 0 1 var(--composer-entry-max-width);
+  width: var(--composer-entry-width);
+  max-width: var(--composer-entry-max-width);
+  padding-block: calc(0.6 * var(--composer-surface-padding));
+  padding-inline: calc(3 * var(--composer-surface-padding));
+  border-radius: var(--composer-radius-rest);
+}
+
+.interactive,
+.status {
+  min-width: 0;
+  will-change: opacity, transform;
+}
+
+.interactive {
+  display: grid;
+  position: relative;
+  width: 100%;
+  min-height: var(--composer-initial-text-height);
+  grid-template-columns: max-content minmax(0, 1fr) max-content max-content;
+  --composer-row-gap: 0px;
+  --composer-prompt-metadata-row-height: 1rem;
+  --composer-prompt-metadata-height: 0px;
+  --composer-control-row-offset: calc(
+    (
+        var(--composer-control-height) -
+          var(--composer-collapsed-text-row-height)
+      ) /
+      2
+  );
+  /* Every state keeps the same three tracks (text, counter, controls) and
+     one gap, so arming a mode interpolates instead of jumping. */
+  grid-template-rows:
+    minmax(var(--composer-initial-text-height), 1fr)
+    minmax(0, var(--composer-prompt-metadata-height))
+    0;
+  align-items: center;
+  column-gap: calc(1 * var(--composer-control-gap));
+  row-gap: var(--composer-row-gap);
+  padding: 0;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-layout-duration) var(--composer-layout-ease),
+    min-height var(--composer-layout-duration) var(--composer-layout-ease),
+    grid-template-rows var(--composer-layout-duration)
+      var(--composer-layout-ease),
+    row-gap var(--composer-layout-duration) var(--composer-layout-ease);
+}
+
+.interactiveVisible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0) scale(1);
+  transition-delay: 0s;
+}
+
+.interactiveHidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateX(0.45rem) scale(0.985);
+}
+
+.centerColumn {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: center;
+  align-items: stretch;
+  gap: 0;
+}
+
+.status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  pointer-events: none;
+  transition:
+    opacity var(--composer-surface-duration) var(--composer-layout-ease),
+    transform var(--composer-layout-duration) var(--composer-layout-ease);
+}
+
+.statusVisible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: none;
+  transform: translateX(0) scale(1);
+  transition-delay: 0s;
+}
+
+.statusHidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateX(-0.3rem) scale(0.985);
+}
+
+.statusBackground {
+  inset: auto 0 calc(100% + 0.42rem) auto;
+  width: min(100%, 28rem);
+  min-height: auto;
+  border: 1px solid rgb(148 158 173 / 0.38);
+  border-radius: 0.7rem;
+  background: rgb(36 40 48 / 0.94);
+}
+
+.statusBackground .statusText {
+  min-height: auto;
+  padding: 0.46rem 0.64rem;
+  color: rgb(230 235 243 / 0.96);
+  font-size: 0.76rem;
+  line-height: 1.3;
+  white-space: normal;
+}
+
+.filePreviewStrip {
+  display: flex;
+  width: max-content;
+  min-width: 100%;
+  min-height: 66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 0.55rem;
+  padding: 0.55rem 0.9rem 1.05rem;
+}
+
+.attachmentNotice,
+.attachmentError {
+  margin: 0;
+  padding: 0 0.7rem 0.45rem;
+  font-size: 0.68rem;
+}
+
+.attachmentNotice {
+  color: #3c8058;
+}
+.attachmentError {
+  color: #aa3e3e;
+}
+
+.filePreview {
+  position: relative;
+  display: grid;
+  width: 52px;
+  flex: 0 0 52px;
+  gap: 0.2rem;
+  color: var(--color-white);
+  font-size: 0.55rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.filePreviewImage,
+.filePreviewFallback,
+.filePreviewDocumentIcon {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 0.22);
+  border-radius: 4px;
+  background: rgb(191 198 209 / 0.16);
+  object-fit: cover;
+}
+
+.filePreviewDocumentIcon {
+  padding: 0.25rem;
+  object-fit: contain;
+}
+
+.filePreviewFallback {
+  color: rgb(255 255 255 / 0.82);
+  text-transform: uppercase;
+}
+
+.filePreviewName {
+  width: 52px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.removeFileButton {
+  position: absolute;
+  top: -7px;
+  right: 5px;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0;
+  background: #ededed;
+  border-radius: 100%;
+  color: #44516a;
+  cursor: pointer;
+}
+
+.removeFileIcon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.textareaRow {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  min-height: var(--composer-initial-text-height);
+  flex: 1 1 auto;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
+  transition:
+    height var(--composer-layout-duration) var(--composer-layout-ease),
+    transform var(--composer-layout-duration) var(--composer-layout-ease);
+}
+
+.commandMenuMirror {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.textarea {
+  width: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
+  height: 100%;
+  display: block;
+  resize: none;
+  border: 0;
+  background: transparent;
+  padding-block: calc(
+    var(--composer-initial-text-height) - var(--composer-text-line-height)
+  );
+  padding-inline: 0.24rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ededed;
+  line-height: var(--composer-text-line-height);
+  outline: none;
+}
+
+.inputShellHasContent .textarea {
+  padding-block: 0;
+}
+
+.textarea::placeholder {
+  color: rgb(80, 80, 80);
+}
+
+.sendButton {
+  display: flex;
+  width: var(--composer-control-height);
+  height: var(--composer-control-height);
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  border: 0;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 0;
+  box-shadow: none;
+  transition:
+    opacity var(--composer-control-duration) var(--composer-layout-ease),
+    transform var(--composer-control-duration) var(--composer-layout-ease),
+    color var(--composer-control-duration) var(--composer-layout-ease);
+}
+
+.sendButton:hover:not(:disabled) {
+  transform: translateY(-1px);
+  color: var(--color-brand-green);
+}
+
+.sendButton:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.sendIcon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+}
+
+.sendButtonWrap {
+  position: relative;
+  display: flex;
+  width: var(--composer-control-height);
+  height: var(--composer-control-height);
+  grid-column: 4;
+  grid-row: 1 / -1;
+  align-self: end;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(var(--composer-control-row-offset));
+  transition: transform var(--composer-layout-duration)
+    var(--composer-layout-ease);
+}
+
+.inputShellHasContent .interactive {
+  --composer-row-gap: calc(var(--composer-control-gap) / 2);
+  --composer-control-row-offset: 0px;
+  min-height: calc(
+    var(--composer-initial-text-height) + (2 * var(--composer-row-gap)) +
+      var(--composer-prompt-metadata-height) + var(--composer-control-height)
+  );
+  grid-template-rows:
+    minmax(var(--composer-initial-text-height), 1fr)
+    minmax(0, var(--composer-prompt-metadata-height))
+    var(--composer-control-height);
+  row-gap: var(--composer-row-gap);
+}
+
+/* The counter row carries the gap below it (padding-bottom on
+   .promptMetadataRow), so the counter stays centred in its own height. */
+.interactive:has(.promptMetadataRow) {
+  --composer-prompt-metadata-height: calc(
+    var(--composer-prompt-metadata-row-height) + var(--composer-row-gap)
+  );
+}
+
+.inputShellProcessing.inputShellHasContent {
+  padding: 0 1rem;
+  border-radius: var(--composer-radius-rest);
+}
+
+.inputShellProcessing .interactive,
+.inputShellProcessing.inputShellHasContent .interactive {
+  min-height: 0;
+  grid-template-rows: 0 0 0;
+  row-gap: 0;
+  overflow: hidden;
+  padding-block: 0;
+}
+
+.inputShellProcessing.inputShellHasContent .centerColumn {
+  align-self: center;
+}
+
+.inputShellHasContent .centerColumn {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  align-self: start;
+}
+
+.promptMetadataRow {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  grid-column: 2 / 4;
+  grid-row: 2;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-bottom: var(--composer-row-gap);
+}
+
+.promptMetadata {
+  color: var(--color-text-secondary);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.generationControls {
+  display: grid;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  grid-column: 2;
+  grid-row: 3;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 0.56rem;
+}
+
+.generationIndicator {
+  display: inline-flex;
+  min-width: 0;
+  height: var(--composer-control-height);
+  grid-column: 1;
+  align-items: center;
+  gap: 0.42rem;
+  border: 1px solid rgb(255 255 255 / 0.14);
+  border-radius: 999px;
+  padding: 0 0.44rem 0 0.56rem;
+  background: linear-gradient(135deg, rgb(30 31 34 / 0.96), #131415);
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.generationIndicatorCode {
+  border-color: rgb(82 199 241 / 0.4);
+}
+
+.generationIndicatorImage {
+  border-color: rgb(155 87 245 / 0.42);
+}
+
+.generationIndicatorMusic {
+  border-color: color-mix(in srgb, var(--color-brand-green) 44%, transparent);
+}
+
+.generationIndicatorVideo {
+  border-color: rgb(248 177 61 / 0.48);
+}
+
+.generationIndicatorComplex {
+  border-color: rgb(248 177 61 / 0.45);
+}
+
+.generationIndicatorOpen {
+  display: inline-flex;
+  min-width: 0;
+  height: 100%;
+  align-items: center;
+  gap: 0.42rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: 1;
+}
+
+.generationIndicatorOpen:disabled {
+  cursor: default;
+}
+
+/* DESIGN.md focus ring on the whole chip: a ring on either inner button
+   would cross the chip's own border (24px chip, 16px clear button). */
+.generationIndicator:has(:focus-visible) {
+  outline: 3px solid var(--color-brand-green);
+  outline-offset: 3px;
+}
+
+.generationIndicatorOpen:focus-visible,
+.generationIndicatorClear:focus-visible {
+  outline: none;
+}
+
+.generationIndicatorOpen:focus-visible .generationIndicatorSettingsIcon {
+  color: var(--color-brand-green);
+}
+
+.generationIndicatorSettingsIcon {
+  width: 0.8rem;
+  height: 0.8rem;
+  flex: 0 0 auto;
+  color: var(--color-text-secondary);
+}
+
+.generationIndicatorIcon {
+  display: flex;
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.generationIndicatorIcon > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.generationIndicatorCode .generationIndicatorIcon {
+  color: #52c7f1;
+}
+
+.generationIndicatorImage .generationIndicatorIcon {
+  color: #9b57f5;
+}
+
+.generationIndicatorMusic .generationIndicatorIcon {
+  color: var(--color-brand-green);
+}
+
+.generationIndicatorVideo .generationIndicatorIcon {
+  color: #f8b13d;
+}
+
+.generationIndicatorComplex .generationIndicatorIcon {
+  color: #f8b13d;
+}
+
+.generationIndicatorLabel {
+  min-width: 0;
+  overflow: hidden;
+  color: #ededed;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.generationIndicatorClear {
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  background: transparent;
+  color: #858585;
+  cursor: pointer;
+}
+
+.generationIndicatorClear:hover:not(:disabled),
+.generationIndicatorClear:focus-visible {
+  color: #ededed;
+}
+
+.generationIndicatorClear:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.generationIndicatorClearIcon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.configurationControlWrap {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  min-width: 0;
+  min-height: var(--composer-control-height);
+  grid-column: 3;
+  grid-row: 1 / -1;
+  align-self: end;
+  margin-right: 8px;
+  align-items: center;
+  justify-self: end;
+  transform: translateY(var(--composer-control-row-offset));
+  transition: transform var(--composer-layout-duration)
+    var(--composer-layout-ease);
+}
+
+.statusText {
+  display: flex;
+  width: 100%;
+  min-height: 52px;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.35rem;
+  color: #5b6470;
+  font-size: clamp(0.82rem, 0.76rem + 0.28vw, 0.94rem);
+  font-weight: 500;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+@container dashboard-content (width <= 640px) {
+  .configurationControlWrap {
+    margin-right: 0;
+    transition: none;
+  }
+
+  .inputShell:not(.inputShellHasContent) .configurationControlWrap {
+    position: static;
+    transform: translateY(var(--composer-control-row-offset));
+  }
+
+  .inputShellProcessing {
+    width: min(100%, 280px);
+    max-width: 280px;
+    padding-inline: 1rem;
+  }
+
+  .attachIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .filePreviewStrip {
+    min-height: 0;
+    padding: 0.5rem 0.7rem 0.95rem;
+    gap: 0.45rem;
+  }
+
+  .filePreview {
+    width: 46px;
+    flex-basis: 46px;
+    font-size: 0.5rem;
+  }
+
+  .filePreviewImage,
+  .filePreviewFallback,
+  .filePreviewDocumentIcon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .filePreviewName {
+    width: 46px;
+  }
+}
+
+@container dashboard-content (width <= 420px) {
+  .generationIndicatorLabel {
+    display: none;
+  }
+
+  .documentsTray {
+    border-radius: 18px 18px 0 0;
+  }
+
+  .inputShellProcessing {
+    width: min(100%, 246px);
+    max-width: 246px;
+    padding-inline: 0.85rem;
+  }
+
+  .statusText {
+    min-height: 44px;
+    font-size: 0.8rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+@container dashboard-content (width >= 650px) {
+  .documentsTray {
+    margin-bottom: 0.5px;
+  }
+}
+
+@container dashboard-content (width < 450px) {
+  .inputShell:not(.inputShellHasContent) .configurationControlWrap {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    z-index: 4;
+    margin-right: 0;
+    padding-left: 0.42rem;
+    border-radius: 999px;
+    background: #131415;
+    transform: translateY(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .documentsTray,
+  .documentsTrayHidden,
+  .documentsTrayClosing,
+  .documentsTrayVisible {
+    transition: none;
+  }
+
+  .entryDisclaimer,
+  .entryDisclaimerVisible,
+  .entryDisclaimerHidden {
+    transition: none;
+  }
+
+  .scrollToBottomButton,
+  .scrollToBottomButtonVisible,
+  .scrollToBottomButtonHidden {
+    transition: none;
+  }
+
+  .inputShell,
+  .inputShell::before,
+  .interactive,
+  .status,
+  .textareaRow,
+  .attachButtonWrap,
+  .attachButton,
+  .configurationControlWrap,
+  .sendButtonWrap,
+  .sendButton,
+  .filePreview,
+  .filePreviewStrip,
+  .removeFileButton,
+  .generationIndicator,
+  .generationIndicatorClear,
+  .attachmentNotice,
+  .attachmentError {
+    transition: none;
+  }
+
+  .root[data-composer-phase="generating"] .inputShell::before,
+  .root[data-composer-phase="end"] .inputShell::before {
+    animation: none;
+    transition: none;
+  }
+
+  .documentsTrayHidden,
+  .documentsTrayClosing,
+  .documentsTrayVisible {
+    transform: none;
+  }
+}

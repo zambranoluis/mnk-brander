@@ -1,0 +1,8 @@
+{
+  "version": "v003",
+  "status": "provisional-final-original-outro",
+  "parentRevision": "assembly-v002",
+  "change": "Hide editorial outro replacement label only; retain original plate and all timing",
+  "uiFootage": "Independent byte-identical copies, no UI rerender",
+  "compositeStatus": "pending"
+}

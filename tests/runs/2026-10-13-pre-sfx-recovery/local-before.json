@@ -1,0 +1,172 @@
+{
+  ".gitattributes": {
+    "bytes": 66,
+    "mtime_ns": 1791644652759155800,
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+  },
+  ".gitignore": {
+    "bytes": 8,
+    "mtime_ns": 1791651762997150100,
+    "sha256": "459ef100502a797e08b45e83bee25fd98c0ca6d218b7d57055c270fbc72eb1a0"
+  },
+  "AGENTS.md": {
+    "bytes": 14624,
+    "mtime_ns": 1791921246328735600,
+    "sha256": "13ad162c6aa8c3ef1e25bed56aec325b4ba6461dcd6e90c4f028f5d64ee6aa0b"
+  },
+  "README.md": {
+    "bytes": 13563,
+    "mtime_ns": 1791921246328735600,
+    "sha256": "3e72fca40a5d6bdd8f9b099013c1e739aeaca4a95cb87727264871bfc9663e84"
+  },
+  "AGENTS/docs/IMPLEMENTATIONS.md": {
+    "bytes": 7118,
+    "mtime_ns": 1791653651111820400,
+    "sha256": "ddf900d306d86cd61b2023acac7bcceb00fc74a54f7228739b6008331047c571"
+  },
+  "AGENTS/docs/INSTRUCTIONS_MAKER.md": {
+    "bytes": 11846,
+    "mtime_ns": 1791653651108428500,
+    "sha256": "0e329bfe617620c5ac02edf71ea2544a008661e95f4b0fe2294dc653f292f271"
+  },
+  "AGENTS/docs/INVESTIGATIONS.md": {
+    "bytes": 6818,
+    "mtime_ns": 1791653651109425800,
+    "sha256": "e389ac8077a981bcc0a611b4c1cb55c7c88c3e3e005edc8f39befaaf1487fab7"
+  },
+  "AGENTS/docs/PLANS.md": {
+    "bytes": 6413,
+    "mtime_ns": 1791653651110811900,
+    "sha256": "fdbe3af4703304e8e52c1949499ead06bbf82fbb3d823f8fc0c49b8765256d3e"
+  },
+  "AGENTS/docs/VERIFICATIONS.md": {
+    "bytes": 16006,
+    "mtime_ns": 1791920224614536800,
+    "sha256": "a7160a42b03d9bfe69690efd1608fafe45c65ef2fd9d7bc4eb4cdbed5d19e1e2"
+  },
+  "AGENTS/workflows/COMMERCIAL-WORKFLOW.md": {
+    "bytes": 23506,
+    "mtime_ns": 1791920224613404400,
+    "sha256": "44b68d08d09e9ea66c57d0d9b872976711d314e2a773353e3fa112b921ec36f4"
+  },
+  "AGENTS/workflows/CREATIVE-DEVELOPMENT.md": {
+    "bytes": 9778,
+    "mtime_ns": 1791650770875521400,
+    "sha256": "99278eb3a8a5dcce4bb0baf36f43cfb64594da082e7a68d193d15c4f266535cf"
+  },
+  "productions/commercials/openjm/openjm-DESIGN.md": {
+    "bytes": 27622,
+    "mtime_ns": 1790470082763474400,
+    "sha256": "c43133e342e6ffefcf214e4884c5c8f288436a3bd359a629c96aafdb8d862eb5"
+  },
+  "productions/commercials/openjm/openjm-hummingbird.glb": {
+    "bytes": 396228,
+    "mtime_ns": 1790305377862153800,
+    "sha256": "768e72bf49362b7b50319664511131fc15cc0c0c2976e983bd14392130ecc6b3"
+  },
+  "productions/commercials/openjm/openjm-PRODUCT.md": {
+    "bytes": 17317,
+    "mtime_ns": 1790267602784587700,
+    "sha256": "9101d75e9f0cde48eaa6e5fd8613b0e32cd27dbe6942dc98a25fbbbc17f56d41"
+  },
+  "productions/commercials/openjm/boy-homework/1-intro-shot.mp4": {
+    "bytes": 5329192,
+    "mtime_ns": 1791601534304201300,
+    "sha256": "721abb94ca2dacb1ac499c1aeac347b7ca65e96e6eec3feda485e8e1c025e30e"
+  },
+  "productions/commercials/openjm/boy-homework/2-opening-shot.mp4": {
+    "bytes": 5914368,
+    "mtime_ns": 1791668569810312900,
+    "sha256": "5c303a58cecbff9366224c754421cbb21d6092d2a14206328c1fb3e7692cc8f7"
+  },
+  "productions/commercials/openjm/boy-homework/end.mp4": {
+    "bytes": 1753202,
+    "mtime_ns": 1791594939835710900,
+    "sha256": "24aa4bde533f4106f3b1b9b205a725db9503ec8c0c2bc686ec6dfc8482159284"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-bundle.png": {
+    "bytes": 2194759,
+    "mtime_ns": 1791588042884344800,
+    "sha256": "98114266d8e8c264e2cec2cf99d7a8a667e5ad9a98a56127387c088a4d602c14"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-vertical.png": {
+    "bytes": 1882935,
+    "mtime_ns": 1791587950244479700,
+    "sha256": "a9aafd3c36fbc1f3ea831766cd1bd5bb7bc966b2bad5af0ba282f2c8707f2dcb"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/01_face_front.png": {
+    "bytes": 215061,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "6e67f7e5f31a78716c25051bd210abb0cf42ac464b8d4908883731bbd38c3a75"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/02_face_three_quarter_left.png": {
+    "bytes": 208062,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "215cf8736eb814efa7d451b6481f0c6b30b830931cba0329321a96c6ac3f86aa"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/03_face_three_quarter_right.png": {
+    "bytes": 211436,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "1ef5877f4b446ee04e2d42a283cce08f9de6ec571aee33fbb1ddbb53492b90b6"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/04_face_profile.png": {
+    "bytes": 217102,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "68d205222a17fa45c1205dd0537b12e06fe74c31c55466a57b2038c1b4c43e2d"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/05_body_front.png": {
+    "bytes": 299129,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "61dd5c0748c00ba2440bc540cd397e15952992f2a3de5dfdee8dd69de70f0e47"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/06_body_three_quarter.png": {
+    "bytes": 299465,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "ec65d47ac37a716081b0db4054d9a8161416a9ad93e8f4ba7055527904f7d0ff"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/07_body_side.png": {
+    "bytes": 264066,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "75bb9be98a0298ecb803400f38acc3f916051ba575f9742ee2e5a615eee9b671"
+  },
+  "productions/commercials/openjm/boy-homework/boy/boy-avatar-pack/08_body_back.png": {
+    "bytes": 287662,
+    "mtime_ns": 1791602440000000000,
+    "sha256": "0b61a66fc5754ef87e5d83d9e0a602b76f0e61bb2b25ed3a0c1005b9fe1ec1ba"
+  },
+  "productions/commercials/openjm/boy-homework/room/room-1.png": {
+    "bytes": 2592768,
+    "mtime_ns": 1791591265099507600,
+    "sha256": "d0a2ccea1f4d8822a3c22cbc3abcfaa26db26188e22e25706b1340fd6c3c51b3"
+  },
+  "scripts/check_commercial_project.py": {
+    "bytes": 3222,
+    "mtime_ns": 1791868468607697700,
+    "sha256": "243068966f3ef34ea841f7ade17b729bd55d3115df6367b7d854d49c173c9ae6"
+  },
+  "scripts/check_docs.py": {
+    "bytes": 5591,
+    "mtime_ns": 1791650770885521000,
+    "sha256": "193db197d2e00fafa4cb2df2011321dd6c96de0974c4ff7389244313aa0b0b42"
+  },
+  "scripts/__pycache__/check_docs.cpython-313.pyc": {
+    "bytes": 8868,
+    "mtime_ns": 1791841430730655800,
+    "sha256": "e25ac026a2b988bdd1eb51f2c1077c1e2b871d7207de2e8e350075493b22352b"
+  },
+  "tests/test_check_docs.py": {
+    "bytes": 3464,
+    "mtime_ns": 1791647516459239700,
+    "sha256": "f30ca0dd3136eaccbca31dd75a1449eb2793cf7a0f3ee76fb35cf826fc843e83"
+  },
+  "tests/test_openjm_reusable.py": {
+    "bytes": 8648,
+    "mtime_ns": 1791920979791236700,
+    "sha256": "81d7b99dd23592a8426902227cba6bb18d799f33faa91c87e62b12f9f73f0382"
+  },
+  "tests/__pycache__/test_check_docs.cpython-313.pyc": {
+    "bytes": 8066,
+    "mtime_ns": 1791647536495168700,
+    "sha256": "7bf6c829dd81ae627bb0061a855c681b979cf12327170ae4ec7928bf7c0cc69d"
+  }
+}

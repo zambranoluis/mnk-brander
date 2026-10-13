@@ -1,0 +1,8 @@
+#film-cursor-layer{position:absolute;inset:0;z-index:2147483000;pointer-events:none;overflow:visible;opacity:0}
+.film-click-layer{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#film-pointer{position:absolute;left:-1px;top:-1px;overflow:visible;transform-origin:1px 1px}
+#film-click-pulse{opacity:0}
+.ChatWindowComposer-module__qNYLeW__attachButton[data-film-hover]{ color: var(--color-brand-green); transform: translateY(-1px); }
+.ChatWindowComposer-module__qNYLeW__sendButton[data-film-hover]:not(:disabled){ color: var(--color-brand-green); transform: translateY(-1px); }
+/* Native focus border; controls without an active rule retain their native hover appearance on press. */
+#composer-shell[data-film-focus]{border-color:var(--color-brand-green)!important}

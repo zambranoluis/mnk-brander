@@ -1,0 +1,275 @@
+.placeholder {
+  /* Set inline from the requested image size so the card keeps its shape. */
+  --frame-ratio: 1;
+  --frame-max-height: min(30vh, 17rem);
+  --frame-max-width: min(100%, 26rem);
+  --frame-inset: clamp(8px, 2.6cqw, 12px);
+  --band-inset: clamp(10px, 5.5cqw, 20px);
+  --signal-mint: #19d18c;
+  --placeholder-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  overflow: hidden;
+  width: min(var(--frame-max-width), calc(var(--frame-max-height) * var(--frame-ratio)));
+  margin-inline: auto;
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-panel);
+  background: var(--color-bg-panel-strong);
+  container-type: inline-size;
+}
+
+.stageFrame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--frame-ratio);
+  max-height: var(--frame-max-height);
+}
+
+.stageFrame::before {
+  content: "";
+  position: absolute;
+  z-index: 8;
+  inset: var(--frame-inset);
+  border: 1px solid rgb(255 255 255 / 0.055);
+  border-radius: calc(var(--radius-panel) - 7px);
+  pointer-events: none;
+}
+
+.stage {
+  position: absolute;
+  inset: calc(var(--frame-inset) + 1px);
+  overflow: hidden;
+  border-radius: calc(var(--radius-panel) - 8px);
+  background: var(--color-bg-field);
+}
+
+.stage::after {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 0.014),
+    transparent 20%,
+    transparent 71%,
+    rgb(0 0 0 / 0.23)
+  );
+  pointer-events: none;
+}
+
+/* Static instrument registration: structure, not decoration. */
+.registration {
+  position: absolute;
+  z-index: 7;
+  inset: clamp(7px, 2.4cqw, 12px);
+  opacity: 0.46;
+  transition: opacity 220ms var(--placeholder-ease);
+  pointer-events: none;
+}
+
+.stage[data-phase="scrambling"] .registration {
+  opacity: 0.32;
+}
+
+.stage[data-phase="sorting"] .registration {
+  opacity: 0.58;
+}
+
+.stage[data-phase="complete"] .registration {
+  opacity: 0.24;
+}
+
+.reg {
+  position: absolute;
+  width: clamp(12px, 4.5cqw, 20px);
+  height: clamp(12px, 4.5cqw, 20px);
+}
+
+.reg::before,
+.reg::after {
+  content: "";
+  position: absolute;
+  background: rgb(242 246 255 / 0.22);
+}
+
+.reg::before {
+  width: 100%;
+  height: 1px;
+}
+
+.reg::after {
+  width: 1px;
+  height: 100%;
+}
+
+.regTopLeft {
+  top: 0;
+  left: 0;
+}
+
+.regTopRight {
+  top: 0;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.regBottomLeft {
+  bottom: 0;
+  left: 0;
+  transform: scaleY(-1);
+}
+
+.regBottomRight {
+  right: 0;
+  bottom: 0;
+  transform: scale(-1);
+}
+
+.strips {
+  position: absolute;
+  inset: var(--band-inset) 0;
+  overflow: hidden;
+}
+
+.strip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  border-right: 1px solid rgb(255 255 255 / 0.022);
+  /* Published once on .strips so the data URL is stored a single time. */
+  background-image: var(--backdrop);
+  background-repeat: no-repeat;
+  transition: transform var(--move, 90ms) var(--placeholder-ease);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.strip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 1px;
+  left: 1px;
+  height: 2px;
+  background: transparent;
+  opacity: 0;
+  transform: scaleX(0.2);
+  transform-origin: center;
+  transition:
+    opacity 80ms linear,
+    transform 120ms var(--placeholder-ease),
+    background-color 80ms linear;
+}
+
+.strip[data-mark="compare"]::before {
+  background: rgb(242 246 255 / 0.76);
+  opacity: 0.9;
+  transform: scaleX(1);
+}
+
+.strip[data-mark="pivot"]::before {
+  background: var(--signal-mint);
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.range {
+  position: absolute;
+  z-index: 6;
+  top: var(--band-inset);
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--signal-mint);
+  opacity: 0;
+  transform-origin: left;
+  transition:
+    opacity 100ms linear,
+    width 180ms var(--placeholder-ease),
+    left 180ms var(--placeholder-ease);
+  pointer-events: none;
+}
+
+.range[data-active="true"] {
+  opacity: 0.9;
+}
+
+.veil {
+  position: absolute;
+  z-index: 4;
+  inset: var(--band-inset) 0;
+  background: rgb(19 23 24 / 0.14);
+  opacity: 0;
+  transition: opacity 180ms linear;
+  pointer-events: none;
+}
+
+.veil[data-active="true"] {
+  opacity: 1;
+}
+
+.hud {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-top: 1px solid var(--color-border-soft);
+  padding: 0.5rem 0.75rem;
+  pointer-events: none;
+}
+
+.statusDot {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: var(--radius-pill);
+  background: var(--signal-mint);
+  opacity: 0.92;
+  animation: statusPulse 1.8s var(--placeholder-ease) infinite;
+}
+
+.placeholder[data-phase="complete"] .statusDot {
+  animation: none;
+  opacity: 0.52;
+}
+
+.statusTitle {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+@keyframes statusPulse {
+  0%,
+  100% {
+    opacity: 0.52;
+    transform: scale(0.78);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .statusDot {
+    animation: none;
+    opacity: 0.85;
+    transform: none;
+  }
+
+  .strip,
+  .strip::before,
+  .range,
+  .veil,
+  .registration {
+    transition: none;
+  }
+}

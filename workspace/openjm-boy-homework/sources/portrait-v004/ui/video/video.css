@@ -1,0 +1,12 @@
+.video-settings-card{padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;border:1px solid #364343;border-radius:8px;margin:18px 0;color:#e7eeee}
+.video-settings-card h3{grid-column:1/-1;margin:0 0 14px}.video-settings-card input,.video-settings-card button{font:inherit;color:inherit;background:#0d1716;border:1px solid #364343;border-radius:6px;padding:14px}
+.video-settings-card [aria-checked=true]{background:#15382c;border-color:#37a479;color:#b2ebd1}
+#video-turn{display:flex;flex-direction:column;gap:36px;padding-top:36px}
+#video-question{align-self:flex-end}
+#video-card{width:960px;max-width:100%;align-self:flex-start;color:#eee}
+#video-pending{height:480px;border:1px solid #364343;border-radius:16px;background:#1b2528;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:30px}
+.video-generation-mark{font-size:90px;color:#61deb3}.video-generation-track{width:60%;height:3px;background:#35413d;overflow:hidden}.video-generation-track span{display:block;width:35%;height:100%;background:#61deb3}
+#ready-response{font-size:20px;line-height:1.5;margin:0 0 20px}#video-player{border:1px solid #3e4b48;border-radius:14px;overflow:hidden;background:#1b2528}#video-slot{width:100%;aspect-ratio:16/9}
+.video-controls{height:52px;display:flex;align-items:center;gap:16px;padding:0 14px;color:#ddd}.video-controls button{width:38px;height:38px;color:#b4efd8;background:transparent;border:0;font-size:26px;border-radius:6px}.video-controls button[data-film-hover]{background:#34433c}.video-controls button[data-film-press]{background:#176646}.video-controls span{font-size:14px}.video-progress{height:3px;flex:1;background:#3c4c43}.video-progress i{display:block;height:100%;background:#10d397;width:0}#video-delivered>time{display:block;font-size:12px;color:#b3b8c1;text-align:right;margin-top:18px}
+#presentation-shell{position:absolute;left:0;top:0;z-index:20;pointer-events:none;transform-origin:0 0;width:1920px;height:1080px;overflow:hidden}
+#presentation-surface{width:1920px;height:1080px}#dashboard-stage{overflow:hidden}

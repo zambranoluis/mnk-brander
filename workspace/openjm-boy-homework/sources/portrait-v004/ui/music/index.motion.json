@@ -1,0 +1,10 @@
+{
+  "duration": 24,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#composer-shell",
+      "bySec": 0
+    }
+  ]
+}

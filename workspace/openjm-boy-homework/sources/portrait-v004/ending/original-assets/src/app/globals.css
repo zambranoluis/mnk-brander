@@ -1,0 +1,286 @@
+/* src/app/globals.css */
+
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+:root {
+  color-scheme: dark;
+
+  /* Canonical palette — DESIGN.md frontmatter */
+  --color-canvas: #080b0a;
+  --color-panel: #151a19;
+  --color-elevated: #1a2226;
+  --color-field: #1b2023;
+  --color-composer: #131415;
+
+  --color-text-primary: #f2f4f3;
+  --color-text-secondary: #a9b5af;
+  --color-text-muted: #84928b;
+  --color-white: #ffffff;
+
+  --color-brand-green: #52b583;
+  --color-action-mint: #19d18c;
+  --color-action-hover: #3cdda0;
+  --color-action-pressed: #19b87c;
+
+  --color-danger: #f05257;
+  --color-warning: #f0be48;
+  --color-information: #3e8bff;
+  --color-contextual-violet: #7b4ae2;
+
+  /* Surfaces */
+  --color-bg-app: var(--color-canvas);
+  --color-bg-shell: var(--color-panel);
+  --color-bg-panel: var(--color-panel);
+  --color-bg-panel-strong: var(--color-elevated);
+  --color-bg-field: var(--color-field);
+  --color-bg-composer: var(--color-composer);
+  --color-bg-overlay: rgb(8 11 10 / 0.72); /* dims the task; dialogs stay opaque */
+
+  /* Text */
+  --color-text: var(--color-text-primary);
+  --color-text-soft: var(--color-text-secondary);
+  --color-text-inverse: var(--color-canvas); /* dark foreground on bright action fills */
+
+  /* Borders */
+  --color-border-soft: color-mix(in srgb, var(--color-text-muted) 14%, transparent);
+  --color-border-default: color-mix(in srgb, var(--color-text-muted) 24%, transparent);
+  --color-border-strong: color-mix(in srgb, var(--color-text-muted) 45%, transparent);
+
+  /* Brand and action */
+  --color-brand-accent: var(--color-brand-green);
+  --color-brand-primary: var(--color-action-mint);
+  --color-brand-primary-hover: var(--color-action-hover);
+
+  /* Status */
+  --color-status-danger: var(--color-danger);
+  --color-status-warning: var(--color-warning);
+  --color-status-information: var(--color-information);
+  --color-status-success: var(--color-brand-green);
+
+  /* Scrollbars */
+  --color-scrollbar-thumb: color-mix(in srgb, var(--color-text-muted) 40%, transparent);
+  --color-scrollbar-thumb-muted: color-mix(in srgb, var(--color-text-muted) 30%, transparent);
+  --color-scrollbar-thumb-soft: color-mix(in srgb, var(--color-text-muted) 22%, transparent);
+  --color-scrollbar-track: transparent;
+
+  /* Typography */
+  --font-family-sans: var(--font-roboto), Arial, sans-serif;
+  --font-family-mono: ui-monospace, "Cascadia Mono", "Roboto Mono", monospace;
+  --font-weight-body: 400;
+  --font-weight-medium: 500;
+  --font-size-body: 1rem;
+  --line-height-body: 1.6;
+  --font-size-control: 0.875rem;
+  --line-height-control: 1.4;
+  --font-size-metadata: 0.75rem;
+  --font-size-section: 1.25rem;
+  --line-height-heading: 1.2;
+  --font-size-dialog: 1.5rem;
+  --font-size-page: 1.75rem;
+  --font-size-welcome: 2rem;
+  --font-size-welcome-desktop: 2.5rem;
+
+  /* Geometry */
+  --radius-control: 8px;
+  --radius-compact: 12px;
+  --radius-panel: 16px;
+  --radius-composer: 20px;
+  --radius-pill: 9999px;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Motion */
+  --transition-control: 180ms ease;
+  --transition-base: 220ms ease;
+  --transition-slow: 300ms ease;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-app);
+  color: var(--color-text);
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-body);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (pointer: coarse) {
+  input:not([type]),
+  input[type="email"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="number"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"],
+  textarea,
+  select,
+  [contenteditable="true"] {
+    font-size: 1rem !important;
+  }
+}
+
+button,
+a {
+  user-select: none;
+}
+
+@layer utilities {
+  .noScrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .noScrollbar::-webkit-scrollbar {
+    display: none;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  .noScrollbar::-webkit-scrollbar-track,
+  .noScrollbar::-webkit-scrollbar-thumb,
+  .noScrollbar::-webkit-scrollbar-button,
+  .noScrollbar::-webkit-scrollbar-corner {
+    display: none !important;
+    background: none !important;
+    border: none !important;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: var(--color-scrollbar-track);
+  }
+
+  .scrollbar::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .scrollbar::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-thumb);
+    border: 2px solid var(--color-bg-app);
+    border-radius: var(--radius-pill);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-brand-accent);
+  }
+
+  .scrollbar {
+    scrollbar-color: var(--color-scrollbar-thumb-muted) var(--color-scrollbar-track);
+    scrollbar-width: thin;
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar-track {
+    background-color: var(--color-bg-shell);
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-thumb);
+    border: 2px solid var(--color-bg-shell);
+    border-radius: var(--radius-pill);
+  }
+
+  .scrollbarChatTabs::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-brand-accent);
+  }
+
+  .scrollbarChatTabs {
+    scrollbar-color: var(--color-scrollbar-thumb-muted) var(--color-bg-shell);
+    scrollbar-width: thin;
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar-track {
+    background-color: var(--color-scrollbar-track);
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-thumb-soft);
+    border: 2px solid var(--color-bg-app);
+    border-radius: var(--radius-pill);
+  }
+
+  .scrollbarTextarea::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-brand-accent);
+  }
+
+  .scrollbarTextarea {
+    scrollbar-color: var(--color-scrollbar-thumb-soft) var(--color-scrollbar-track);
+    scrollbar-width: thin;
+  }
+}
