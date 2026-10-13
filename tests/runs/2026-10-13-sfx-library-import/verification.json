@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "copied_files_sha256_verified": 49,
+  "desktop_originals_matching_both_M_copies": 6,
+  "library_files": 26,
+  "library_bytes": 1931282,
+  "audio_files_probed_and_fully_decoded": 23,
+  "decode_errors": 0,
+  "cues_resolved": 117,
+  "prepared_recipes_resolved": 11,
+  "generated_texture": "Retained warm-texture.wav; historical seeded-noise recipe inspected, not executed.",
+  "provenance_hashes_verified": 11,
+  "recovery_copies_preserved": 473,
+  "pre_existing_files_checked": 511,
+  "authorized_current_documents_changed": [
+    "workspace/openjm-boy-homework/openjm-boy-homework-commercial.md",
+    "workspace/openjm-boy-homework/README.md"
+  ],
+  "selected_base_hashes": [
+    {
+      "file": "output/openjm-assembly-v003-audio-v002.mp4",
+      "sha256": "f8cd997466f012fc9ad4b750446a4159284de6360e8940cfbf11a5e7d10dd14d"
+    },
+    {
+      "file": "output/openjm-assembly-v003-audio-v002-portrait-v004.mp4",
+      "sha256": "4d36c6a163d527c39a4bf2e2929a729bf8a9cb95a69121ffdbc93913d078b057"
+    }
+  ],
+  "historical_scripts_executed": false,
+  "dependencies_installed": false,
+  "human_listening": "Pending; no audibility or quality approval from this import.",
+  "preservation_scope": "All pre-existing commercial files, productions and pre-sfx recovery evidence; copied M sources and both M original locations plus Desktop originals. No claim about other M files.",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  }
+}

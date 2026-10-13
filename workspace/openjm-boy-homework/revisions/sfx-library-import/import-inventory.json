@@ -1,0 +1,369 @@
+[
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/click_001.ogg",
+    "destination": "assets/sfx-v006/cc0/click_001.ogg",
+    "role": "library",
+    "bytes": 4876,
+    "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/click_002.ogg",
+    "destination": "assets/sfx-v006/cc0/click_002.ogg",
+    "role": "library",
+    "bytes": 4275,
+    "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/click_003.ogg",
+    "destination": "assets/sfx-v006/cc0/click_003.ogg",
+    "role": "library",
+    "bytes": 4371,
+    "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/confirmation_001.ogg",
+    "destination": "assets/sfx-v006/cc0/confirmation_001.ogg",
+    "role": "library",
+    "bytes": 8968,
+    "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/License.txt",
+    "destination": "assets/sfx-v006/cc0/License.txt",
+    "role": "library",
+    "bytes": 574,
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/cc0/select_001.ogg",
+    "destination": "assets/sfx-v006/cc0/select_001.ogg",
+    "role": "library",
+    "bytes": 5468,
+    "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/01-laptop-opening.mp3",
+    "destination": "assets/sfx-v006/originals/01-laptop-opening.mp3",
+    "role": "library",
+    "bytes": 36909,
+    "sha256": "69a2499d7a2fa104e0dfb74c8311ab82c5461b8842497a4e832fbec97cb9fda7",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/01-laptop-opening.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/01-laptop-opening.mp3"
+    ]
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/02-brand-bloom.mp3",
+    "destination": "assets/sfx-v006/originals/02-brand-bloom.mp3",
+    "role": "library",
+    "bytes": 36909,
+    "sha256": "8cb314b4ef2df43934db3fbad7d155a7f252f97658d4b8d4375c61cd54f8cea6",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/02-brand-bloom.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/02-brand-bloom.mp3"
+    ]
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/03-digital-expansion.mp3",
+    "destination": "assets/sfx-v006/originals/03-digital-expansion.mp3",
+    "role": "library",
+    "bytes": 25389,
+    "sha256": "c19331f8242f4345e7c84a1227e546b8a4fb5320ef668c5a78353b7be928f95a",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/03-digital-expansion.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/03-digital-expansion.mp3"
+    ]
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/04-bird-emergence.mp3",
+    "destination": "assets/sfx-v006/originals/04-bird-emergence.mp3",
+    "role": "library",
+    "bytes": 25389,
+    "sha256": "dc2b3df217cb299ac856ceb46ea2419d25fa5293bf0c0f5541a8ac360f849757",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/04-bird-emergence.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/04-bird-emergence.mp3"
+    ]
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/05-feather-flutter.mp3",
+    "destination": "assets/sfx-v006/originals/05-feather-flutter.mp3",
+    "role": "library",
+    "bytes": 20781,
+    "sha256": "55f102fe121412bfdd91043bfc5cf07a18053fc4b18508d2071928d40c17cabc",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/05-feather-flutter.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/05-feather-flutter.mp3"
+    ]
+  },
+  {
+    "source": "C:/Users/MrMonka/Desktop/commercial/audio/sound-effects/06-bird-flyb.mp3",
+    "destination": "assets/sfx-v006/originals/06-bird-flyb.mp3",
+    "role": "library",
+    "bytes": 29997,
+    "sha256": "575fa7fcd17f479bc22ee6d883ca3bd545ca3d2cc173700e77e3a9708e7169f0",
+    "matching_M_originals": [
+      "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/originals/06-bird-flyb.mp3",
+      "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/originals/06-bird-flyb.mp3"
+    ]
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/bloom.wav",
+    "destination": "assets/sfx-v006/prepared/bloom.wav",
+    "role": "library",
+    "bytes": 201668,
+    "sha256": "936f84bbc4fe3bcd5d1da9eabf1f5d04ce61010a22b0bef5af1c102f6c3c7ef9"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/emergence.wav",
+    "destination": "assets/sfx-v006/prepared/emergence.wav",
+    "role": "library",
+    "bytes": 164228,
+    "sha256": "c4dd56afa2c419179d777d49ebef6c99a65596b66920957b2db54e4aa4dcafb2"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/expansion.wav",
+    "destination": "assets/sfx-v006/prepared/expansion.wav",
+    "role": "library",
+    "bytes": 178628,
+    "sha256": "4c96b185b5708795565ddc138a0035744deb9f1ab1169890832a595ae0bf7172"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/flutter.wav",
+    "destination": "assets/sfx-v006/prepared/flutter.wav",
+    "role": "library",
+    "bytes": 207428,
+    "sha256": "a0f8003a956b1ecc7534ae5a538d00d5e27778c015be918c0e79d20329fb6896"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/flyby.wav",
+    "destination": "assets/sfx-v006/prepared/flyby.wav",
+    "role": "library",
+    "bytes": 334148,
+    "sha256": "db3cf7b8ee8910713136e0647edea731405bc77ac4c99b73e6d5b2180498097a"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/fullscreen.wav",
+    "destination": "assets/sfx-v006/prepared/fullscreen.wav",
+    "role": "library",
+    "bytes": 80708,
+    "sha256": "434a69a6bb5cee0872de4eeeed2e9d46351384918b7cafe00ed7b6c178f39e1f"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/laptop.wav",
+    "destination": "assets/sfx-v006/prepared/laptop.wav",
+    "role": "library",
+    "bytes": 305348,
+    "sha256": "79c31d279e255b1bd792621bd49e4e986eea778fac064fe1d70000561e2ca136"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/measurements.json",
+    "destination": "assets/sfx-v006/prepared/measurements.json",
+    "role": "library",
+    "bytes": 10373,
+    "sha256": "51d7cdc44de477b15406620d10d9c75d8edb803f2f0f70073328a50e1a924f5e"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/selection.wav",
+    "destination": "assets/sfx-v006/prepared/selection.wav",
+    "role": "library",
+    "bytes": 11702,
+    "sha256": "03e4eabd6053194ece54a0a81041a807cfb5f190da7b5b159f7a5371c4895b07"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/tap-a.wav",
+    "destination": "assets/sfx-v006/prepared/tap-a.wav",
+    "role": "library",
+    "bytes": 21668,
+    "sha256": "6d2f624bb4f51fdf34b0c592374ea2498a56353265f2b820e218d4db8e9211f8"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/tap-b.wav",
+    "destination": "assets/sfx-v006/prepared/tap-b.wav",
+    "role": "library",
+    "bytes": 3416,
+    "sha256": "1f134402a39b4ea2707b7f7526c80cf2e44ab94ae66ed5cbe6359d886d16eff6"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/tap-c.wav",
+    "destination": "assets/sfx-v006/prepared/tap-c.wav",
+    "role": "library",
+    "bytes": 2120,
+    "sha256": "811305832dc258dfd0e80799bc2477cf988574b4fbf7ae578def2f08d9a0d856"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/prepared/warm-texture.wav",
+    "destination": "assets/sfx-v006/prepared/warm-texture.wav",
+    "role": "library",
+    "bytes": 201668,
+    "sha256": "f3c35e425ad1882bbc51a4e09fad9b71dbe713a13cfa476bef25507e73d16c29"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assets/sfx/provenance.json",
+    "destination": "assets/sfx-v006/provenance.json",
+    "role": "library",
+    "bytes": 4273,
+    "sha256": "f2ea39b84ff2f2167bb49e0735e7f367078fd7e4863971729b76eec2a12c8940"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/README.md",
+    "destination": "sources/sfx-v006/README.md",
+    "role": "historical-reference",
+    "bytes": 6723,
+    "sha256": "6975d2e1212897288735d8f1935a60f01c4842f4e409b344e85e0d811cdd2313"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/VERIFICATION.md",
+    "destination": "sources/sfx-v006/VERIFICATION.md",
+    "role": "historical-reference",
+    "bytes": 3466,
+    "sha256": "08333d142d774767bd9cf3e7a37c56ecdc9f7a719d059dd2e6f370aecae6b648"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/commercial-record.md",
+    "destination": "sources/sfx-v006/commercial-record.md",
+    "role": "historical-reference",
+    "bytes": 1608,
+    "sha256": "e9783b1ca0e48e952d255c081743733979fed754e9f007cd6d01181f8eccf5b8"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sfx-preparation.json",
+    "destination": "sources/sfx-v006/sfx-preparation.json",
+    "role": "historical-reference",
+    "bytes": 2572,
+    "sha256": "c1568e9fb762f7bf29e47a9ad1f4a95505dd656d97226179f49c2da8d97024a8"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sfx-cues.json",
+    "destination": "sources/sfx-v006/sfx-cues.json",
+    "role": "historical-reference",
+    "bytes": 55651,
+    "sha256": "a970e49155fcc0b3af8a1ac93d05327b49ab7bfa8cb5e61a5b249213cea2c98b"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/package.json",
+    "destination": "sources/sfx-v006/package.json",
+    "role": "historical-reference",
+    "bytes": 1077,
+    "sha256": "9ee784e1380fbcf3f497d51e4ec62ff9374c986df254c435d0a0142d4e9715a1"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/package-lock.json",
+    "destination": "sources/sfx-v006/package-lock.json",
+    "role": "historical-reference",
+    "bytes": 16732,
+    "sha256": "781edbdfcdfea0aeea6b9861de44fa81d7f9d83254953f4b977e2258af0883b8"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/requirements.txt",
+    "destination": "sources/sfx-v006/requirements.txt",
+    "role": "historical-reference",
+    "bytes": 30,
+    "sha256": "4e4078875fd6f72c6f5de87c9e73d9b2e38ff13163a1ef2b595fbe8646703fa7"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/hyperframes.json",
+    "destination": "sources/sfx-v006/hyperframes.json",
+    "role": "historical-reference",
+    "bytes": 54,
+    "sha256": "ad36481a9930818fc7afdb589bb7f69774fc63a3c70bdf29bd265c28f2ec7b5c"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/assembly.json",
+    "destination": "sources/sfx-v006/assembly.json",
+    "role": "historical-reference",
+    "bytes": 5168,
+    "sha256": "96f1b37212b5c95b2c9906c94315c3d20c0190f0381357b953e2aa510171226a"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/ui-cue-states.json",
+    "destination": "sources/sfx-v006/sources/ui-cue-states.json",
+    "role": "historical-reference",
+    "bytes": 618889,
+    "sha256": "85f29ee7e662449f9bc2561b37f4bf818f04a0cff4424735da6573f5db1f2dab"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/audio-v002-mix-settings.json",
+    "destination": "sources/sfx-v006/sources/audio-v002-mix-settings.json",
+    "role": "historical-reference",
+    "bytes": 4360,
+    "sha256": "b3d93b64f7d8494c06f87bb6651a3487530fb5def260d1d1d3c573090b6bf6db"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/assembly-v003.json",
+    "destination": "sources/sfx-v006/sources/assembly-v003.json",
+    "role": "historical-reference",
+    "bytes": 4735,
+    "sha256": "78c95aca87673387b84405a9851a55d98efeb378fa787d48c2c0196421964dc1"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/ui/music/timing.json",
+    "destination": "sources/sfx-v006/ui/music/timing.json",
+    "role": "historical-reference",
+    "bytes": 693,
+    "sha256": "5e343cf132964e41693ad93a2cffa2ccde6ec51d1f3b14d4c3a6a7e751b6b42b"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/ui/video/timing.json",
+    "destination": "sources/sfx-v006/ui/video/timing.json",
+    "role": "historical-reference",
+    "bytes": 535,
+    "sha256": "88883b889a0ec2b9cabe79befb482612175cf325a5b4a0963eeec1f0e621f1f0"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/prepare-sfx.py",
+    "destination": "sources/sfx-v006/scripts/prepare-sfx.py",
+    "role": "historical-reference",
+    "bytes": 4152,
+    "sha256": "6524f6130b79e9a89d06a04cdfc7e9b680c7f82a617edeaa380100bb23b5a36f"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/extract-cue-events.cjs",
+    "destination": "sources/sfx-v006/scripts/extract-cue-events.cjs",
+    "role": "historical-reference",
+    "bytes": 2274,
+    "sha256": "56a10129b15c1ad45eff41feda8b1cbb63d63a049ee19f468e5e60e8f6b35f5f"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/make-sfx-cues.py",
+    "destination": "sources/sfx-v006/scripts/make-sfx-cues.py",
+    "role": "historical-reference",
+    "bytes": 4914,
+    "sha256": "c6f6dcc4b707ab77cdb35a9dc45bd07ca048d2048c3027ba7c0d03a10d68aa17"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/mix-sfx.py",
+    "destination": "sources/sfx-v006/scripts/mix-sfx.py",
+    "role": "historical-reference",
+    "bytes": 6047,
+    "sha256": "9bb4b2e6d6b44adcb11ef05f82683e4773aa05ab0520d14d892fc18ee23c4f6c"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/compare-audio.py",
+    "destination": "sources/sfx-v006/scripts/compare-audio.py",
+    "role": "historical-reference",
+    "bytes": 3646,
+    "sha256": "8f9b7f2c8cfc91c7cdbf8a0c3c0b821fdbc6e56c2eaed525a2eae5d1da0a7e78"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/verify_sfx.py",
+    "destination": "sources/sfx-v006/scripts/verify_sfx.py",
+    "role": "historical-reference",
+    "bytes": 7734,
+    "sha256": "775932b812b50bd21b33f2ad405843bba57fbb9fa241aede762c74fa7a224513"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/scripts/verify.py",
+    "destination": "sources/sfx-v006/scripts/verify.py",
+    "role": "historical-reference",
+    "bytes": 64,
+    "sha256": "d5ad81ddf1614b2bf379cb59cfc2c66e8ea344015cf5eab96acdc1824abe70f5"
+  },
+  {
+    "source": "M:/workspace/brander/openjm-boy-homework/assets/sfx-v006/provenance.json",
+    "destination": "sources/sfx-v006/workspace-originals-provenance.json",
+    "role": "historical-originals-provenance",
+    "bytes": 2409,
+    "sha256": "6a94019e977a79afe9608e20c84ad856b6f31e18b8ff03ee9599d0ed6531c9ba"
+  }
+]

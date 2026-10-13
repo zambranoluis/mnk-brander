@@ -1,0 +1,164 @@
+[
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "Watch V006",
+    "target": "openjm-assembly-v003-audio-v002-portrait-v006.mp4",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "Mixed WAV",
+    "target": "audio/portrait-v006-mix.wav",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "SFX stem",
+    "target": "audio/sfx-stem.wav",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "sfx-preparation.json",
+    "target": "sfx-preparation.json",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/sfx-preparation.json",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "sfx-cues.json",
+    "target": "sfx-cues.json",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/sfx-cues.json",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "Prepared measurements",
+    "target": "assets/sfx/prepared/measurements.json",
+    "classification": "available through library path mapping",
+    "mapped_destination": "assets/sfx-v006/prepared/measurements.json",
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "Originals and provenance",
+    "target": "assets/sfx/provenance.json",
+    "classification": "available through library path mapping",
+    "mapped_destination": "assets/sfx-v006/provenance.json",
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "CAMERA-PATHS.md",
+    "target": "CAMERA-PATHS.md",
+    "classification": "omitted picture or project documentation",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "Verification and limits",
+    "target": "VERIFICATION.md",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/VERIFICATION.md",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/README.md",
+    "label": "This revision's commercial record",
+    "target": "commercial-record.md",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/commercial-record.md",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "117 editable cues",
+    "target": "sfx-cues.json",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/sfx-cues.json",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "Preparation settings",
+    "target": "sfx-preparation.json",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/sfx-preparation.json",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "provenance",
+    "target": "assets/sfx/provenance.json",
+    "classification": "available through library path mapping",
+    "mapped_destination": "assets/sfx-v006/provenance.json",
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "MP4",
+    "target": "openjm-assembly-v003-audio-v002-portrait-v006.mp4",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "mixed WAV",
+    "target": "audio/portrait-v006-mix.wav",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "stem",
+    "target": "audio/sfx-stem.wav",
+    "classification": "omitted full-mix input or output",
+    "mapped_destination": null,
+    "literal_imported_link_exists": false,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "rebuild instructions",
+    "target": "README.md",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/README.md",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  },
+  {
+    "document": "sources/sfx-v006/commercial-record.md",
+    "label": "verification limits",
+    "target": "VERIFICATION.md",
+    "classification": "retained historical reference",
+    "mapped_destination": "sources/sfx-v006/VERIFICATION.md",
+    "literal_imported_link_exists": true,
+    "original_exists": true
+  }
+]

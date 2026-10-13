@@ -1,0 +1,58 @@
+[
+  {
+    "historical_path": "sources/audio-v002-master.wav",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/audio-v002-master.wav",
+    "bytes": 31657062,
+    "sha256": "61a9620029b283336dcef1ce4d00602b77971e8542e71e0636b09e982c5ed023",
+    "classification": "intentionally omitted",
+    "role": "Required lossless baseline for mix-sfx.py; a decoded selected MP4 is not a bit-identical substitute."
+  },
+  {
+    "historical_path": "sources/narration-sidechain.wav",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/narration-sidechain.wav",
+    "bytes": 42209372,
+    "sha256": "34e14c41d4f255db785e892cc95a6d390d18980ece0b487f544db302fc70e7a1",
+    "classification": "intentionally omitted",
+    "role": "Required only by verify_sfx.py for narration masking measurements; mixer ducks from timing JSON."
+  },
+  {
+    "historical_path": "sources/portrait-v005-picture-reference.mp4",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/sources/portrait-v005-picture-reference.mp4",
+    "bytes": 50673208,
+    "sha256": "0cae9547d740af8b2596952fa13d47aca17c94e337b4aa6fe3c91acad14cc9dd",
+    "classification": "intentionally omitted",
+    "role": "Required video for historical mux and identity checks; its old soundtrack serves A/B comparison only."
+  },
+  {
+    "historical_path": "openjm-assembly-v003-audio-v002-portrait-v006.mp4",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/openjm-assembly-v003-audio-v002-portrait-v006.mp4",
+    "bytes": 50683151,
+    "sha256": "8715769309dd0662ba6df4e0a1de8e0b356eeea1dbf60e3883eef4b1259026d8",
+    "classification": "intentionally omitted",
+    "role": "Historical complete output; required for comparison and verification."
+  },
+  {
+    "historical_path": "audio/portrait-v006-mix.wav",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/audio/portrait-v006-mix.wav",
+    "bytes": 31657028,
+    "sha256": "c54a6ed9c61b70fb0fd778154d1e6b8d846f0b06f1fb407961a8bd542ab349fd",
+    "classification": "intentionally omitted",
+    "role": "Historical complete mixed output; required by verification."
+  },
+  {
+    "historical_path": "audio/sfx-stem.wav",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/audio/sfx-stem.wav",
+    "bytes": 31657028,
+    "sha256": "945899282da523b4df3be21c3e0f14c305781108e03df33b1047269580cf79df",
+    "classification": "intentionally omitted",
+    "role": "Historical full-length SFX stem; required by verification."
+  },
+  {
+    "historical_path": "audio/portrait-v006-preview.m4a",
+    "source": "M:/workspace/brander/openjm-boy-homework/output/portrait-v006/audio/portrait-v006-preview.m4a",
+    "bytes": 3774561,
+    "sha256": "22314814e57e911adff7ee81af6dfa9eaae4a326672a6f32a3cffa475bf980fc",
+    "classification": "intentionally omitted",
+    "role": "Historical encoded preview; required by verification."
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "path": "assets/sfx/originals/01-laptop-opening.mp3",
+    "sha256": "69a2499d7a2fa104e0dfb74c8311ab82c5461b8842497a4e832fbec97cb9fda7",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "01-laptop-opening.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/originals/02-brand-bloom.mp3",
+    "sha256": "8cb314b4ef2df43934db3fbad7d155a7f252f97658d4b8d4375c61cd54f8cea6",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "02-brand-bloom.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/originals/03-digital-expansion.mp3",
+    "sha256": "c19331f8242f4345e7c84a1227e546b8a4fb5320ef668c5a78353b7be928f95a",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "03-digital-expansion.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/originals/04-bird-emergence.mp3",
+    "sha256": "dc2b3df217cb299ac856ceb46ea2419d25fa5293bf0c0f5541a8ac360f849757",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "04-bird-emergence.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/originals/05-feather-flutter.mp3",
+    "sha256": "55f102fe121412bfdd91043bfc5cf07a18053fc4b18508d2071928d40c17cabc",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "05-feather-flutter.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/originals/06-bird-flyb.mp3",
+    "sha256": "575fa7fcd17f479bc22ee6d883ca3bd545ca3d2cc173700e77e3a9708e7169f0",
+    "origin": "User-supplied ElevenLabs recording",
+    "original_filename": "06-bird-flyb.mp3",
+    "provider_settings": "Not supplied; no generation performed in this revision",
+    "use": "Private production source; not a standalone sound library"
+  },
+  {
+    "path": "assets/sfx/cc0/click_001.ogg",
+    "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9",
+    "origin": "Kenney Interface Sounds 1.0",
+    "license": "CC0",
+    "license_file": "assets/sfx/cc0/License.txt",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "verified_date": "2026-10-12"
+  },
+  {
+    "path": "assets/sfx/cc0/click_002.ogg",
+    "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c",
+    "origin": "Kenney Interface Sounds 1.0",
+    "license": "CC0",
+    "license_file": "assets/sfx/cc0/License.txt",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "verified_date": "2026-10-12"
+  },
+  {
+    "path": "assets/sfx/cc0/click_003.ogg",
+    "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292",
+    "origin": "Kenney Interface Sounds 1.0",
+    "license": "CC0",
+    "license_file": "assets/sfx/cc0/License.txt",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "verified_date": "2026-10-12"
+  },
+  {
+    "path": "assets/sfx/cc0/confirmation_001.ogg",
+    "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+    "origin": "Kenney Interface Sounds 1.0",
+    "license": "CC0",
+    "license_file": "assets/sfx/cc0/License.txt",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "verified_date": "2026-10-12"
+  },
+  {
+    "path": "assets/sfx/cc0/select_001.ogg",
+    "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a",
+    "origin": "Kenney Interface Sounds 1.0",
+    "license": "CC0",
+    "license_file": "assets/sfx/cc0/License.txt",
+    "source_url": "https://kenney.nl/assets/interface-sounds",
+    "verified_date": "2026-10-12"
+  }
+]

@@ -1,0 +1,118 @@
+id,asset,start_seconds,duration_seconds,trim_start_seconds,gain_db,peak_normalize_dbfs,fade_in_seconds,fade_out_seconds,pan,kind,note,scene,source_frame,event,selector,role,field,alignment,target_seconds,imported_asset
+opening-bloom,assets/sfx/prepared/bloom.wav,0,0.7,0,-27,0,0.003,0.035,0,opening,,,,,,,,,,assets/sfx-v006/prepared/bloom.wav
+opening-warmth,assets/sfx/prepared/warm-texture.wav,0,0.7,0,-36,0,0.003,0.035,0,opening,,,,,,,,,,assets/sfx-v006/prepared/warm-texture.wav
+laptop-contact,assets/sfx/prepared/laptop.wav,3.84,1.06,0,-29,0,0.003,0.035,0,physical,Initial lid lift visible between 3.80 and 4.00 seconds; one contact only across the cut.,,,,,,,,,assets/sfx-v006/prepared/laptop.wav
+enter-ui,assets/sfx/prepared/expansion.wav,9.44,0.5,0,-33,0,0.003,0.035,0,expansion,,,,,,,,,,assets/sfx-v006/prepared/expansion.wav
+text-composer,assets/sfx/prepared/selection.wav,12.32,0.04,0,-32,0,0.003,0.008,0,press,,text,72,composer,"textarea[aria-label=""Question""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+text-key-79,assets/sfx/prepared/tap-a.wav,12.6,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,text,79,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+text-key-84,assets/sfx/prepared/tap-b.wav,12.8,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,text,84,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+text-key-90,assets/sfx/prepared/tap-c.wav,13.04,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,text,90,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+text-key-94,assets/sfx/prepared/tap-a.wav,13.2,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,text,94,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+text-key-99,assets/sfx/prepared/tap-b.wav,13.4,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,text,99,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+text-key-105,assets/sfx/prepared/tap-c.wav,13.64,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,text,105,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+text-key-109,assets/sfx/prepared/tap-a.wav,13.8,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,text,109,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+text-key-114,assets/sfx/prepared/tap-b.wav,14.0,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,text,114,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+text-key-121,assets/sfx/prepared/tap-c.wav,14.28,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,text,121,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+text-key-125,assets/sfx/prepared/tap-a.wav,14.44,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,text,125,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+text-key-130,assets/sfx/prepared/tap-b.wav,14.64,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,text,130,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+text-key-136,assets/sfx/prepared/tap-c.wav,14.88,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,text,136,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+text-key-140,assets/sfx/prepared/tap-a.wav,15.04,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,text,140,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+text-key-145,assets/sfx/prepared/tap-b.wav,15.24,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,text,145,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+text-send,assets/sfx/prepared/tap-a.wav,17.08,0.065,0,-27,0,0.003,0.013000000000000001,0,press,,text,191,send,"button[aria-label=""Send message""]",submission,,,,assets/sfx-v006/prepared/tap-a.wav
+text-complete,assets/sfx/prepared/bloom.wav,25.24,0.22,0.14,-31,0,0.003,0.035,0,result,Prepared bloom crest within one frame of result; escalating duration and gain.,text,395,,,,,,,assets/sfx-v006/prepared/bloom.wav
+text-confirm,assets/sfx/prepared/tap-a.wav,25.24,0.05,0,-32,0,0.003,0.010000000000000002,0,result,,text,395,,,,,,,assets/sfx-v006/prepared/tap-a.wav
+images-composer,assets/sfx/prepared/selection.wav,34.48,0.04,0,-32,0,0.003,0.008,0,press,,images,56,composer,"textarea[aria-label=""Question""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+images-key-62,assets/sfx/prepared/tap-a.wav,34.72,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,images,62,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+images-key-68,assets/sfx/prepared/tap-b.wav,34.96,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,images,68,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+images-key-75,assets/sfx/prepared/tap-c.wav,35.24,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,images,75,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+images-key-79,assets/sfx/prepared/tap-a.wav,35.4,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,images,79,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+images-key-85,assets/sfx/prepared/tap-b.wav,35.64,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,images,85,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+images-key-92,assets/sfx/prepared/tap-c.wav,35.92,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,images,92,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+images-key-96,assets/sfx/prepared/tap-a.wav,36.08,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,images,96,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+images-key-102,assets/sfx/prepared/tap-b.wav,36.32,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,images,102,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+images-key-109,assets/sfx/prepared/tap-c.wav,36.6,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,images,109,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+images-key-113,assets/sfx/prepared/tap-a.wav,36.76,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,images,113,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+images-key-119,assets/sfx/prepared/tap-b.wav,37.0,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,images,119,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+images-key-126,assets/sfx/prepared/tap-c.wav,37.28,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,images,126,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+images-key-130,assets/sfx/prepared/tap-a.wav,37.44,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,images,130,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+images-key-135,assets/sfx/prepared/tap-b.wav,37.64,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,images,135,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+images-actions,assets/sfx/prepared/selection.wav,38.08,0.04,0,-32,0,0.003,0.008,0,press,,images,146,actions,"button[aria-label=""Open actions""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+images-image,assets/sfx/prepared/selection.wav,39.08,0.04,0,-32,0,0.003,0.008,0,press,,images,171,image,"button[role=""menuitemcheckbox""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+images-format,assets/sfx/prepared/selection.wav,40.68,0.04,0,-32,0,0.003,0.008,0,press,,images,211,format,"button[role=""radio""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+images-confirm,assets/sfx/prepared/selection.wav,42.08,0.04,0,-32,0,0.003,0.008,0,press,,images,246,confirm,button,selection,,,,assets/sfx-v006/prepared/selection.wav
+images-send,assets/sfx/prepared/tap-a.wav,43.08,0.065,0,-27,0,0.003,0.013000000000000001,0,press,,images,271,send,"button[aria-label=""Send message""]",submission,,,,assets/sfx-v006/prepared/tap-a.wav
+images-complete,assets/sfx/prepared/bloom.wav,47.28,0.245,0.14,-30,0,0.003,0.035,0,result,Prepared bloom crest within one frame of result; escalating duration and gain.,images,376,,,,,,,assets/sfx-v006/prepared/bloom.wav
+images-confirm,assets/sfx/prepared/tap-a.wav,47.28,0.05,0,-31,0,0.003,0.010000000000000002,0,result,,images,376,,,,,,,assets/sfx-v006/prepared/tap-a.wav
+music-composer,assets/sfx/prepared/selection.wav,58.64,0.04,0,-32,0,0.003,0.008,0,press,,music,42,composer,"textarea[aria-label=""Question""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-key-52,assets/sfx/prepared/tap-a.wav,59.04,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,music,52,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+music-key-57,assets/sfx/prepared/tap-b.wav,59.24,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,music,57,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+music-key-63,assets/sfx/prepared/tap-c.wav,59.48,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,music,63,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+music-key-68,assets/sfx/prepared/tap-a.wav,59.68,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,music,68,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+music-key-73,assets/sfx/prepared/tap-b.wav,59.88,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,music,73,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+music-key-79,assets/sfx/prepared/tap-c.wav,60.12,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,music,79,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+music-key-84,assets/sfx/prepared/tap-a.wav,60.32,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,music,84,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+music-key-89,assets/sfx/prepared/tap-b.wav,60.52,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,music,89,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+music-key-95,assets/sfx/prepared/tap-c.wav,60.76,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,music,95,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+music-key-100,assets/sfx/prepared/tap-a.wav,60.96,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,music,100,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+music-key-105,assets/sfx/prepared/tap-b.wav,61.16,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,music,105,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+music-key-111,assets/sfx/prepared/tap-c.wav,61.4,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,music,111,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+music-key-116,assets/sfx/prepared/tap-a.wav,61.6,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,music,116,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+music-key-121,assets/sfx/prepared/tap-b.wav,61.8,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,music,121,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+music-actions,assets/sfx/prepared/selection.wav,62.08,0.04,0,-32,0,0.003,0.008,0,press,,music,128,actions,"button[aria-label=""Open actions""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-music,assets/sfx/prepared/selection.wav,62.68,0.04,0,-32,0,0.003,0.008,0,press,,music,143,music,"button[role=""menuitemcheckbox""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-custom,assets/sfx/prepared/selection.wav,63.28,0.04,0,-32,0,0.003,0.008,0,press,,music,158,custom,"button[role=""radio""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-lyrics,assets/sfx/prepared/selection.wav,63.88,0.04,0,-32,0,0.003,0.008,0,press,,music,173,lyrics,"[role=""dialog""] textarea",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-lyrics-paste,assets/sfx/prepared/tap-a.wav,64.2,0.04,0,-31,0,0.003,0.008,0,paste,,music,181,,,,lyrics,,,assets/sfx-v006/prepared/tap-a.wav
+music-duration,assets/sfx/prepared/selection.wav,64.88,0.04,0,-32,0,0.003,0.008,0,press,,music,198,duration,"[role=""dialog""] input[type=""number""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-durationType,assets/sfx/prepared/tap-b.wav,65.24,0.011625,0,-34,0,0.00093,0.0023250000000000002,0,typing,,music,207,,,,duration,,,assets/sfx-v006/prepared/tap-b.wav
+music-durationTyped,assets/sfx/prepared/tap-b.wav,65.48,0.011625,0,-34,0,0.00093,0.0023250000000000002,0,typing,,music,213,,,,duration,,,assets/sfx-v006/prepared/tap-b.wav
+music-confirm,assets/sfx/prepared/selection.wav,66.24,0.04,0,-32,0,0.003,0.008,0,press,,music,232,confirm,"[role=""dialog""] button",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-send,assets/sfx/prepared/tap-a.wav,66.84,0.065,0,-27,0,0.003,0.013000000000000001,0,press,,music,247,send,"button[aria-label=""Send message""]",submission,,,,assets/sfx-v006/prepared/tap-a.wav
+music-complete,assets/sfx/prepared/bloom.wav,70.96,0.27,0.14,-29,0,0.003,0.035,0,result,Prepared bloom crest within one frame of result; escalating duration and gain.,music,350,,,,,,,assets/sfx-v006/prepared/bloom.wav
+music-confirm,assets/sfx/prepared/tap-a.wav,70.96,0.05,0,-30,0,0.003,0.010000000000000002,0,result,,music,350,,,,,,,assets/sfx-v006/prepared/tap-a.wav
+music-play,assets/sfx/prepared/selection.wav,76.84,0.04,0,-32,0,0.003,0.008,0,press,,music,497,play,"#music-card button[aria-label=""Play""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+music-pause,assets/sfx/prepared/selection.wav,79.84,0.04,0,-32,0,0.003,0.008,0,press,,music,572,pause,"#music-card button[aria-label=""Pause""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+video-composer,assets/sfx/prepared/selection.wav,82.64,0.04,0,-32,0,0.003,0.008,0,press,,video,42,composer,"textarea[aria-label=""Question""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+video-key-52,assets/sfx/prepared/tap-a.wav,83.04,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,52,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-57,assets/sfx/prepared/tap-b.wav,83.24,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,57,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-64,assets/sfx/prepared/tap-c.wav,83.52,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,64,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-key-69,assets/sfx/prepared/tap-a.wav,83.72,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,69,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-74,assets/sfx/prepared/tap-b.wav,83.92,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,74,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-80,assets/sfx/prepared/tap-c.wav,84.16,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,80,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-key-84,assets/sfx/prepared/tap-a.wav,84.32,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,84,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-89,assets/sfx/prepared/tap-b.wav,84.52,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,89,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-96,assets/sfx/prepared/tap-c.wav,84.8,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,96,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-key-100,assets/sfx/prepared/tap-a.wav,84.96,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,100,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-105,assets/sfx/prepared/tap-b.wav,85.16,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,105,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-112,assets/sfx/prepared/tap-c.wav,85.44,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,112,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-key-116,assets/sfx/prepared/tap-a.wav,85.6,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,116,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-122,assets/sfx/prepared/tap-b.wav,85.84,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,122,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-129,assets/sfx/prepared/tap-c.wav,86.12,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,129,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-key-134,assets/sfx/prepared/tap-a.wav,86.32,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,134,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-key-139,assets/sfx/prepared/tap-b.wav,86.52,0.011625,0,-33.5,0,0.00093,0.0023250000000000002,0,typing,,video,139,,,,prompt,,,assets/sfx-v006/prepared/tap-b.wav
+video-key-145,assets/sfx/prepared/tap-c.wav,86.76,0.007125,0,-34.5,0,0.0005700000000000001,0.001425,0.04,typing,,video,145,,,,prompt,,,assets/sfx-v006/prepared/tap-c.wav
+video-actions,assets/sfx/prepared/selection.wav,86.88,0.04,0,-32,0,0.003,0.008,0,press,,video,148,actions,"button[aria-label=""Open actions""]",selection,,,,assets/sfx-v006/prepared/selection.wav
+video-key-149,assets/sfx/prepared/tap-a.wav,86.92,0.03,0,-35,0,0.0024,0.006,-0.04,typing,,video,149,,,,prompt,,,assets/sfx-v006/prepared/tap-a.wav
+video-video,assets/sfx/prepared/selection.wav,87.36,0.04,0,-32,0,0.003,0.008,0,press,,video,160,video,#video-option,selection,,,,assets/sfx-v006/prepared/selection.wav
+video-landscape,assets/sfx/prepared/selection.wav,87.92,0.04,0,-32,0,0.003,0.008,0,press,,video,174,landscape,#video-landscape,selection,,,,assets/sfx-v006/prepared/selection.wav
+video-duration,assets/sfx/prepared/selection.wav,88.44,0.04,0,-32,0,0.003,0.008,0,press,,video,187,duration,#video-duration,selection,,,,assets/sfx-v006/prepared/selection.wav
+video-durationType,assets/sfx/prepared/tap-b.wav,88.68,0.011625,0,-34,0,0.00093,0.0023250000000000002,0,typing,,video,193,,,,duration,,,assets/sfx-v006/prepared/tap-b.wav
+video-durationTyped,assets/sfx/prepared/tap-b.wav,88.8,0.011625,0,-34,0,0.00093,0.0023250000000000002,0,typing,,video,196,,,,duration,,,assets/sfx-v006/prepared/tap-b.wav
+video-silent,assets/sfx/prepared/selection.wav,89.0,0.04,0,-32,0,0.003,0.008,0,press,,video,201,silent,#video-silent,selection,,,,assets/sfx-v006/prepared/selection.wav
+video-confirm,assets/sfx/prepared/selection.wav,89.48,0.04,0,-32,0,0.003,0.008,0,press,,video,213,confirm,"[role=""dialog""] button",selection,,,,assets/sfx-v006/prepared/selection.wav
+video-send,assets/sfx/prepared/tap-a.wav,89.96,0.065,0,-27,0,0.003,0.013000000000000001,0,press,,video,225,send,"button[aria-label=""Send message""]",submission,,,,assets/sfx-v006/prepared/tap-a.wav
+video-complete,assets/sfx/prepared/bloom.wav,93.96,0.295,0.14,-28,0,0.003,0.035,0,result,Prepared bloom crest within one frame of result; escalating duration and gain.,video,325,,,,,,,assets/sfx-v006/prepared/bloom.wav
+video-confirm,assets/sfx/prepared/tap-a.wav,93.96,0.05,0,-29,0,0.003,0.010000000000000002,0,result,,video,325,,,,,,,assets/sfx-v006/prepared/tap-a.wav
+video-play,assets/sfx/prepared/selection.wav,95.84,0.04,0,-32,0,0.003,0.008,0,press,,video,372,play,#video-play,selection,,,,assets/sfx-v006/prepared/selection.wav
+video-fullscreen,assets/sfx/prepared/selection.wav,96.56,0.04,0,-32,0,0.003,0.008,0,press,,video,390,fullscreen,#video-fullscreen,selection,,,,assets/sfx-v006/prepared/selection.wav
+fullscreen-air,assets/sfx/prepared/fullscreen.wav,96.68,0.28,0,-33,0,0.003,0.035,0,expansion,Original source 0.12-0.40; prepared crest at 96.755 before speech at 96.8.,video,393,,,,,,,assets/sfx-v006/prepared/fullscreen.wav
+bird-emergence,assets/sfx/prepared/emergence.wav,99.28,0.57,0,-28,0,0.003,0.035,0,flight,Prepared onset within one frame of appearance; speech-ducked.,,,,,,,,,assets/sfx-v006/prepared/emergence.wav
+bird-turn-right,assets/sfx/prepared/flutter.wav,100.28,0.22,0.03,-31,0,0.003,0.035,0.16,flight,Separated burst on inspected wing/turn gesture; no looping.,,,,,,,,,assets/sfx-v006/prepared/flutter.wav
+bird-window-turn,assets/sfx/prepared/flutter.wav,101.28,0.23,0.22,-32,0,0.003,0.035,-0.12,flight,Separated burst on inspected wing/turn gesture; no looping.,,,,,,,,,assets/sfx-v006/prepared/flutter.wav
+bird-return,assets/sfx/prepared/flutter.wav,102.96,0.22,0.42,-34,0,0.003,0.035,0.08,flight,Separated burst on inspected wing/turn gesture; no looping.,,,,,,,,,assets/sfx-v006/prepared/flutter.wav
+bird-close-flyby,assets/sfx/prepared/flyby.wav,103.615,1.16,0,-23,0,0.003,0.035,0.1,flight,Crest remeasured after 150Hz high-pass; source start is not the sync anchor.,,,,,,,energy_crest,104.4,assets/sfx-v006/prepared/flyby.wav
+native-flight,assets/sfx/prepared/flutter.wav,105.28,0.2,0.02,-33,0,0.003,0.035,-0.1,flight,Separated burst on inspected wing/turn gesture; no looping.,,,,,,,,,assets/sfx-v006/prepared/flutter.wav
+native-wing,assets/sfx/prepared/flutter.wav,105.68,0.18,0.23,-35,0,0.003,0.035,0.03,flight,Separated burst on inspected wing/turn gesture; no looping.,,,,,,,,,assets/sfx-v006/prepared/flutter.wav
+native-arrival,assets/sfx/prepared/tap-a.wav,106.32,0.06,0,-35,0,0.003,0.012,0,settle,,,,,,,,,,assets/sfx-v006/prepared/tap-a.wav
+ending-bloom,assets/sfx/prepared/bloom.wav,108.84,0.7,0,-28,0,0.003,0.035,0,ending,,,,,,,,,,assets/sfx-v006/prepared/bloom.wav
+ending-warmth,assets/sfx/prepared/warm-texture.wav,108.84,0.7,0,-37,0,0.003,0.035,0,ending,,,,,,,,,,assets/sfx-v006/prepared/warm-texture.wav

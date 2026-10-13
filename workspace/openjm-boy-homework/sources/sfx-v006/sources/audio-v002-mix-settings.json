@@ -1,0 +1,148 @@
+{
+  "sample_rate": 48000,
+  "samples": 5276160,
+  "cues": [
+    {
+      "id": "N01",
+      "file": "../../assets/audio-v002/originals/N01.mp3",
+      "start": 0.8,
+      "start_sample": 38400,
+      "end": 7.487354166666666,
+      "samples": 320993,
+      "original_samples": 320993,
+      "trailing_trim_samples": 0,
+      "gain_db": -1.3099999999999987,
+      "activity_end": 7.361208333333333,
+      "pace": 1
+    },
+    {
+      "id": "N02",
+      "file": "../../assets/audio-v002/originals/N02.mp3",
+      "start": 11,
+      "start_sample": 528000,
+      "end": 18.0791875,
+      "samples": 339801,
+      "original_samples": 339801,
+      "trailing_trim_samples": 0,
+      "gain_db": 0.7399999999999984,
+      "activity_end": 17.804145833333333,
+      "pace": 1
+    },
+    {
+      "id": "N03",
+      "file": "../../assets/audio-v002/originals/N03.mp3",
+      "start": 33.2,
+      "start_sample": 1593600,
+      "end": 39.31266666666667,
+      "samples": 293408,
+      "original_samples": 293408,
+      "trailing_trim_samples": 0,
+      "gain_db": 0.3299999999999983,
+      "activity_end": 39.1825625,
+      "pace": 1
+    },
+    {
+      "id": "N04",
+      "file": "../../assets/audio-v002/originals/N04.mp3",
+      "start": 43.2,
+      "start_sample": 2073600,
+      "end": 48.111020833333335,
+      "samples": 235729,
+      "original_samples": 235729,
+      "trailing_trim_samples": 0,
+      "gain_db": 0.5500000000000007,
+      "activity_end": 48.0131875,
+      "pace": 1
+    },
+    {
+      "id": "N05",
+      "file": "../../assets/audio-v002/originals/N05.mp3",
+      "start": 53.2,
+      "start_sample": 2553600,
+      "end": 55.969,
+      "samples": 132912,
+      "original_samples": 132912,
+      "trailing_trim_samples": 0,
+      "gain_db": -2.0600000000000005,
+      "activity_end": 55.66618750000001,
+      "pace": 1
+    },
+    {
+      "id": "N06",
+      "file": "../../assets/audio-v002/originals/N06.mp3",
+      "start": 59,
+      "start_sample": 2832000,
+      "end": 63.75429166666667,
+      "samples": 228206,
+      "original_samples": 228206,
+      "trailing_trim_samples": 0,
+      "gain_db": -1.4699999999999989,
+      "activity_end": 63.62777083333333,
+      "pace": 1
+    },
+    {
+      "id": "N07",
+      "file": "../../assets/audio-v002/originals/N07.mp3",
+      "start": 82,
+      "start_sample": 3936000,
+      "end": 86.83266666666667,
+      "samples": 231968,
+      "original_samples": 231968,
+      "trailing_trim_samples": 0,
+      "gain_db": 1.3200000000000003,
+      "activity_end": 86.68102083333333,
+      "pace": 1
+    },
+    {
+      "id": "N08",
+      "file": "../../assets/audio-v002/originals/N08.mp3",
+      "start": 96.8,
+      "start_sample": 4646400,
+      "end": 104.34939583333333,
+      "samples": 362371,
+      "original_samples": 362371,
+      "trailing_trim_samples": 0,
+      "gain_db": -1.0,
+      "activity_end": 104.3450625,
+      "pace": 1
+    },
+    {
+      "id": "N09",
+      "file": "../../assets/audio-v002/originals/N09.mp3",
+      "start": 105.2,
+      "start_sample": 5049600,
+      "end": 108.8,
+      "samples": 172800,
+      "original_samples": 174289,
+      "trailing_trim_samples": 1489,
+      "gain_db": -2.210000000000001,
+      "activity_end": 108.58783333333334,
+      "pace": 1
+    }
+  ],
+  "instrumental_base_target_lufs": -24,
+  "narration_target_lufs": -17.5,
+  "duck_db": 7.5,
+  "duck_attack_seconds": 0.15,
+  "duck_release_seconds": 0.45,
+  "carve": {
+    "frequency": 1600,
+    "q": 0.7,
+    "gain_db": -3,
+    "automation": "cue envelope wet/dry"
+  },
+  "bed_source_timeline": "continuous from source zero, including across mute",
+  "song_source_samples": [
+    0,
+    144000
+  ],
+  "song_timeline_samples": [
+    3694080,
+    3838080
+  ],
+  "song_declick_samples": 480,
+  "song_gain_db": -4.09,
+  "master_filter": "loudnorm=I=-16:TP=-1.5:LRA=20:linear=true:print_format=json:measured_I=-19.49:measured_TP=-1.44:measured_LRA=7.80:measured_thresh=-29.87:offset=0.45,aresample=48000,apad=whole_len=5276160,atrim=end_sample=5276160",
+  "narration_processing": "centre mono, constant per-take gain; no pace, EQ or interior edits",
+  "listening_status": "Human pronunciation, voice consistency, clarity, balance and transitions pending."
+}
