@@ -1,6 +1,7 @@
 """Check the current canonical chain; historical template records are out of scope."""
 
 import argparse
+import json
 from collections import Counter
 from pathlib import Path
 import re
@@ -16,9 +17,52 @@ CANONICAL = (
     "AGENTS/docs/INSTRUCTIONS_MAKER.md",
 )
 RETIRED = re.compile(
-    r"\b(?:CODE|PRODUCT|DESIGN|FRONTEND_CREATION|ADOPTION)\.md"
+    r"\b(?:CODE|FRONTEND_CREATION|ADOPTION)\.md"
     r"|\bImpeccable\b|unconfigured starter", re.IGNORECASE
 )
+TEMPORARY = {'workspace', 'archive', 'archives', 'local', 'memories', '.codex'}
+
+
+def declared_workbase(root, override=None):
+    """Load exact owner paths; a workbase directory alone grants no link access."""
+    declaration = root / 'docs-owners.json'
+    if not declaration.exists():
+        if override is not None:
+            raise ValueError('--workbase requires docs-owners.json')
+        return set(), []
+    data = json.loads(declaration.read_text(encoding='utf-8'))
+    if not isinstance(data, dict) or data.get('version') != 1 or not isinstance(data.get('workbase'), str):
+        raise ValueError('docs-owners.json requires version 1 and a workbase path')
+    base = Path(override) if override is not None else root / data['workbase']
+    base = base.resolve()
+    if not base.is_dir():
+        raise ValueError(f'workbase directory does not exist: {base}')
+
+    def paths(key):
+        names = data.get(key)
+        if not isinstance(names, list) or any(not isinstance(n, str) for n in names):
+            raise ValueError(f'{key} must be a list of relative document paths')
+        result = []
+        for name in names:
+            relative = Path(name)
+            dest = (base / relative).resolve()
+            if (relative.is_absolute() or '..' in relative.parts
+                    or not dest.is_relative_to(base) or dest.suffix.lower() != '.md'
+                    or TEMPORARY.intersection(p.lower() for p in relative.parts)):
+                raise ValueError(f'{key}: invalid canonical owner {name}')
+            # Also inspect the resolved path: a symlink cannot disguise scratch as policy.
+            if TEMPORARY.intersection(p.lower() for p in dest.relative_to(base).parts):
+                raise ValueError(f'{key}: temporary canonical owner {name}')
+            if not dest.is_file():
+                raise ValueError(f'{key}: missing canonical owner {name}')
+            result.append(dest)
+        return result
+
+    owners = set(paths('workbase_owners'))
+    documents = paths('workbase_documents')
+    if not set(documents) <= owners:
+        raise ValueError('workbase_documents must be explicitly listed in workbase_owners')
+    return owners, documents
 
 
 def prose(body):
@@ -50,15 +94,20 @@ def anchors(body):
     return result
 
 
-def check_documents(root, files, canonical=CANONICAL):
+def check_documents(root, files, canonical=CANONICAL, workbase=None):
     """Return errors and local-link count. Do not fetch URLs or mutate files."""
     root = Path(root).resolve()
     canonical_paths = {(root / name).resolve() for name in canonical}
+    try:
+        external_owners, external_documents = declared_workbase(root, workbase)
+    except (OSError, ValueError, TypeError) as error:
+        return [f'canonical declaration: {error}'], 0
+    canonical_paths.update(external_owners)
     errors = []
     link_count = 0
-    for name in files:
+    for name in dict.fromkeys([*files, *external_documents]):
         path = (root / name).resolve()
-        if not path.is_relative_to(root):
+        if not path.is_relative_to(root) and path not in external_documents:
             errors.append(f"{name}: document outside repository")
             continue
         if not path.is_file():
@@ -75,7 +124,7 @@ def check_documents(root, files, canonical=CANONICAL):
             if line.rstrip() != line or "\t" in line:
                 errors.append(f"{name}:{number}: trailing whitespace or tab")
         active = prose(body)
-        if path in canonical_paths and RETIRED.search(active):
+        if path in canonical_paths and path.is_relative_to(root) and RETIRED.search(active):
             errors.append(f"{name}: retired routing or template language")
         for target in re.findall(r"\]\(([^)]+)\)", active):
             target = target.strip().removeprefix("<").removesuffix(">")
@@ -90,7 +139,7 @@ def check_documents(root, files, canonical=CANONICAL):
                 continue
             link_count += 1
             resolved = (path.parent / unquote(parsed.path)).resolve() if parsed.path else path
-            if not resolved.is_relative_to(root):
+            if not resolved.is_relative_to(root) and resolved not in external_owners:
                 errors.append(f"{name}: link outside repository {target}")
                 continue
             if path in canonical_paths and resolved not in canonical_paths:
@@ -112,6 +161,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--record", action="append", default=[],
                         help="also check Markdown in a current work-item directory")
+    parser.add_argument('--workbase', type=Path,
+                        help='override the declared workbase location; exact owner allowlist still applies')
     args = parser.parse_args()
     files = list(CANONICAL)
     for supplied in args.record:
@@ -120,11 +171,13 @@ def main():
             parser.error("--record requires an existing repository-local workspace directory")
         files.extend(str(path.relative_to(ROOT)) for path in sorted(directory.rglob("*.md")))
     files = list(dict.fromkeys(files))
-    errors, link_count = check_documents(ROOT, files)
+    errors, link_count = check_documents(ROOT, files, workbase=args.workbase)
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"PASS: {len(CANONICAL)} canonical documents; {len(files)} total documents; "
+    _, home_documents = declared_workbase(ROOT, args.workbase)
+    print(f"PASS: {len(CANONICAL)} repository + {len(home_documents)} workbase documents; "
+          f"{len(files) + len(home_documents)} total documents; "
           f"{link_count} local links/anchors; formatting and canonical independence.")
     return 0
 

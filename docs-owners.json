@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "workbase": "../mnk-lab/Agents/n-v3-rebuild/v11.2",
+  "workbase_documents": [
+    "projects/mnk-brander/README.md",
+    "projects/mnk-brander/ARCHITECTURE.md",
+    "projects/mnk-brander/ENGINEERING.md",
+    "projects/mnk-brander/COMMERCIAL.md",
+    "projects/mnk-brander/brands/monolith/BRAND.md"
+  ],
+  "workbase_owners": [
+    ".agents/skills/INTEGRATION.md",
+    "AGENTS.md",
+    "AGENTS/base-work/CREATIVE_DIRECTION.md",
+    "AGENTS/base-work/ENGINEERING.md",
+    "AGENTS/base-work/EXECUTION.md",
+    "AGENTS/base-work/INSTRUCTIONS_MAKER.md",
+    "AGENTS/base-work/PLANNING.md",
+    "AGENTS/base-work/RESEARCH.md",
+    "AGENTS/base-work/REVIEW.md",
+    "AGENTS/base-work/VERIFICATIONS.md",
+    "AGENTS/workflows/BRAND.md",
+    "AGENTS/workflows/DESIGN.md",
+    "AGENTS/workflows/FILMMAKING.md",
+    "ARCHITECTURE.md",
+    "projects/mnk-brander/ARCHITECTURE.md",
+    "projects/mnk-brander/COMMERCIAL.md",
+    "projects/mnk-brander/ENGINEERING.md",
+    "projects/mnk-brander/README.md",
+    "projects/mnk-brander/brands/monolith/BRAND.md"
+  ]
+}
