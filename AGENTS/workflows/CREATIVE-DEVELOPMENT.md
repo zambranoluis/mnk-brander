@@ -1,35 +1,27 @@
 # Creative development
 
-Read the [project home](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/projects/mnk-brander/README.md) for mnk-brander brand strategy, identity, design and filmmaking. This file preserves legacy routes and headings; it is not a second method owner. Explicitly read linked owners relevant to the request.
-
-## Enter at the unresolved decision
-
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Use with [PRODUCTION](../../PRODUCTION.md) and the selected brand owner. Start at the unresolved decision; applying approved direction does not reopen strategy. Dedicated product repositories own executable web/native/service behavior.
 
 ## Find the communication opportunity
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Establish audience, problem, offering, intended response, constraints and acceptance. Verify product/brand claims through their owners. Mark proposals and missing evidence. When no concept is supplied, make a grounded recommendation instead of asking the user to invent the technique.
 
 ## Develop the central idea
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Choose a premise and expressive system that communicate the purpose. Define hierarchy, tone, typography, color, imagery and composition where relevant. Retain supplied direction and exact authoritative artwork. An available generation tool or skill does not select the aesthetic.
 
 ## Compare meaningful concepts
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+When direction is open, produce concrete studies suited to the decision, with differences that matter. Use references for identified qualities; do not copy incidental defects. Additional candidates need a purpose. Label candidate, agent-selected and user-approved states distinctly.
 
 ## Critique and recommend
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Inspect actual studies against brief, clarity, coherence, legibility and medium constraints. Explain the recommendation and remaining tradeoffs; correct material weaknesses. A check count or written intent cannot establish design quality.
 
 ## Develop the selection
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Continue from the identified editable baseline, preserving meaningful review revisions under PRODUCTION. Test final uses: small/reversed logo applications, rendered pages/slides, wide/narrow interface behavior or relevant film states. Mark simulations and unimplemented concepts. Use available format/renderer skills only when appropriate to the selected output and authorized scope.
 
 ## Learn from references
 
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
-
-## Quality criteria
-
-Read [CREATIVE_DIRECTION](../../../mnk-lab/Agents/n-v3-rebuild/v11.2/AGENTS/base-work/CREATIVE_DIRECTION.md).
+Record origin, role, selected version and known rights limits. Retain supplied originals and label derivatives. Reconcile conflicting authoritative inputs before dependent production; external research supplies facts, not missing local policy.

@@ -24,21 +24,25 @@ TEMPORARY = {'workspace', 'archive', 'archives', 'local', 'memories', '.codex'}
 
 
 def declared_workbase(root, override=None):
-    """Load exact owner paths; a workbase directory alone grants no link access."""
+    """Load exact owners for local, legacy or separate method/project roots.
+
+    --workbase continues to override only the method location and never its
+    allowlist. Version 2 may omit methods entirely for independent project use.
+    The project location belongs to the existing manifest and may be local.
+    """
     declaration = root / 'docs-owners.json'
     if not declaration.exists():
         if override is not None:
             raise ValueError('--workbase requires docs-owners.json')
         return set(), []
     data = json.loads(declaration.read_text(encoding='utf-8'))
-    if not isinstance(data, dict) or data.get('version') != 1 or not isinstance(data.get('workbase'), str):
-        raise ValueError('docs-owners.json requires version 1 and a workbase path')
-    base = Path(override) if override is not None else root / data['workbase']
-    base = base.resolve()
-    if not base.is_dir():
-        raise ValueError(f'workbase directory does not exist: {base}')
+    if not isinstance(data, dict) or data.get('version') not in (1, 2):
+        raise ValueError('docs-owners.json requires version 1 or 2')
+    if data['version'] == 1 or 'workbase' in data:
+        if not isinstance(data.get('workbase'), str) or not data['workbase'].strip():
+            raise ValueError('workbase must be a nonempty path (required in version 1)')
 
-    def paths(key):
+    def paths(key, base):
         names = data.get(key)
         if not isinstance(names, list) or any(not isinstance(n, str) for n in names):
             raise ValueError(f'{key} must be a list of relative document paths')
@@ -58,10 +62,33 @@ def declared_workbase(root, override=None):
             result.append(dest)
         return result
 
-    owners = set(paths('workbase_owners'))
-    documents = paths('workbase_documents')
-    if not set(documents) <= owners:
-        raise ValueError('workbase_documents must be explicitly listed in workbase_owners')
+    owners, documents = set(), []
+    if override is not None or 'workbase' in data:
+        base = (Path(override) if override is not None else root / data['workbase']).resolve()
+        if not base.is_dir():
+            raise ValueError(f'workbase directory does not exist: {base}')
+        owners = set(paths('workbase_owners', base))
+        documents = paths('workbase_documents', base)
+        if not set(documents) <= owners:
+            raise ValueError('workbase_documents must be explicitly listed in workbase_owners')
+    else:
+        # Never silently skip declared methods because their root was omitted.
+        for key in ('workbase_owners', 'workbase_documents'):
+            if data.get(key, []) != []:
+                raise ValueError(f'{key} requires a workbase path or --workbase')
+    if data['version'] == 2:
+        location = data.get('project_root')
+        if not isinstance(location, str) or not location.strip():
+            raise ValueError('version 2 requires a project_root path')
+        project = (root / location).resolve()
+        if not project.is_dir():
+            raise ValueError(f'project directory does not exist: {project}')
+        project_owners = set(paths('project_owners', project))
+        project_documents = paths('project_documents', project)
+        if not set(project_documents) <= project_owners:
+            raise ValueError('project_documents must be explicitly listed in project_owners')
+        owners.update(project_owners)
+        documents.extend(project_documents)
     return owners, documents
 
 
@@ -105,8 +132,12 @@ def check_documents(root, files, canonical=CANONICAL, workbase=None):
     canonical_paths.update(external_owners)
     errors = []
     link_count = 0
+    checked_paths = set()
     for name in dict.fromkeys([*files, *external_documents]):
         path = (root / name).resolve()
+        if path in checked_paths:
+            continue
+        checked_paths.add(path)
         if not path.is_relative_to(root) and path not in external_documents:
             errors.append(f"{name}: document outside repository")
             continue
@@ -162,7 +193,7 @@ def main():
     parser.add_argument("--record", action="append", default=[],
                         help="also check Markdown in a current work-item directory")
     parser.add_argument('--workbase', type=Path,
-                        help='override the declared workbase location; exact owner allowlist still applies')
+                        help='select/override an optional method root; exact owner allowlist still applies')
     args = parser.parse_args()
     files = list(CANONICAL)
     for supplied in args.record:
@@ -175,9 +206,12 @@ def main():
     if errors:
         print("\n".join(errors))
         return 1
-    _, home_documents = declared_workbase(ROOT, args.workbase)
-    print(f"PASS: {len(CANONICAL)} repository + {len(home_documents)} workbase documents; "
-          f"{len(files) + len(home_documents)} total documents; "
+    _, declared_documents = declared_workbase(ROOT, args.workbase)
+    checked_paths = {(ROOT / name).resolve() for name in [*files, *declared_documents]}
+    local_count = sum(path.is_relative_to(ROOT) for path in checked_paths)
+    external_count = len(checked_paths) - local_count
+    print(f"PASS: {local_count} repository + {external_count} declared external documents; "
+          f"{len(checked_paths)} total documents; "
           f"{link_count} local links/anchors; formatting and canonical independence.")
     return 0
 
