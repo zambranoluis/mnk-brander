@@ -1,6 +1,6 @@
 # Working agreement
 
-Brander develops brands, products, prototypes and production material. This repository owns the complete [studio requirements](STUDIO.md), brand decisions, production sources, authoritative assets, tools and local methods below. The selected central project home owns registration, routing and workspace continuity; its location is supplied by the task/session.
+Brander develops brands and products, including identity, websites, interfaces, landing pages, prototypes and related design. New video work of every type belongs to Filmmaker (`mnk-filmmaker`, alias `filmmaker`). Brand decisions stay here; executable product facts stay with product repositories. Existing films, assets, histories and editing associations remain here and resume through their recorded owner. This repository owns the complete [studio requirements](STUDIO.md), brand decisions, retained production sources, authoritative assets, tools and local methods below. The selected central project home owns registration, routing and workspace continuity; its location is supplied by the task/session.
 
 ## How work proceeds
 
@@ -21,7 +21,8 @@ Handle one clear correction directly. For work needing continuity, select one ex
 | Authorized execution, correction and resumption | [Implementations](AGENTS/docs/IMPLEMENTATIONS.md) |
 | Evidence and result assessment | [Verifications](AGENTS/docs/VERIFICATIONS.md) |
 | Open expressive decisions, brand/design/prototypes | [Creative development](AGENTS/workflows/CREATIVE-DEVELOPMENT.md) and the selected brand owner |
-| Film, sound, storyboard or prompt handoff | [Commercial workflow](AGENTS/workflows/COMMERCIAL-WORKFLOW.md) |
+| New film, sound, storyboard or video prompt handoff | Filmmaker; resolve `filmmaker` and read its source STUDIO/PRODUCTION owners |
+| Resume an existing Brander film | Recorded production owner and [Commercial workflow](AGENTS/workflows/COMMERCIAL-WORKFLOW.md) |
 | Instruction maintenance | [Instructions maker](AGENTS/docs/INSTRUCTIONS_MAKER.md) |
 | Commands, prerequisites and unavailable tools | [Engineering](ENGINEERING.md) |
 

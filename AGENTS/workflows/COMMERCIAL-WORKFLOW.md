@@ -1,5 +1,7 @@
 # Commercial preparation workflow
 
+For new video work, resolve Filmmaker (`mnk-filmmaker`, alias `filmmaker`) and use its source STUDIO/PRODUCTION owners. This local workflow remains available for existing Brander films under their recorded owner; preserve their locations, histories and editable associations.
+
 Use [PRODUCTION](../../PRODUCTION.md) for studio work and retention, [COMMERCIAL](../../COMMERCIAL.md) for film requirements, and [creative development](CREATIVE-DEVELOPMENT.md) only when expressive decisions remain open. Enter at the requested step and stop at the requested outcome. A storyboard or prompt request does not imply rendering.
 
 ## Five preparation steps

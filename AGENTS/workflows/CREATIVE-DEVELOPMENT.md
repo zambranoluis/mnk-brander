@@ -24,4 +24,6 @@ Continue from the identified editable baseline, preserving meaningful review rev
 
 ## Learn from references
 
+For an open expressive decision, consult relevant entries in the available shared creative catalog across disciplines and inspect original sources as needed. Record the mechanism, what transfers, what must change and observation limits. Routine corrections within settled direction need no repeated research. Catalog inclusion and project selection are separate decisions; Proposed is not approval.
+
 Record origin, role, selected version and known rights limits. Retain supplied originals and label derivatives. Reconcile conflicting authoritative inputs before dependent production; external research supplies facts, not missing local policy.

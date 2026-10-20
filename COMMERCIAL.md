@@ -1,5 +1,7 @@
 # Commercial contracts
 
+This owner is retained for existing Brander productions and their recorded editing associations. New videos of every type go through Filmmaker (`mnk-filmmaker`, alias `filmmaker`) and its source STUDIO/PRODUCTION owners. Creation of that studio does not move these films, assets or histories. Resume the exact existing task and baseline under its recorded owner; applying brand decisions or reading product facts does not transfer production ownership.
+
 General studio behavior, task layout, retention and export conditions are owned by [PRODUCTION](PRODUCTION.md). These contracts add film requirements. Base-led work uses the selected base's filmmaking, creative and verification methods; independent work uses the repository's commercial, creative and verification guidance routed by the home [Studio requirements](STUDIO.md). Neither route requires a particular base installation. Brand facts come from the independent owners routed there.
 
 ## Records and locations

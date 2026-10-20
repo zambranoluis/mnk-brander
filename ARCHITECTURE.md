@@ -1,6 +1,6 @@
 # Studio architecture
 
-[Studio requirements](STUDIO.md) routes deliverables and brand owners; [PRODUCTION](PRODUCTION.md) owns general studio contracts; [COMMERCIAL](COMMERCIAL.md) adds film contracts; [ENGINEERING](ENGINEERING.md) owns runnable checks and unavailable prerequisites.
+[Studio requirements](STUDIO.md) routes deliverables and brand owners; [PRODUCTION](PRODUCTION.md) owns Brander contracts; [COMMERCIAL](COMMERCIAL.md) retains existing film contracts; [ENGINEERING](ENGINEERING.md) owns runnable checks and unavailable prerequisites. New film production of any type routes to Filmmaker. Existing film locations, assets, histories and editing associations are preserved; resumption follows their recorded owner.
 
 ## Source inventory and boundaries
 
@@ -21,7 +21,7 @@ The old home described `workspace/openjm-boy-homework` and `productions/commerci
 
 ## Studio and product ownership
 
-The studio develops briefs, strategy, identity, source artwork, studies, prototypes and selected production/handoff packages. General production packages use `productions/<brand>/<production>/`; existing packages keep their paths. Each package records its own identity, source and delivery relationships. New resumable work uses the selected central workspace's task record; research, working tools, studies and pilot work stay there. Repository source assets and selected production material retain their ownership.
+The studio develops briefs, strategy, identity, websites, interfaces, landing pages, source artwork, studies, prototypes and selected production/handoff packages. New film briefs and editable working compositions belong in Filmmaker's selected central task; brand identity remains with Brander. Brander production packages use `productions/<brand>/<production>/`; existing packages keep their paths. Each package records its own identity, source and delivery relationships. New resumable Brander work uses its selected central workspace's task record; research, working tools, studies and pilot work stay there. Repository source assets and selected production material retain their ownership.
 
 Dedicated product repositories own executable application source, runtime/API contracts, tests, persistence and deployment. Product architecture can be proposed in the studio; implementation uses an explicitly selected product repository and its owners. A prototype's simulated behavior is never evidence of that runtime. Applying an existing identity shares decisions and authoritative assets, not a copied workflow tree or blanket write permission.
 

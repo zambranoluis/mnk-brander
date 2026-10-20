@@ -1,6 +1,6 @@
 # Studio production
 
-Use for creative development and selected production packages across brands and media. [Studio requirements](STUDIO.md) selects the deliverable workflow; [COMMERCIAL](COMMERCIAL.md) adds film-only contracts. There is no studio-wide aesthetic or product claim set.
+Use for Brander's brand/product development and selected design packages. [Studio requirements](STUDIO.md) selects the deliverable workflow. New film work goes to Filmmaker; [COMMERCIAL](COMMERCIAL.md) preserves contracts for existing Brander films and their recorded editing associations. There is no studio-wide aesthetic or product claim set.
 
 ## Brief and proposal
 

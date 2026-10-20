@@ -1,6 +1,6 @@
 # mnk-brander studio
 
-A multidisciplinary workspace for developing brands and products from an undefined idea through strategy, identity, design, prototypes, production and handoff. Digital builds are included; physical construction is excluded. Executable websites, native apps and services retain dedicated repositories. This repository owns the complete studio requirements, brand decisions, production packages, tools and authoritative assets. The selected central project home owns registration, routing and workspace continuity.
+A studio for brand and product development from an undefined idea through strategy, identity, websites, interfaces, landing pages, prototypes, related design and handoff. Digital builds are included; physical construction is excluded. New videos of every type belong to Filmmaker (`mnk-filmmaker`, alias `filmmaker`): showcases, usage demonstrations, commercials, social content, explainers, motion graphics and footage edits. Brand decisions remain here; executable websites, native apps and services retain dedicated repositories and own product facts. This repository owns the complete Brander requirements, brand decisions, retained production packages, tools and authoritative assets. The selected central project home owns registration, routing and workspace continuity.
 
 ## Entry and ownership
 
@@ -18,7 +18,8 @@ The central home's existing descriptor binds this repository as `studio` and dec
 | Website or web application implementation | Selected package and dedicated product repository | FRONTEND_WEB |
 | Native or cross-platform implementation | Selected package and dedicated product repository | NATIVE_APP |
 | Service or system architecture | Domain requirements and dedicated product repository when implementation is requested | General design foundation; BACKEND and engineering for service behavior |
-| Film, script, storyboard, sound or revision | [COMMERCIAL](COMMERCIAL.md) and selected production record | FILMMAKING; renderer-specific skills only if selected |
+| New film, script, storyboard, sound or footage edit | Filmmaker source STUDIO/PRODUCTION, resolved through `filmmaker` | Existing film-planning method; HyperFrames defaults for suitable productions, other tools when required |
+| Revision of an existing Brander film | Recorded task/production owner and [COMMERCIAL](COMMERCIAL.md) | Only affected film checks; no migration or implicit rebinding |
 | Monolith work | [Monolith BRAND](brands/monolith/BRAND.md) | Only the affected deliverable workflow |
 
 Shared method names apply when working through a selected base. Independent work uses the repository's local [creative](AGENTS/workflows/CREATIVE-DEVELOPMENT.md), [commercial](AGENTS/workflows/COMMERCIAL-WORKFLOW.md), [execution](AGENTS/docs/IMPLEMENTATIONS.md) and [verification](AGENTS/docs/VERIFICATIONS.md) routes. Read relevant owners, not every workflow. Applying approved identity starts at its medium. A narrow correction retains settled decisions and requires only affected checks.
@@ -29,4 +30,4 @@ Monolith's established foundation and unresolved identity remain in its brand ow
 
 Consult related product context only for authoritative facts needed by a task. Resolve the registered product separately; source selection or related knowledge never authorizes edits. This studio declares no standing related-project dependency. Studio proposals, synthetic fixtures and static concepts do not alter those products.
 
-New task records use the selected central project workspace at `<workspace>/<task-name>/task.md` under [production records](PRODUCTION.md#revisions-and-records). Existing histories, production packages and prior outputs remain where found. Do not infer a current editing target or approval from the newest file. [PRODUCTION](PRODUCTION.md) owns handoff and review states.
+New Brander task records use the selected central project workspace at `<workspace>/<task-name>/task.md` under [production records](PRODUCTION.md#revisions-and-records). New film tasks use Filmmaker's central workspace. Existing histories, films, assets, editing associations, production packages and prior outputs remain where found. Resuming follows the recorded owner; do not infer a current editing target or approval from the newest file. [PRODUCTION](PRODUCTION.md) owns Brander handoff and review states.

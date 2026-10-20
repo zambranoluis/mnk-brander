@@ -1,6 +1,6 @@
 # mnk-brander
 
-A multidisciplinary studio for developing brands and products from an undefined idea through strategy, identity, design, prototypes, production and handoff. Executable applications stay in dedicated product repositories; physical construction is outside scope.
+A studio for brand and product development: strategy, identity, websites, interfaces, landing pages, prototypes and related design. New videos of any type go through Filmmaker (`mnk-filmmaker`, alias `filmmaker`). Existing Brander films keep their recorded owner and editing associations. Executable applications and product facts stay in dedicated product repositories; physical construction is outside scope.
 
 ## Start here
 
@@ -16,4 +16,4 @@ Run `python -B scripts/check_docs.py` and `python -B -m unittest discover -s tes
 
 ## Documentation map
 
-[AGENTS](AGENTS.md#routing) routes local methods. The [studio entry](STUDIO.md) routes studio, commercial and independent brand requirements. Read only the affected owners. Retained media establish file presence, not an editing baseline, reproducible source package or approval.
+[AGENTS](AGENTS.md#routing) routes local methods. The [studio entry](STUDIO.md) routes brand/product work, new filmmaking and retained commercial requirements. Read only the affected owners. Retained media establish file presence, not an editing baseline, reproducible source package or approval.
