@@ -17,7 +17,7 @@
 | `workspace/` | Present but empty in this checkout; no current source task or tools |
 | `tests/test_openjm_reusable.py` | Preserved historical tool tests whose imports target unavailable workspace tools |
 
-The old home described `workspace/openjm-boy-homework` and `productions/commercials/openjm`; these are unavailable here. No actual replacement for its source/build environment has been established. Keep retained media and historical records unchanged; recover a specific production's editable package before promising a film revision. Existing filenames establish presence, not approval or a selected baseline.
+The editable `workspace/openjm-boy-homework` and `productions/commercials/openjm` paths are unavailable here. No replacement source/build environment has been established. Keep retained media and historical records unchanged; recover a specific production's editable package before promising a film revision. Existing filenames establish presence, not approval or a selected baseline.
 
 ## Studio and product ownership
 

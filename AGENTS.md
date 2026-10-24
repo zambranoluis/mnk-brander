@@ -32,7 +32,7 @@ Handle one clear correction directly. For work needing continuity, select one ex
 
 ## Authority and scope
 
-Preserve unrelated changes, supplied originals, approved direction, existing productions, histories and user-managed processes. Source selection gives location, not write permission. Product applications and deployment remain in dedicated repositories; select their owners and obtain scope before changing them. Do not stage, commit, push, publish, deploy, change provider/access configuration or install dependencies unless authorized. Manage only task-created resources; check ownership and health before reusing a service. Identify cleanup candidates separately; do not delete or relocate existing material without scope.
+Preserve unrelated changes, supplied originals, approved direction, existing productions, histories and user-managed processes. Source selection gives location, not write permission. Product applications and deployment remain in dedicated repositories; select their owners and obtain scope before changing them. Do not stage, commit, push, publish, deploy, change provider/access configuration or install dependencies unless authorized. Manage only task-created resources; check ownership and health before reusing a service. Identify cleanup candidates separately; do not delete or relocate existing material without scope. For base-led listeners, including tests, proposals and indexes, follow the selected base's runtime preparation, reservation, identity, registration and shutdown owner. Independent production commands and prerequisites remain repository-owned.
 
 ## Tools and reporting
 
